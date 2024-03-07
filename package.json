@@ -12,6 +12,8 @@
     "sass-prod": "sass --no-source-map --style=compressed src/sass/main.scss:src/index.css"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^1.0.61",
     "gsap": "^3.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -75,7 +75,8 @@ h2 {
 }
 
 h1 {
-  font-size: clamp(1.5rem, 2.125vw, 2.125rem); /* Large heading */
+  font-size: clamp(1.75rem, 2.5vw, 2.5rem); /* Large heading */
+  line-height: 140%;
 }
 
 h2 {
@@ -109,7 +110,7 @@ a {
   color: $cc-text-blue;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 ul {
