@@ -6,3 +6,8 @@ export { default as Home } from './Home';
 export { default as Navbar } from './Navbar';
 export { default as Footer } from './Footer';
 export { default as Cursor } from './Cursor';
+export { default as Projects } from './Projects';
+export { default as Faq } from './Faq';
+export { default as Title } from './Title';
+export { default as ProjectsCategories } from './ProjectsCategories';
+export { default as ProjectItems } from './ProjectItems';

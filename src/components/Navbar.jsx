@@ -6,7 +6,7 @@ const Navbar = () => {
       </a>
 
       <nav className="navbar__list">
-        <a href="#work" className="active">
+        <a href="#projects" className="active">
           work
         </a>
         <a href="/about">about</a>

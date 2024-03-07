@@ -20,7 +20,7 @@ const Cursor = () => {
     const browserPrefix = getBrowserPrefix();
     const cursor = document.getElementById('js-cursor');
     const cursorBig = document.getElementById('js-cursor__big');
-    const links = document.querySelectorAll('a, button');
+    const links = document.querySelectorAll('a, button, .work-pill');
 
     const handleMouseMove = (e) => {
       cursor.style[

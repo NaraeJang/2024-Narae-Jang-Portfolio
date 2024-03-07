@@ -10,6 +10,7 @@
 
   font-size: $text-sm;
 
+  transition: $transition;
   &.active {
     background-color: $cc-pill-bg;
     color: $cc-text-mode;
