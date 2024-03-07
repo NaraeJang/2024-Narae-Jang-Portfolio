@@ -1,0 +1,25 @@
+%border-basic {
+  border: $border-basic;
+  backdrop-filter: blur(8px);
+}
+
+%border-basic-bg {
+  background-color: $cc-white;
+  border: $border-basic;
+  backdrop-filter: blur(8px);
+}
+
+%border-bottom {
+  border-bottom: $border-basic;
+}
+
+%pill-basic {
+  display: inline;
+
+  border: $border-basic;
+  border-radius: $border-radius-pill;
+  background: transparent;
+  color: $cc-text-blue;
+
+  cursor: pointer;
+}

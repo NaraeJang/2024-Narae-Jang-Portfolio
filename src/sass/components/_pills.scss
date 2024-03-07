@@ -1,0 +1,26 @@
+.pill-container,
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.work-pill {
+  @extend %pill-basic;
+  padding: 0.5rem 1rem;
+
+  font-size: $text-sm;
+
+  &.active {
+    background-color: $cc-pill-bg;
+    color: $cc-text-mode;
+  }
+}
+
+.category-pill {
+  @extend %pill-basic;
+  padding: 0.45rem 0.9rem;
+
+  background: rgba(254, 254, 254, 0.8);
+  font-size: $text-sm;
+  box-shadow: 0px 3.587px 35.869px 0px rgba(78, 61, 232, 0.05);
+}

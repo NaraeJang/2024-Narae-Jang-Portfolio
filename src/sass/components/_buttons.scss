@@ -1,0 +1,33 @@
+.btn {
+  &,
+  &:visited,
+  &:link {
+    display: inline;
+    padding: 0.45rem 0.9rem;
+
+    @extend .poppins-regular;
+    line-height: 160%;
+    font-size: $text-sm;
+    text-transform: capitalize;
+
+    cursor: pointer;
+  }
+
+  &-primary {
+    border-radius: $border-radius-btn-mobile;
+
+    background: $cc-primary-600;
+    color: $cc-text-mode;
+  }
+
+  &-secondary {
+    border-radius: $border-radius-btn-mobile;
+
+    border: $border-basic;
+    color: $cc-primary-400;
+  }
+}
+
+button:disabled {
+  cursor: wait;
+}
