@@ -5,7 +5,7 @@ const Navbar = () => {
         narae jang
       </a>
 
-      <div className="navbar__list">
+      <nav className="navbar__list">
         <a href="#work" className="active">
           work
         </a>
@@ -13,7 +13,7 @@ const Navbar = () => {
         <a href="#" target="_black">
           resume
         </a>
-      </div>
+      </nav>
     </div>
   );
 };
