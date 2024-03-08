@@ -20,7 +20,7 @@ const Projects = () => {
       return;
     }
     const newItems = projectsData.filter((item) => {
-      return item.category === category;
+      return item.category.some((cat) => cat === category);
     });
     setCurrentCategory(category);
     return setProjectsItems(newItems);
