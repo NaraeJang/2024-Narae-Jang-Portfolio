@@ -6,5 +6,17 @@
 .title-container {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
+}
+
+.work-article {
+  border: $border-basic;
+  border-radius: $border-radius-mobile;
+  overflow: hidden;
+  width: 100%;
+  max-width: 25rem;
+  span,
+  p {
+    font-size: $text-sm;
+  }
 }

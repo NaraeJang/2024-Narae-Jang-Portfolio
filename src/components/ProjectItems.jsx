@@ -1,8 +1,15 @@
+import ProjectItem from './ProjectItem';
 import { useProjectContext } from './Projects';
 
 const ProjectItems = () => {
   const { projectsItems } = useProjectContext();
-  console.log(projectsItems);
-  return <div>ProjectItems</div>;
+
+  return (
+    <div>
+      {projectsItems.map((item) => {
+        return <ProjectItem key={item.id} {...item} />;
+      })}
+    </div>
+  );
 };
 export default ProjectItems;
