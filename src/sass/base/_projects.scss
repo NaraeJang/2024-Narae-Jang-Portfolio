@@ -15,8 +15,17 @@
   overflow: hidden;
   width: 100%;
   max-width: 25rem;
+
+  box-shadow: $shadow-3;
+
+  transition: $transition;
   span,
   p {
     font-size: $text-sm;
+  }
+
+  &:hover {
+    box-shadow: $shadow-4;
+    transform: translateY(-4px);
   }
 }

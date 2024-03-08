@@ -17,7 +17,7 @@ export const projectsData = [
     keyword: `TailwindCSS | SASS | React Router Dom | React | UI`,
     liveBtn: 'Live Demo',
     livePath: null,
-    designBtn: 'More in UX/UI',
+    designBtn: 'UX/UI',
     designPath: null,
     git: true,
     gitLink: 'https://github.com/NaraeJang/2024-Narae-Jang-Portfolio',

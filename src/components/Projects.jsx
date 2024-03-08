@@ -31,7 +31,7 @@ const Projects = () => {
       value={{ allCategories, filterItems, projectsItems, currentCategory }}>
       <section id="projects">
         <div className="custom-container">
-          <div className="title-container gap-y-3 md:flex-row md:items-center md:justify-between">
+          <div className="title-container gap-y-6 md:flex-row md:items-center md:justify-between mb-8">
             <Title title="works" />
             <ProjectsCategories />
           </div>

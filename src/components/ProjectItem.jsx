@@ -17,7 +17,7 @@ const ProjectItem = ({
   return (
     <article className="work-article relative">
       <div className="img-container">
-        <a href={gitLink} className="link">
+        <a href={gitLink} target="_blank" className="link">
           <div className="pill-container absolute top-[1.6rem] left-6 gap-3.5">
             {category.map((item, index) => {
               return (
@@ -34,21 +34,21 @@ const ProjectItem = ({
         <div className="text-left mb-[1.75rem] flex flex-col justify-between">
           <span>{client}</span>
           <h3 className="poppins-semibold">{title}</h3>
-          <p className="mt-3">{keyword}</p>
+          <p className="mt-3 h-14">{keyword}</p>
         </div>
-        <footer className="flex flex-row items-center justify-end gap-3.5">
+        <footer className="flex flex-row flex-wrap items-center justify-end gap-3.5">
           {designBtn && (
-            <a href={designPath} className="btn btn-secondary">
+            <a href={designPath} target="_blank" className="btn btn-secondary">
               {designBtn}
             </a>
           )}
           {liveBtn && (
-            <a href={livePath} className="btn btn-primary">
+            <a href={livePath} target="_blank" className="btn btn-primary">
               {liveBtn}
             </a>
           )}
           {git && (
-            <a href={gitLink}>
+            <a href={gitLink} target="_blank">
               <PiGithubLogoLight />
             </a>
           )}

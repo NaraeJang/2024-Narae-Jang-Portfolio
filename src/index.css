@@ -285,10 +285,16 @@ ul {
   overflow: hidden;
   width: 100%;
   max-width: 25rem;
+  box-shadow: 0px 4px 40px 0px rgba(78, 61, 232, 0.04);
+  transition: 0.3s ease-in-out all;
 }
 .work-article span,
 .work-article p {
   font-size: 0.875rem;
+}
+.work-article:hover {
+  box-shadow: 0px 8px 44px 0px rgba(78, 61, 232, 0.12);
+  transform: translateY(-4px);
 }
 
 .btn, .btn:visited, .btn:link {
@@ -346,7 +352,7 @@ button:disabled {
 
 .category-pill {
   padding: 0.45rem 0.9rem;
-  background: rgba(254, 254, 254, 0.8);
+  background: rgba(254, 254, 254, 0.6);
   font-size: 0.875rem;
   box-shadow: 0px 3.587px 35.869px 0px rgba(78, 61, 232, 0.05);
 }
