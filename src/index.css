@@ -166,7 +166,7 @@ h4 {
 }
 
 h5 {
-  font-size: clamp(0.875rem, 1.5vw, 1.5rem); /* Tiny heading */
+  font-size: clamp(1rem, 1.25vw, 1.25rem); /* Tiny heading */
 }
 
 .text {
@@ -418,6 +418,54 @@ button:disabled {
   margin: -40px 0 0 -40px;
   transform: scale(0);
   transition: all 320ms cubic-bezier(0.26, 0.01, 0.17, 1);
+}
+
+.plus-minus {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  border: 1px solid #a79ef4;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.plus-minus:before, .plus-minus:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #4e3de8;
+  border-radius: 1rem;
+  -webkit-transition: 0.3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
+}
+.plus-minus:before {
+  width: 1rem;
+  height: 1px;
+}
+.plus-minus:after {
+  width: 1px;
+  height: 1rem;
+}
+.plus-minus.question-active {
+  background-color: #4e3de8;
+}
+.plus-minus.question-active:after, .plus-minus.question-active:before {
+  background-color: #fefefe;
+}
+.plus-minus.question-active:after {
+  transform: rotate(-90deg);
+}
+.plus-minus.question-active:before {
+  transform: rotate(-180deg);
+  opacity: 0;
+}
+
+.faq-container .info-container {
+  transition: 0.3s ease-in-out all;
 }
 
 /*# sourceMappingURL=index.css.map */
