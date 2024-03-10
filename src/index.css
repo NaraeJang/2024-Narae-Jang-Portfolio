@@ -211,6 +211,12 @@ ul {
     padding-bottom: 3.75rem;
   }
 }
+#projects,
+#faq {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .heading-container {
   width: min(92%, 38rem);
   display: flex;
@@ -268,11 +274,6 @@ ul {
     border-radius: 1rem;
   }
 }
-#projects {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .title-container {
   display: flex;
   flex-direction: column;
@@ -297,6 +298,26 @@ ul {
   transform: translateY(-4px);
 }
 
+#faq .faq-container h2 {
+  margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  #faq .faq-container {
+    padding: 5rem 0;
+    border: 1px solid #a79ef4;
+    border-radius: 2rem;
+    box-shadow: 0px 4px 40px 0px rgba(78, 61, 232, 0.04);
+    transition: 0.3s ease-in-out all;
+  }
+  #faq .faq-container:hover {
+    box-shadow: 0px 8px 44px 0px rgba(78, 61, 232, 0.12);
+  }
+  #faq .faq-container h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+}
 .btn, .btn:visited, .btn:link {
   display: inline;
   padding: 0.45rem 0.9rem;

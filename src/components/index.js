@@ -12,3 +12,4 @@ export { default as Title } from './Title';
 export { default as ProjectsCategories } from './ProjectsCategories';
 export { default as ProjectItems } from './ProjectItems';
 export { default as ProjectItem } from './ProjectItem';
+export { default as FaqQuestion } from './FaqQuestion';
