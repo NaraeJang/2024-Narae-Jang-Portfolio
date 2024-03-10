@@ -51,3 +51,26 @@ export const projectsData = [
     gitLink: 'https://github.com/NaraeJang/Wegic',
   },
 ];
+
+export const faqQuestions = [
+  {
+    id: nanoid(),
+    title: 'How did I step into the world of development?',
+    info: 'I love coding that is the reason',
+  },
+  {
+    id: nanoid(),
+    title: 'Where do you locate at?',
+    info: `Originally I'm from Seoul, South Korea. Currently, I live in Montreal, Quebec, Canada.`,
+  },
+  {
+    id: nanoid(),
+    title: 'What do you do outside of work?',
+    info: 'Outside work, I enjoy coffee, listening to music, exploring the world with my partner, and playing with my Jack Russel, Doong-E. Currently, I’m interested in Tango Dance, I might learn it with my partner.',
+  },
+  {
+    id: nanoid(),
+    title: 'What is my nationality?',
+    info: `I'm korean.`,
+  },
+];
