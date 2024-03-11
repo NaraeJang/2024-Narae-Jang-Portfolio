@@ -19,7 +19,7 @@ const FaqQuestion = ({ id, title, info }) => {
   }, [isActive]);
 
   return (
-    <article className="faq-container">
+    <article className="question-container md:w-10/12 lg:w-7/12 md:mx-auto">
       <header className="p-4">
         <button
           type="button"
