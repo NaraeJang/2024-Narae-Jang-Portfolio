@@ -5,6 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 const Navbar = () => {
   const location = useLocation();
   const [isScrolling, setIsScrolling] = useState(false);
+  const onAboutPage = location.pathname.includes('/about');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,7 +22,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`absolute navbar ${isScrolling ? 'show-bg' : ''}`}>
+    <div
+      className={`absolute navbar ${
+        isScrolling || onAboutPage ? 'show-bg' : ''
+      }`}>
       <HashLink to={'./#header'} className="logo">
         narae jang
       </HashLink>
