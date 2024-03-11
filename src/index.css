@@ -200,6 +200,10 @@ ul {
   object-fit: cover;
 }
 
+hr {
+  border-top: 1px solid #a79ef4;
+}
+
 .custom-container {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -269,6 +273,8 @@ ul {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   z-index: 20;
   transition: 0.3s ease-in-out all;
 }
@@ -423,6 +429,13 @@ footer#footer .custom-container .email .clipboard-msg {
   color: #edecfd;
   border-radius: 2rem;
   font-size: 0.875rem;
+}
+
+#about-work h4 {
+  color: #343434;
+}
+#about-work h5 {
+  color: #717171;
 }
 
 .btn, .btn:visited, .btn:link {
