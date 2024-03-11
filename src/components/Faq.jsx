@@ -1,6 +1,7 @@
 import { createContext, useContext, useState } from 'react';
 import { FaqQuestion, Title } from './';
 import { faqQuestions } from '../data/data';
+import { FaArrowRight } from 'react-icons/fa6';
 
 const FaqContext = createContext();
 
@@ -22,6 +23,10 @@ const Faq = () => {
             {faqQuestions.map((question) => {
               return <FaqQuestion key={question.id} {...question} />;
             })}
+            <a href="/about" className="link-about">
+              <span>do you want to know about me more?</span>
+              <FaArrowRight />
+            </a>
           </div>
         </div>
       </section>
