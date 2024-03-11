@@ -7,3 +7,27 @@
     color: $cc-grey-400;
   }
 }
+
+.education-card {
+  padding: 2.3rem;
+  width: 100%;
+  max-width: 25rem;
+
+  @extend %border-basic-bg;
+  border-radius: $border-radius-mobile;
+
+  box-shadow: $shadow-3;
+
+  transition: $transition;
+
+  h5 {
+    margin: 0 auto;
+    max-width: 17rem;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+  }
+
+  &:hover {
+    box-shadow: $shadow-4;
+  }
+}

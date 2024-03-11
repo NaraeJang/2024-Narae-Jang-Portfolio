@@ -19,3 +19,5 @@ export { default as AboutMainLicense } from './AboutMainLicense';
 export { default as AboutMainSchool } from './AboutMainSchool';
 export { default as AboutMainWork } from './AboutMainWork';
 export { default as AboutNavbar } from './AboutNavbar';
+export { default as AboutCards } from './AboutCards';
+export { default as AboutCard } from './AboutCard';

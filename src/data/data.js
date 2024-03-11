@@ -120,3 +120,26 @@ export const workExperience = [
     },
   },
 ];
+
+export const educationCards = [
+  {
+    id: nanoid(),
+    year: '2012 - 2017',
+    title: `Bachelor of Fine Arts
+industrial design`,
+    linkTitle: `konkuk University`,
+    link: `https://www.konkuk.ac.kr/konkuk/index.do`,
+  },
+  {
+    id: nanoid(),
+    year: `2017-2019`,
+    title: `Diploma of Vocational Studies
+graphic design`,
+    linkTitle: `Shadd Health and Business Centre`,
+    link: `https://shadd.com/`,
+  },
+];
+
+export const certificationCards = [
+  { id: nanoid(), year: ``, title: ``, linkTitle: ``, link: `` },
+];

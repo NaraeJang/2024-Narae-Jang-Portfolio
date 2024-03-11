@@ -65,7 +65,13 @@
   font-style: normal;
 }
 
-.link-credential:hover {
+.about-link:hover {
+  border: 1px solid #a79ef4;
+  backdrop-filter: blur(8px);
+}
+
+.education-card {
+  background-color: #fefefe;
   border: 1px solid #a79ef4;
   backdrop-filter: blur(8px);
 }
@@ -438,6 +444,24 @@ footer#footer .custom-container .email .clipboard-msg {
   color: #717171;
 }
 
+.education-card {
+  padding: 2.3rem;
+  width: 100%;
+  max-width: 25rem;
+  border-radius: 0.875rem;
+  box-shadow: 0px 4px 40px 0px rgba(78, 61, 232, 0.04);
+  transition: 0.3s ease-in-out all;
+}
+.education-card h5 {
+  margin: 0 auto;
+  max-width: 17rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+.education-card:hover {
+  box-shadow: 0px 8px 44px 0px rgba(78, 61, 232, 0.12);
+}
+
 .btn, .btn:visited, .btn:link {
   display: inline;
   padding: 0.45rem 0.9rem;
@@ -461,17 +485,18 @@ button:disabled {
   cursor: wait;
 }
 
-.link-credential {
+.about-link {
   display: inline-block;
   padding: 0.375rem 0.75rem;
   border-radius: 2rem;
   border: 1px solid #edecfd;
   background: #edecfd;
+  font-size: 0.875rem;
   text-transform: capitalize;
   color: #4637d1;
   transition: 0.3s ease-in-out all;
 }
-.link-credential:hover {
+.about-link:hover {
   text-decoration: none;
 }
 
