@@ -4,13 +4,7 @@ import { useNavigation } from 'react-router-dom';
 
 const Header = () => {
   const navigation = useNavigation();
-  // useEffect(() => {
-  //   const shadowRoot = document.querySelector('spline-viewer').shadowRoot;
 
-  //   if (shadowRoot) {
-  //     shadowRoot?.querySelector('#logo').remove();
-  //   }
-  // }, []);
   const isPageLoading = navigation.state === 'loading';
 
   return (

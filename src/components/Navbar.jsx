@@ -1,11 +1,27 @@
+import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const location = useLocation();
+  const [isScrolling, setIsScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY > 0;
+
+      setIsScrolling(scrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <div className="absolute navbar show-bg">
+    <div className={`absolute navbar ${isScrolling ? 'show-bg' : ''}`}>
       <HashLink to={'./#header'} className="logo">
         narae jang
       </HashLink>
