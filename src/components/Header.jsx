@@ -18,7 +18,8 @@ const Header = () => {
         </p>
       </div>
       <div className=" absolute bg-black/15 w-full h-full"></div>
-      {/* <Spline scene="https://prod.spline.design/D726QFNsxJlXYBml/scene.splinecode" /> */}
+
+      <Spline scene="https://prod.spline.design/D726QFNsxJlXYBml/scene.splinecode" />
     </div>
   );
 };

@@ -15,6 +15,11 @@
     background-color: $cc-pill-bg;
     color: $cc-text-mode;
   }
+
+  &:hover {
+    background: $cc-primary-50;
+    color: $cc-text-blue;
+  }
 }
 
 .category-pill {

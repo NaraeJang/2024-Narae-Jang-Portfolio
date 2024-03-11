@@ -515,6 +515,10 @@ button:disabled {
   background-color: #4637d1;
   color: #fefefe;
 }
+.work-pill:hover {
+  background: #edecfd;
+  color: #4637d1;
+}
 
 .category-pill {
   padding: 0.45rem 0.9rem;

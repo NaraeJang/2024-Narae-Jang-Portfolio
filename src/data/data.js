@@ -206,3 +206,13 @@ export const certificationCards = [
 //   linkTitle: `Show credential`,
 //   link: ``,
 // },
+
+export const aboutNavbarList = [
+  { id: nanoid(), title: 'about me', path: '#about-me' },
+  { id: nanoid(), title: 'work experience', path: '#about-work' },
+  {
+    id: nanoid(),
+    title: 'education & certifications',
+    path: '#about-education',
+  },
+];
