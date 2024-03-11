@@ -26,13 +26,6 @@ const FaqQuestion = ({ id, title, info }) => {
           className="flex flex-row justify-between items-center  w-full"
           onClick={() => {
             toggleQuestion(id);
-            console.log(
-              'containter',
-              infoContainerRef.current.getBoundingClientRect()
-            );
-            console.log(infoRef.current.getBoundingClientRect());
-
-            console.log(isActive);
           }}>
           <h5 className="text-left poppins-medium leading-relaxed ">{title}</h5>
           <div
