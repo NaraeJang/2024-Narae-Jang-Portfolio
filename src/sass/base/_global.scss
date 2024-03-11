@@ -20,6 +20,7 @@
 
 html {
   font-size: 100%; /* 16px */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -146,4 +147,33 @@ ul {
 #faq {
   width: 90%;
   margin: 0 auto;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  background: linear-gradient(
+    45deg,
+    #a2f1c2,
+    #4e3de8,
+    #dd43ec,
+    #27dbb1,
+    #d3ff41,
+    #6c11eb
+  );
+  background-size: 600% 100%;
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
 }

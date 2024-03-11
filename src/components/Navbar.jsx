@@ -1,15 +1,26 @@
+import { Link, NavLink, useLocation } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+
 const Navbar = () => {
+  const location = useLocation();
+
   return (
     <div className="absolute navbar show-bg">
-      <a href="/" className="logo">
+      <HashLink to={'./#header'} className="logo">
         narae jang
-      </a>
+      </HashLink>
 
       <nav className="navbar__list">
-        <a href="#projects" className="active">
-          work
-        </a>
-        <a href="/about">about</a>
+        <HashLink
+          to={'./#projects'}
+          className={
+            location.pathname === '/' && location.hash === '#projects'
+              ? 'active'
+              : ''
+          }>
+          Works
+        </HashLink>
+        <NavLink to="./about">about</NavLink>
         <a href="#" target="_black">
           resume
         </a>
