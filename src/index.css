@@ -23,7 +23,7 @@
   font-style: normal;
 }
 
-.poppins-semibold {
+.poppins-semibold, footer#footer .custom-container a:hover {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -390,6 +390,41 @@ ul {
     right: 12px;
   }
 }
+footer#footer {
+  background: #4637d1;
+  color: #edecfd;
+}
+footer#footer .custom-container {
+  width: 90%;
+}
+footer#footer .custom-container h5 {
+  color: #cac5f8;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+footer#footer .custom-container a {
+  color: #fefefe;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out all;
+}
+footer#footer .custom-container .email {
+  margin-bottom: 1rem;
+}
+footer#footer .custom-container .email svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+footer#footer .custom-container .email .out-link {
+  transition: 0.3s ease-in-out all;
+}
+footer#footer .custom-container .email .clipboard-msg {
+  top: -1.5rem;
+  left: 2.5rem;
+  color: #edecfd;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+}
+
 .btn, .btn:visited, .btn:link {
   display: inline;
   padding: 0.45rem 0.9rem;

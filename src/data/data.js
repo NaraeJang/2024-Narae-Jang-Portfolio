@@ -6,6 +6,24 @@ import JobmateWebp from '../assets/projects-images/Jobmate.webp';
 import WegicPng from '../assets/projects-images/Wegic.png';
 import WegicWebp from '../assets/projects-images/Wegic.webp';
 
+export const footerNav = [
+  {
+    id: nanoid(),
+    title: 'Narae Jang',
+    gitLink: 'https://github.com/NaraeJang/2024-Narae-Jang-Portfolio',
+  },
+  {
+    id: nanoid(),
+    title: 'JobMate',
+    gitLink: 'https://github.com/NaraeJang/Jobmate',
+  },
+  {
+    id: nanoid(),
+    title: 'Wegic',
+    gitLink: 'https://github.com/NaraeJang/Wegic',
+  },
+];
+
 export const projectsData = [
   {
     id: nanoid(),

@@ -1,0 +1,47 @@
+footer#footer {
+  background: $cc-primary-600;
+  color: $cc-primary-50;
+
+  .custom-container {
+    width: 90%;
+
+    h5 {
+      color: $cc-primary-100;
+      font-size: $text-sm;
+      text-transform: uppercase;
+    }
+
+    a {
+      color: $cc-white;
+      text-transform: capitalize;
+      transition: $transition;
+    }
+
+    a:hover {
+      @extend .poppins-semibold;
+    }
+
+    .email {
+      margin-bottom: 1rem;
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+
+      .out-link {
+        transition: $transition;
+      }
+
+      .clipboard-msg {
+        top: -1.5rem;
+        left: 2.5rem;
+
+        // background: $cc-secondary-300;
+        color: $cc-primary-50;
+        border-radius: $border-radius-pill;
+        font-size: $text-sm;
+      }
+    }
+  }
+}

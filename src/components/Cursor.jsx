@@ -21,7 +21,7 @@ const Cursor = () => {
     const cursor = document.getElementById('js-cursor');
     const cursorBig = document.getElementById('js-cursor__big');
     const links = document.querySelectorAll(
-      'a, button, .work-pill, .btn, .link'
+      'a, button, .work-pill, .btn, .link, .footer-link ,.email'
     );
 
     const handleMouseMove = (e) => {
