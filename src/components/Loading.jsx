@@ -33,7 +33,7 @@ const Loading = () => {
         },
         {
           yPercent: '-100',
-          opacity: 0,
+          opacity: 0.5,
           duration: 0.5,
         }
       );
