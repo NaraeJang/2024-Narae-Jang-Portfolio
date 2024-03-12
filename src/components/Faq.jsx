@@ -3,6 +3,8 @@ import { FaqQuestion, Title } from './';
 import { faqQuestions } from '../data/data';
 import { FaArrowRight } from 'react-icons/fa6';
 
+import { HashLink } from 'react-router-hash-link';
+
 const FaqContext = createContext();
 
 const Faq = () => {
@@ -23,10 +25,10 @@ const Faq = () => {
             {faqQuestions.map((question) => {
               return <FaqQuestion key={question.id} {...question} />;
             })}
-            <a href="/about" className="link-about">
+            <HashLink to="./about#about-me" className="link-about">
               <span>do you want to know about me more?</span>
               <FaArrowRight />
-            </a>
+            </HashLink>
           </div>
         </div>
       </section>

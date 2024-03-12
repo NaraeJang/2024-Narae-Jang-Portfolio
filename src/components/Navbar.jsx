@@ -40,7 +40,11 @@ const Navbar = () => {
           }>
           Works
         </HashLink>
-        <NavLink to="./about">about</NavLink>
+        <HashLink
+          to="./about#about-me"
+          className={location.pathname === '/about' ? 'active' : ''}>
+          about
+        </HashLink>
         <a href="#" target="_black">
           resume
         </a>
