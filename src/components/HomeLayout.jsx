@@ -1,7 +1,8 @@
 import { Outlet } from 'react-router-dom';
 import { Cursor, Footer, Navbar } from './';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, createContext, useContext } from 'react';
 
+const HomeContext = createContext();
 const HomeLayout = () => {
   const [shouldShowCursor, setShouldShowCursor] = useState(true);
 
@@ -20,14 +21,17 @@ const HomeLayout = () => {
   }, []);
 
   return (
-    <>
+    <HomeContext.Provider value={{}}>
       {shouldShowCursor && <Cursor />}
       <div className="relative">
         <Navbar />
         <Outlet />
         <Footer />
       </div>
-    </>
+    </HomeContext.Provider>
   );
 };
+
+export const useHomeContext = () => useContext(HomeContext);
+
 export default HomeLayout;

@@ -1,8 +1,9 @@
-import { Faq, Header, Projects } from './';
+import { Faq, Header, Projects, Loading } from './';
 
 const Home = () => {
   return (
     <main>
+      <Loading />
       <Header />
       <Projects />
       <Faq />
