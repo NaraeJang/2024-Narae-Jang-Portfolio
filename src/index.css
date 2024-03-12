@@ -475,6 +475,14 @@ footer#footer .custom-container .email .clipboard-msg {
   opacity: 1;
 }
 
+@media screen and (min-width: 768px) {
+  #intro-slider h3 {
+    color: transparent;
+    -webkit-text-stroke: 2px #fff397;
+    text-stroke: 2px #fff397;
+    opacity: 1;
+  }
+}
 .btn, .btn:visited, .btn:link {
   display: inline;
   padding: 0.45rem 0.9rem;
