@@ -17,8 +17,8 @@ const Header = () => {
           collaboratively.
         </p>
       </div>
-      <div className=" absolute bg-black/15 w-full h-full"></div>
-
+      {/* <div className=" absolute bg-black/15 w-full h-full"></div> */}
+      <div></div>
       {/* <Spline scene="https://prod.spline.design/D726QFNsxJlXYBml/scene.splinecode" /> */}
     </div>
   );
