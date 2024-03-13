@@ -1,4 +1,5 @@
 import { PiGithubLogoLight } from 'react-icons/pi';
+import { Link } from 'react-router-dom';
 
 const ProjectItem = ({
   category,
@@ -38,9 +39,9 @@ const ProjectItem = ({
         </div>
         <footer className="flex flex-row flex-wrap items-center justify-end gap-3.5">
           {designBtn && (
-            <a href={designPath} target="_blank" className="btn btn-secondary">
+            <Link to={designPath} className="btn btn-secondary">
               {designBtn}
-            </a>
+            </Link>
           )}
           {liveBtn && (
             <a href={livePath} target="_blank" className="btn btn-primary">
@@ -48,7 +49,7 @@ const ProjectItem = ({
             </a>
           )}
           {git && (
-            <a href={gitLink} target="_blank">
+            <a href={gitLink} target="_blank" className="git">
               <PiGithubLogoLight />
             </a>
           )}

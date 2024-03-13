@@ -1,5 +1,6 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { HomeLayout, Error, Home, About } from './components';
+import { Ganadara } from './components/pages/';
 
 const router = createBrowserRouter([
   {
@@ -7,8 +8,12 @@ const router = createBrowserRouter([
     element: <HomeLayout />,
     errorElement: <Error />,
     children: [
-      { index: true, element: <Home /> },
+      {
+        index: true,
+        element: <Home />,
+      },
       { path: 'about', element: <About /> },
+      { path: 'ganadara-bar', element: <Ganadara /> },
     ],
   },
 ]);

@@ -5,6 +5,8 @@ import JobmatePng from '../assets/projects-images/Jobmate.png';
 import JobmateWebp from '../assets/projects-images/Jobmate.webp';
 import WegicPng from '../assets/projects-images/Wegic.png';
 import WegicWebp from '../assets/projects-images/Wegic.webp';
+import GanaPng from '../assets/projects-images/Gana.png';
+import GanaWebp from '../assets/projects-images/Gana.webp';
 
 export const footerNav = [
   {
@@ -51,6 +53,7 @@ export const projectsData = [
     liveBtn: `Live Demo`,
     livePath: `https://jobmate-1gpn.onrender.com/`,
     designBtn: null,
+    designPath: null,
     git: true,
     gitLink: 'https://github.com/NaraeJang/Jobmate',
   },
@@ -65,8 +68,24 @@ export const projectsData = [
     liveBtn: `Live Demo`,
     livePath: `https://naraejang-wegic-project.netlify.app/`,
     designBtn: null,
+    designPath: null,
     git: true,
     gitLink: 'https://github.com/NaraeJang/Wegic',
+  },
+  {
+    id: nanoid(),
+    category: ['design'],
+    img: GanaPng || GanaWebp,
+    imgAlt: 'Bar Ganadara',
+    client: 'Bar Ganadara',
+    title: 'Booking App',
+    keyword: `UX/UI | Web Design`,
+    liveBtn: null,
+    livePath: null,
+    designBtn: 'UX/UI',
+    designPath: './ganadara-bar',
+    git: false,
+    gitLink: null,
   },
 ];
 

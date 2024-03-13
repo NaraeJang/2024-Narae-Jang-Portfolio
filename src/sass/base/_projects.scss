@@ -23,4 +23,20 @@
     box-shadow: $shadow-4;
     transform: translateY(-4px);
   }
+
+  .git {
+    width: 2.25rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $border-radius-pill;
+
+    transition: $transition;
+
+    &:hover {
+      background: $cc-primary-50;
+      border: $border-basic;
+    }
+  }
 }

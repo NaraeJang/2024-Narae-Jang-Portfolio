@@ -3,7 +3,7 @@ import { Faq, Header, Projects, Loading } from './';
 const Home = () => {
   return (
     <main>
-      <Loading />
+      {/* <Loading /> */}
       <Header />
       <Projects />
       <Faq />

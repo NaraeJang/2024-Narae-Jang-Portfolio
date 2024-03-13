@@ -331,6 +331,19 @@ hr {
   box-shadow: 0px 8px 44px 0px rgba(78, 61, 232, 0.12);
   transform: translateY(-4px);
 }
+.work-article .git {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  transition: 0.3s ease-in-out all;
+}
+.work-article .git:hover {
+  background: #edecfd;
+  border: 1px solid #a79ef4;
+}
 
 #faq .faq-container h2 {
   margin-bottom: 2.5rem;
@@ -463,7 +476,7 @@ footer#footer .custom-container .email .clipboard-msg {
 }
 
 #intro-slider {
-  background: rgba(70, 55, 209, 0.9);
+  background: #4637d1;
   z-index: 200;
   opacity: 0.7;
   transition: 0.3s ease-in-out all;
@@ -489,6 +502,7 @@ footer#footer .custom-container .email .clipboard-msg {
   line-height: 160%;
   font-size: 0.875rem;
   text-transform: capitalize;
+  transition: 0.3s ease-in-out all;
   cursor: pointer;
 }
 .btn-primary {
@@ -496,10 +510,16 @@ footer#footer .custom-container .email .clipboard-msg {
   background: #4637d1;
   color: #fefefe;
 }
+.btn-primary:hover {
+  background: #271f74;
+}
 .btn-secondary {
   border-radius: 0.625rem;
   border: 1px solid #a79ef4;
   color: #6050ea;
+}
+.btn-secondary:hover {
+  background: #edecfd;
 }
 
 button:disabled {
@@ -674,7 +694,7 @@ button:disabled {
   overflow: hidden;
   top: 0;
   left: 0;
-  background: linear-gradient(40deg, #271f74, rgb(0, 17, 82));
+  background: linear-gradient(40deg, #4637d1, rgb(0, 17, 82));
 }
 .gradient-bg svg {
   display: none;
