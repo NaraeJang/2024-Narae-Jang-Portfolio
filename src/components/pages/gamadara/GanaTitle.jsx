@@ -22,11 +22,11 @@ const GanaTitle = () => {
 
           <div className="flex flex-col gap-8">
             <div>
-              <h5 className="poppins-semibold leading-relaxed">Role</h5>
+              <h5 className="poppins-semibold leading-relaxed text-lg">Role</h5>
               <p>Sole UX/UI designer from conception to delivery.</p>
             </div>
             <div>
-              <h5 className="poppins-semibold leading-relaxed">
+              <h5 className="poppins-semibold leading-relaxed text-lg">
                 Responsibilities
               </h5>
               <p>
@@ -36,7 +36,9 @@ const GanaTitle = () => {
               </p>
             </div>
             <div>
-              <h5 className="poppins-semibold leading-relaxed">Duration</h5>
+              <h5 className="poppins-semibold leading-relaxed text-lg">
+                Duration
+              </h5>
               <p>2 months</p>
             </div>
           </div>

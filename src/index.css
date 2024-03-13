@@ -513,6 +513,10 @@ footer#footer .custom-container .email .clipboard-msg {
   color: #2a2a2a;
   text-transform: capitalize;
 }
+#ganadara h5 {
+  color: #2a2a2a;
+  text-transform: capitalize;
+}
 
 #gana-design-process {
   background: #ebebeb;
@@ -545,6 +549,14 @@ footer#footer .custom-container .email .clipboard-msg {
 }
 .btn-secondary:hover {
   background: #edecfd;
+}
+.btn-gana {
+  border-radius: 0.625rem;
+  border: 1px solid rgba(255, 87, 87, 0.4);
+  color: #ff5757;
+}
+.btn-gana:hover {
+  background: rgba(255, 87, 87, 0.05);
 }
 
 button:disabled {

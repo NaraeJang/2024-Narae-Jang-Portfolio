@@ -5,6 +5,8 @@ import {
   GanaTitle,
   GanaToPainPoint,
   GanaJourneyPaper,
+  GanaDigitalToLowFidelity,
+  GanaUsabilityToMockUp,
 } from './gamadara/';
 
 const Ganadara = () => {
@@ -53,6 +55,8 @@ const Ganadara = () => {
       <GanaDesignProcess />
       <GanaToPainPoint />
       <GanaJourneyPaper />
+      <GanaDigitalToLowFidelity />
+      <GanaUsabilityToMockUp />
     </main>
   );
 };

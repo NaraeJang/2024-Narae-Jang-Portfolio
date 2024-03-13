@@ -35,6 +35,17 @@
       background: $cc-primary-50;
     }
   }
+
+  &-gana {
+    border-radius: $border-radius-btn-mobile;
+    border: 1px solid rgba(#ff5757, 0.4);
+
+    color: #ff5757;
+
+    &:hover {
+      background: rgba(#ff5757, 0.05);
+    }
+  }
 }
 
 button:disabled {
