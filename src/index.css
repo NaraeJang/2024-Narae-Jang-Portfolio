@@ -674,7 +674,7 @@ button:disabled {
   overflow: hidden;
   top: 0;
   left: 0;
-  background: linear-gradient(40deg, #271f74, rgb(108, 0, 162));
+  background: linear-gradient(40deg, #271f74, rgb(0, 17, 82));
 }
 .gradient-bg svg {
   display: none;
