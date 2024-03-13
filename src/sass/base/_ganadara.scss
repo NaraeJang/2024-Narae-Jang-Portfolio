@@ -1,7 +1,7 @@
 #ganadara {
   .hero {
-    width: 100vw;
-    width: 100svw;
+    width: 100%;
+    // width: 100svw;
     height: 50vh;
     height: 50svh;
 
@@ -20,5 +20,13 @@
   h4 {
     color: $cc-text-title;
     text-transform: capitalize;
+  }
+}
+
+#gana-design-process {
+  background: $cc-grey-100;
+
+  p {
+    color: $cc-grey-600;
   }
 }

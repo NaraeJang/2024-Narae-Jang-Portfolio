@@ -41,8 +41,8 @@ const GanaTitle = () => {
           </div>
         </div>
 
-        <div className="opacity-0 invisible hidden md:block md:opacity-100 md:visible">
-          <img src={GanaTitleImg} className="max-w-[15rem] mx-auto" />
+        <div className="opacity-0 invisible hidden md:block md:opacity-100 md:visible mx-auto">
+          <img src={GanaTitleImg} className="max-w-[15rem] " />
         </div>
       </div>
 
