@@ -19,18 +19,34 @@ const ProjectItem = ({
   return (
     <article className="work-article relative">
       <div className="img-container">
-        <a href={gitLink} target="_blank" className="link">
-          <div className="pill-container absolute top-[1.6rem] left-6 gap-3.5">
-            {category.map((item, index) => {
-              return (
-                <span key={title + index} className="category-pill">
-                  {item}
-                </span>
-              );
-            })}
-          </div>
-          <img src={img} alt={imgAlt} />
-        </a>
+        {gitLink && (
+          <a href={gitLink} target="_blank" className="link">
+            <div className="pill-container absolute top-[1.6rem] left-6 gap-3.5">
+              {category.map((item, index) => {
+                return (
+                  <span key={title + index} className="category-pill">
+                    {item}
+                  </span>
+                );
+              })}
+            </div>
+            <img src={img} alt={imgAlt} />
+          </a>
+        )}
+        {!gitLink && designBtn && (
+          <HashLink to={designPath} className="link">
+            <div className="pill-container absolute top-[1.6rem] left-6 gap-3.5">
+              {category.map((item, index) => {
+                return (
+                  <span key={title + index} className="category-pill">
+                    {item}
+                  </span>
+                );
+              })}
+            </div>
+            <img src={img} alt={imgAlt} />
+          </HashLink>
+        )}
       </div>
       <div className="p-5 md:p-6">
         <div className="text-left mb-[1.75rem] flex flex-col justify-between">
