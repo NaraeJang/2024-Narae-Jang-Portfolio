@@ -1,10 +1,11 @@
 import designProcess from '../../../assets/ganadara-assets/DesignProcess.webp';
+import { GanaTitleText } from './';
 
 const GanaDesignProcess = () => {
   return (
     <section id="gana-design-process">
       <div className="custom-container w-[90%] text-left">
-        <h4 className="dt-black text-xl mb-4">The Problem</h4>
+        <GanaTitleText text="Design Process" />
         <p>
           I used User-centered design (UCD) thinking process in order to
           empathize with user to understand their feelings or thoughts in a

@@ -1,4 +1,5 @@
 import GanaTitleImg from '../../../assets/ganadara-assets/title.webp';
+import { GanaTitleText } from './';
 
 const GanaTitle = () => {
   return (
@@ -50,7 +51,7 @@ const GanaTitle = () => {
 
       <div className="flex flex-col md:flex-row gap-8 md:gap-[4.5rem] w-full">
         <div className="md:w-1/2">
-          <h4 className="dt-black text-xl mb-4">The Problem</h4>
+          <GanaTitleText text="The Problem" />
           <p>
             It&apos;s one of the famous bars in Montreal. Because of that, If
             customers walk into the bar without reservation, it often takes more
@@ -60,8 +61,8 @@ const GanaTitle = () => {
           </p>
         </div>
         <div className="md:w-1/2">
-          <h4 className="dt-black text-xl mb-4">The goals</h4>
-          <ul className="list-decimal list-inside ">
+          <GanaTitleText text="The goals" />
+          <ul className="list-decimal list-outside pl-[5%]">
             <li>
               Minimize reservation steps for users while keeping products.
             </li>
