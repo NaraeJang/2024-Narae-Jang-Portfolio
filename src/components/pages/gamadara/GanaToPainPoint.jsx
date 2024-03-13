@@ -36,11 +36,11 @@ const GanaToPainPoint = () => {
         <div>
           <GanaTitleText text="Summary of user research" />
           <p>
-            I conducted user interviews to understand the users I’m designing
-            for and their needs. A primary user group identified through
-            research was cegep/college/university students and young working
-            adults who often eat outside and have experienced waiting in line
-            and anxiety.
+            I conducted user interviews to understand the users I&apos;m
+            designing for and their needs. A primary user group identified
+            through research was cegep/college/university students and young
+            working adults who often eat outside and have experienced waiting in
+            line and anxiety.
           </p>
           <p className="mt-3">
             This user group confirmed initial assumptions about Bar Ganadara
