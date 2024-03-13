@@ -5,3 +5,7 @@ export { default as GanaJourneyPaper } from './GanaJourneyPaper';
 export { default as GanaTitleText } from './GanaTitleText';
 export { default as GanaDigitalToLowFidelity } from './GanaDigitalToLowFidelity';
 export { default as GanaUsabilityToMockUp } from './GanaUsabilityToMockUp';
+export { default as GanaHighFidelity } from './GanaHighFidelity';
+export { default as GanaBookingFlow } from './GanaBookingFlow';
+export { default as GanaDesignSystem } from './GanaDesignSystem';
+export { default as GanaAccessibilityTakeaways } from './GanaAccessibilityTakeaways';

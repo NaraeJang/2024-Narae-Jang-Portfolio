@@ -7,6 +7,10 @@ import {
   GanaJourneyPaper,
   GanaDigitalToLowFidelity,
   GanaUsabilityToMockUp,
+  GanaHighFidelity,
+  GanaBookingFlow,
+  GanaDesignSystem,
+  GanaAccessibilityTakeaways,
 } from './gamadara/';
 
 const Ganadara = () => {
@@ -57,6 +61,10 @@ const Ganadara = () => {
       <GanaJourneyPaper />
       <GanaDigitalToLowFidelity />
       <GanaUsabilityToMockUp />
+      <GanaBookingFlow />
+      <GanaHighFidelity />
+      <GanaDesignSystem />
+      <GanaAccessibilityTakeaways />
     </main>
   );
 };
