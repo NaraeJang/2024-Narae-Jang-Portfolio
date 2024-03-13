@@ -504,7 +504,7 @@ footer#footer .custom-container .email .clipboard-msg {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(./src/assets/ganadara-assets/Ganadara-hero.webp);
+  background-image: url(../public/gana/Ganadara-hero.webp);
 }
 #ganadara hr {
   border-top: 1px solid #c2c2c2;
