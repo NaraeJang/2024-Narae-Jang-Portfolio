@@ -1,5 +1,6 @@
 import { PiGithubLogoLight } from 'react-icons/pi';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const ProjectItem = ({
   category,
@@ -39,9 +40,9 @@ const ProjectItem = ({
         </div>
         <footer className="flex flex-row flex-wrap items-center justify-end gap-3.5">
           {designBtn && (
-            <Link to={designPath} className="btn btn-secondary">
+            <HashLink to={designPath} className="btn btn-secondary">
               {designBtn}
-            </Link>
+            </HashLink>
           )}
           {liveBtn && (
             <a href={livePath} target="_blank" className="btn btn-primary">

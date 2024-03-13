@@ -1,3 +1,4 @@
+import { Loading } from '../';
 import {
   GanaDesignProcess,
   GanaTitle,
@@ -8,7 +9,8 @@ import {
 const Ganadara = () => {
   return (
     <main id="ganadara" className="relative">
-      <div className="hero"></div>
+      {/* <Loading /> */}
+      <div className="hero" id="gana-hero"></div>
       <GanaTitle />
       <GanaDesignProcess />
       <GanaToPainPoint />

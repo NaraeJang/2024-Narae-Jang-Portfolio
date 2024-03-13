@@ -1,4 +1,4 @@
 const GanaDesignProcess = () => {
-  return <div>GanaDesignProcess</div>;
+  return <section>GanaDesignProcess</section>;
 };
 export default GanaDesignProcess;
