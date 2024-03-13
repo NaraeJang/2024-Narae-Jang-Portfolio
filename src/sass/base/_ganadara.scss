@@ -1,0 +1,24 @@
+#ganadara {
+  .hero {
+    width: 100vw;
+    width: 100svw;
+    height: 50vh;
+    height: 50svh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url(./src/assets/ganadara-assets/Ganadara-hero.webp);
+  }
+
+  hr {
+    border-top: 1px solid $cc-grey-200;
+  }
+
+  h3,
+  h4 {
+    color: $cc-text-title;
+    text-transform: capitalize;
+  }
+}

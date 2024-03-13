@@ -279,8 +279,6 @@ hr {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
   z-index: 20;
   transition: 0.3s ease-in-out all;
 }
@@ -301,6 +299,8 @@ hr {
 }
 .navbar.show-bg {
   background: rgba(70, 55, 209, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 @media screen and (min-width: 768px) {
@@ -496,6 +496,25 @@ footer#footer .custom-container .email .clipboard-msg {
     opacity: 1;
   }
 }
+#ganadara .hero {
+  width: 100vw;
+  width: 100svw;
+  height: 50vh;
+  height: 50svh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./src/assets/ganadara-assets/Ganadara-hero.webp);
+}
+#ganadara hr {
+  border-top: 1px solid #c2c2c2;
+}
+#ganadara h3,
+#ganadara h4 {
+  color: #2a2a2a;
+  text-transform: capitalize;
+}
+
 .btn, .btn:visited, .btn:link {
   display: inline;
   padding: 0.45rem 0.9rem;
