@@ -14,7 +14,7 @@ const IFLYResearch = () => {
         </p>
         <img
           src={rdPainPoints}
-          alt="Ganadara high fidelity img"
+          alt="ifly pain point img"
           className="w-full max-w-[57rem] mx-auto mt-8"
         />
       </div>
