@@ -7,6 +7,8 @@ import WegicPng from '../assets/projects-images/Wegic.png';
 import WegicWebp from '../assets/projects-images/Wegic.webp';
 import GanaPng from '../assets/projects-images/Gana.png';
 import GanaWebp from '../assets/projects-images/Gana.webp';
+import RedesignPng from '../assets/projects-images/NaraeJangPortfolio.png';
+import RedesignWebp from '../assets/projects-images/NaraeJangPortfolio.webp';
 
 export const footerNav = [
   {
@@ -84,6 +86,21 @@ export const projectsData = [
     livePath: null,
     designBtn: 'UX/UI',
     designPath: './ganadara-bar#gana-hero',
+    git: false,
+    gitLink: null,
+  },
+  {
+    id: nanoid(),
+    category: ['design'],
+    img: RedesignWebp || RedesignPng,
+    imgAlt: 'New IFLY Website',
+    client: 'Calego',
+    title: 'New IFLY Website',
+    keyword: `UX/UI | Web Design`,
+    liveBtn: null,
+    livePath: null,
+    designBtn: 'UX/UI',
+    designPath: './redesign-websites#ifly-hero',
     git: false,
     gitLink: null,
   },

@@ -6,7 +6,8 @@
   transition: $transition;
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
-  h3 {
+
+  & h3 {
     color: $cc-white;
     opacity: 1;
   }
@@ -14,8 +15,8 @@
 
 @media screen and (min-width: $breakpoint-tablet-min) {
   #intro-slider {
-    h3 {
-      color: transparent;
+    & h3 {
+      color: transparent !important;
       -webkit-text-stroke: 2px $cc-secondary-300;
       text-stroke: 2px $cc-secondary-300;
       opacity: 1;
