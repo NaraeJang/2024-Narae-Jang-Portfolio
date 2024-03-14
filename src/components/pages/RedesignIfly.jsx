@@ -3,8 +3,7 @@ import {
   IflyTitle,
   IflyResearch,
   IflyPersona,
-  IflyUserJourney,
-  IflyCompetitiveToUserFlow,
+  IflyUserJourneyToUserFlow,
   IflySitemapToWireFrames,
   IflyStyleGuide,
   IflyProtos,
@@ -15,14 +14,13 @@ import {
 
 const RedesignIfly = () => {
   return (
-    <main id="redesign-ifly" className="text-left bg-[#ffffff]">
+    <main id="redesign-ifly" className="text-left">
       {/* <Loading /> */}
       <div className="hero" id="ifly-hero"></div>
       <IflyTitle />
       <IflyResearch />
       <IflyPersona />
-      <IflyUserJourney />
-      <IflyCompetitiveToUserFlow />
+      <IflyUserJourneyToUserFlow />
       <IflySitemapToWireFrames />
       <IflyStyleGuide />
       <IflyProtos />
