@@ -22,7 +22,6 @@ const GanaHighFidelity = () => {
             </a>
           </div>
           <img
-            data-enlargable
             src={highFidelity}
             alt="Ganadara high fidelity img"
             className="md:w-[60%] md:max-w-[60rem] mx-auto mt-6"

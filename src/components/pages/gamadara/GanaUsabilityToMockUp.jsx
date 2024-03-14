@@ -23,7 +23,6 @@ const GanaUsabilityToMockUp = () => {
                 Round 1 findings
               </h5>
               <img
-                data-enlargable
                 src={usabilityImg01}
                 alt="gana usability test 01 img"
                 className="w-full max-w-[30rem] sm:mx-auto mt-4"
@@ -34,7 +33,6 @@ const GanaUsabilityToMockUp = () => {
                 Round 2 findings
               </h5>
               <img
-                data-enlargable
                 src={usabilityImg02}
                 alt="gana usability test 02 img"
                 className="w-full max-w-[30rem] mx-auto mt-4"
@@ -77,7 +75,6 @@ const GanaUsabilityToMockUp = () => {
               </p>
             </div>
             <img
-              data-enlargable
               src={mockupImg01}
               alt="gana mockup homepage img"
               className="w-full max-w-[35rem] mx-auto mt-4"
@@ -104,7 +101,6 @@ const GanaUsabilityToMockUp = () => {
               </p>
             </div>
             <img
-              data-enlargable
               src={mockupImg02}
               alt="gana mockup reservation img"
               className="w-full max-w-[35rem] mx-auto mt-4"

@@ -28,7 +28,6 @@ const GanaToPainPoint = () => {
             </li>
           </ul>
           <img
-            data-enlargable
             src={competitorsLogos}
             className="w-full max-w-[43rem] mx-auto mt-12"
           />
@@ -54,7 +53,6 @@ const GanaToPainPoint = () => {
         <div>
           <GanaTitleText text="Pain points" />
           <img
-            data-enlargable
             src={painPoints}
             className="w-full max-w-[54rem] mx-auto mt-12"
           />

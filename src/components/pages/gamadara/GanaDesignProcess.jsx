@@ -12,7 +12,6 @@ const GanaDesignProcess = () => {
           situation.
         </p>
         <img
-          data-enlargable
           src={designProcess}
           className="w-full max-w-[80rem] mx-auto mt-12"
         />

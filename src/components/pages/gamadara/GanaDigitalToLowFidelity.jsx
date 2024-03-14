@@ -46,7 +46,6 @@ const GanaDigitalToLowFidelity = () => {
             </a>
           </div>
           <img
-            data-enlargable
             src={lowFidelity}
             alt="Ganadara low fidelity img"
             className="md:w-[60%] md:max-w-[60rem] mx-auto mt-6"

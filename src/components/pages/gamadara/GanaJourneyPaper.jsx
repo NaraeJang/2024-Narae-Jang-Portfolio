@@ -51,7 +51,6 @@ const GanaJourneyPaper = () => {
               user's results and actions.
             </p>
             <img
-              data-enlargable
               src={userFlow}
               alt="Ganadara user flow"
               className="w-auto max-h-[60rem] mt-6 sm:mx-auto"
@@ -65,7 +64,6 @@ const GanaJourneyPaper = () => {
               find information and complete tasks.
             </p>
             <img
-              data-enlargable
               src={sitemap}
               alt="Ganadara sitemap"
               className="w-auto max-h-[60rem] mt-6 sm:mx-auto"
@@ -86,7 +84,6 @@ const GanaJourneyPaper = () => {
             </p>
           </div>
           <img
-            data-enlargable
             src={paperWireframes}
             alt="Ganadara pape wireframes"
             className="md:w-[60%] md:max-w-[60rem] mx-auto mt-6"

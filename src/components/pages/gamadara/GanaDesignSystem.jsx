@@ -7,7 +7,6 @@ const GanaDesignSystem = () => {
       <div className="custom-container w-[90%] text-left">
         <GanaTitleText text="Design system" />
         <img
-          data-enlargable
           src={designSystemImg}
           alt="Ganadara design system img"
           className="mx-auto w-full max-w-[70rem] mt-6"
