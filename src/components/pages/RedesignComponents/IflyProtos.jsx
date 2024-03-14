@@ -14,7 +14,7 @@ const IflyProtos = () => {
             <img
               src={rdProto01}
               alt="ifly proto img"
-              className="w-full max-w-[37rem] mx-auto mt-8  rounded-xl"
+              className="w-full max-w-[37rem] md:w-3/5 mx-auto mt-8  rounded-xl"
             />
             <p className="md:max-w-[18rem]">
               Users are able to browse all brands and shop for items in IFLY
@@ -26,7 +26,7 @@ const IflyProtos = () => {
             <img
               src={rdProto02}
               alt="ifly proto img"
-              className="w-full max-w-[37rem] mx-auto mt-8  rounded-xl"
+              className="w-full max-w-[37rem] md:w-3/5 mx-auto mt-8  rounded-xl"
             />
             <p className="md:max-w-[18rem] md:text-right">
               Users can register their warranty in a fast and intuitive way.
@@ -37,7 +37,7 @@ const IflyProtos = () => {
             <img
               src={rdProto03}
               alt="ifly proto img"
-              className="w-full max-w-[37rem] mx-auto mt-8  rounded-xl"
+              className="w-full max-w-[37rem] md:w-3/5 mx-auto mt-8  rounded-xl"
             />
             <p className="md:max-w-[18rem]">
               By designing the pages that were uncompleted, I eliminated the

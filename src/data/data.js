@@ -7,8 +7,8 @@ import WegicPng from '../assets/projects-images/Wegic.png';
 import WegicWebp from '../assets/projects-images/Wegic.webp';
 import GanaPng from '../assets/projects-images/Gana.png';
 import GanaWebp from '../assets/projects-images/Gana.webp';
-import RedesignPng from '../assets/projects-images/NaraeJangPortfolio.png';
-import RedesignWebp from '../assets/projects-images/NaraeJangPortfolio.webp';
+import RedesignPng from '../assets/projects-images/RedesignIfly.png';
+import RedesignWebp from '../assets/projects-images/RedesignIfly.webp';
 
 export const footerNav = [
   {
@@ -32,7 +32,7 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['development', 'design'],
-    img: NaraeJangPng || NaraeJangWebp,
+    img: NaraeJangWebp || NaraeJangPng,
     imgAlt: 'NaraeJang Portfolio',
     client: 'Personal Project',
     title: 'Narae Jang Portfolio',
@@ -47,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['development', 'design'],
-    img: JobmatePng || JobmateWebp,
+    img: JobmateWebp || JobmatePng,
     imgAlt: 'JobMate',
     client: 'Personal Project',
     title: 'JobMate',
@@ -62,7 +62,7 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['development', 'design'],
-    img: WegicPng || WegicWebp,
+    img: WegicWebp || WegicPng,
     imgAlt: 'Wegic',
     client: 'Wegic',
     title: 'Mobile Wedding Invitation',
@@ -77,7 +77,7 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['design'],
-    img: GanaPng || GanaWebp,
+    img: GanaWebp || GanaPng,
     imgAlt: 'Bar Ganadara',
     client: 'Bar Ganadara',
     title: 'Booking App',

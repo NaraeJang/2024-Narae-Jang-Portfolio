@@ -34,7 +34,9 @@ const Header = () => {
   });
 
   return (
-    <div className="w-full h-[90vh] h-[90svh] md:h-screen relative" id="header">
+    <div
+      className="w-full h-[90vh] h-[90svh] md:h-screen 2xl:max-h-[60vh] 2xl:max-h-[60svh] relative"
+      id="header">
       <div className="absolute heading-container">
         <h1>Bringing Design Vision to Life Through Code.</h1>
         <p>

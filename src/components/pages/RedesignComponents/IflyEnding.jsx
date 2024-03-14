@@ -3,8 +3,8 @@ import TitleText from '../TitleText';
 const IflyEnding = () => {
   return (
     <section>
-      <div className="flex flex-col md:flex-row md:gap-10">
-        <div className="custom-container w-[90%]">
+      <div className="custom-container flex flex-col md:flex-row md:gap-10 w-[90%]">
+        <div className="md:w-[50%]">
           <TitleText text="Result" />
           <p>
             Current IFLY website uses most of the new features we built. As a
@@ -15,7 +15,7 @@ const IflyEnding = () => {
           </p>
         </div>
 
-        <div className="custom-container w-[90%]">
+        <div className="md:w-[50%] mt-[5rem] md:mt-0">
           <TitleText text="Takeaways" />
           <p>
             <strong className="text-gray-600">Less is more.</strong>
