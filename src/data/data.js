@@ -1,13 +1,13 @@
 import { nanoid } from 'nanoid';
-import NaraeJangPng from '../assets/projects-images/NaraeJangPortfolio.png';
+// import NaraeJangPng from '../assets/projects-images/NaraeJangPortfolio.png';
 import NaraeJangWebp from '../assets/projects-images/NaraeJangPortfolio.webp';
-import JobmatePng from '../assets/projects-images/Jobmate.png';
+// import JobmatePng from '../assets/projects-images/Jobmate.png';
 import JobmateWebp from '../assets/projects-images/Jobmate.webp';
-import WegicPng from '../assets/projects-images/Wegic.png';
+// import WegicPng from '../assets/projects-images/Wegic.png';
 import WegicWebp from '../assets/projects-images/Wegic.webp';
-import GanaPng from '../assets/projects-images/Gana.png';
+// import GanaPng from '../assets/projects-images/Gana.png';
 import GanaWebp from '../assets/projects-images/Gana.webp';
-import RedesignPng from '../assets/projects-images/RedesignIfly.png';
+// import RedesignPng from '../assets/projects-images/RedesignIfly.png';
 import RedesignWebp from '../assets/projects-images/RedesignIfly.webp';
 
 export const footerNav = [
@@ -32,7 +32,7 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['development', 'design'],
-    img: NaraeJangWebp || NaraeJangPng,
+    img: NaraeJangWebp,
     imgAlt: 'NaraeJang Portfolio',
     client: 'Personal Project',
     title: 'Narae Jang Portfolio',
@@ -47,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['development', 'design'],
-    img: JobmateWebp || JobmatePng,
+    img: JobmateWebp,
     imgAlt: 'JobMate',
     client: 'Personal Project',
     title: 'JobMate',
@@ -62,7 +62,7 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['development', 'design'],
-    img: WegicWebp || WegicPng,
+    img: WegicWebp,
     imgAlt: 'Wegic',
     client: 'Wegic',
     title: 'Mobile Wedding Invitation',
@@ -77,7 +77,7 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['design'],
-    img: GanaWebp || GanaPng,
+    img: GanaWebp,
     imgAlt: 'Bar Ganadara',
     client: 'Bar Ganadara',
     title: 'Booking App',
@@ -92,7 +92,7 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['design'],
-    img: RedesignWebp || RedesignPng,
+    img: RedesignWebp,
     imgAlt: 'New IFLY Website',
     client: 'Calego',
     title: 'New IFLY Website',
