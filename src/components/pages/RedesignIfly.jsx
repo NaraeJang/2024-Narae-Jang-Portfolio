@@ -15,7 +15,7 @@ import {
 const RedesignIfly = () => {
   return (
     <main id="redesign-ifly" className="text-left">
-      {/* <Loading /> */}
+      <Loading />
       <div className="hero" id="ifly-hero"></div>
       <IflyTitle />
       <IflyResearch />

@@ -7,7 +7,7 @@ const AboutMainMe = () => {
         <Title title="about me" />
         <div className="text-left">
           <p className="mt-6 mb-5">
-            Hi! I’m narae who is passionate about coding and view it as a
+            Hi! I&apos;m narae who is passionate about coding and view it as a
             powerful tool to bring imaginative concepts to life in the online
             world. With over three years of experience in the design realm, I've
             gained a profound understanding of the intricacies of creating
@@ -22,16 +22,15 @@ const AboutMainMe = () => {
             gap between aesthetics and functionality seamlessly.
           </p>
           <p className="mb-5">
-            Currently based in the Montreal, Canada, I hail originally from
-            South Korea and hold a degree from Konkuk University. My diverse
-            cultural background enriches my creative approach, allowing me to
-            infuse international perspectives into my work.
+            Currently based in the Montreal, Canada, I&apos;m originally from
+            South Korea. My diverse cultural background enriches my creative
+            approach, allowing me to infuse international perspectives into my
+            work.
           </p>
           <p>
             I am committed to evolving as a front-end developer, continuously
             seeking opportunities to innovate, collaborate, and craft
-            exceptional digital solutions. Let's connect and embark on a journey
-            of code, design, and limitless possibilities.
+            exceptional digital solutions.
           </p>
         </div>
       </div>
