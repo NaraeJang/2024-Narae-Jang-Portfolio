@@ -42,14 +42,14 @@ const Footer = () => {
             You can also find me on{' '}
             <a
               target="_blank"
-              href="#"
+              href="https://github.com/NaraeJang"
               className="out-link poppins-semibold hover:underline">
               Github
             </a>
             , and{' '}
             <a
               target="_blank"
-              href="#"
+              href="https://www.linkedin.com/in/naraejang0117"
               className="out-link poppins-semibold hover:underline">
               LinkedIn.
             </a>

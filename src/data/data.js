@@ -110,17 +110,17 @@ export const faqQuestions = [
   {
     id: nanoid(),
     title: 'How did I step into the world of development?',
-    info: 'I love coding that is the reason',
+    info: 'I discovered my love for coding after working as a designer. While design allows me to express my creativity, coding empowers me to bring those ideas to life. The sense of achievement I get from coding is a strong motivator that propelled me into this journey. I find joy in learning new concepts, completing projects, and witnessing them function seamlessly.',
   },
   {
     id: nanoid(),
-    title: 'Where do you locate at?',
-    info: `Originally I'm from Seoul, South Korea. Currently, I live in Montreal, Quebec, Canada.`,
+    title: 'What tools do I use?',
+    info: `I utilize a variety of tools depending on the project requirements. On the front-end, I work with HTML, CSS, JavaScript, React.js, TailwindCSS, SASS, Bootstrap, Styled-Components, React Router Dom, and React Query. These tools enable me to create dynamic and responsive user interfaces efficiently. On the back-end, I rely on PostMan for API testing, alongside Node.js, Express.js, and MongoDB for server-side development and database management. For design tasks, I use Figma and Adobe Creative Suite to conceptualize and design user interfaces. Additionally, I employ essential development tools such as NPM, GitHub, and VS Code for package management, version control, and coding tasks, ensuring a streamlined and effective development process.`,
   },
   {
     id: nanoid(),
-    title: 'What do you do outside of work?',
-    info: 'Outside work, I enjoy coffee, listening to music, exploring the world with my partner, and playing with my Jack Russel, Doong-E. Currently, I’m interested in Tango Dance, I might learn it with my partner.',
+    title: 'What do I do outside of work?',
+    info: `Outside work, I enjoy coffee, listening to music, exploring the world with my partner, and playing with my Jack Russel, Doong-E. Currently, I’m interested in Tango Dance, I might learn it with my partner. 🙂`,
   },
   {
     id: nanoid(),
