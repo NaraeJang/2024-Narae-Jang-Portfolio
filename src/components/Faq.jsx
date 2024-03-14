@@ -19,7 +19,7 @@ const Faq = () => {
   return (
     <FaqContext.Provider value={{ toggleQuestion, questions, activeId }}>
       <section id="faq">
-        <div className="custom-container">
+        <div className="pt-[5rem] mx-auto pb-[10rem]">
           <div className="faq-container">
             <Title title="FAQs" />
             {faqQuestions.map((question) => {
