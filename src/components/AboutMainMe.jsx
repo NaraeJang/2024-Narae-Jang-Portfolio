@@ -7,23 +7,25 @@ const AboutMainMe = () => {
         <Title title="about me" />
         <div className="text-left">
           <p className="mt-6 mb-5">
-            Hi! I&apos;m narae who is passionate about coding and view it as a
-            powerful tool to bring imaginative concepts to life in the online
-            world. With over three years of experience in the design realm, I've
-            gained a profound understanding of the intricacies of creating
-            visually appealing and functional digital experiences.
+            Hi! I&apos;m Narae.
+            <br />
+            I'm passionate about coding and view it as a powerful tool to bring
+            imaginative concepts to life in the online world. I have over three
+            years of experience in the design realm where I've gained an
+            understanding of the intricacies of creating visually appealing and
+            functional digital experiences.
           </p>
           <p className="mb-5">
-            Having worked extensively as a designer, I recognize the critical
+            Through my experience as a designer, I recognize the critical
             intersection of design and development. This unique vantage point
             enables me to facilitate effective communication, streamline
-            workflow, and ultimately deliver superior outcomes. The fusion of my
-            design background and web development skills equips me to bridge the
-            gap between aesthetics and functionality seamlessly.
+            workflow, and ultimately deliver superior results. The combination
+            of my design background and web development skills enables me to
+            seamlessly bridge the gap between the aesthetics and functionality.
           </p>
           <p className="mb-5">
-            Currently based in the Montreal, Canada, I&apos;m originally from
-            South Korea. My diverse cultural background enriches my creative
+            Originally from South Korea, and currently based in Montreal,
+            Canada, my diverse cultural background enriches my creative
             approach, allowing me to infuse international perspectives into my
             work.
           </p>

@@ -38,11 +38,11 @@ const Header = () => {
       className="w-full h-[90vh] h-[90svh] md:h-screen 2xl:max-h-[60vh] 2xl:max-h-[60svh] relative"
       id="header">
       <div className="absolute heading-container">
-        <h1>Bringing Design Vision to Life Through Code.</h1>
+        <h1>Bringing Design to Life Through Code.</h1>
         <p>
           3 years of design experience, now coding to elevate digital
-          experiences. Crafting seamless interfaces by bridging design and tech
-          collaboratively.
+          experiences. Crafting seamless interfaces while bridging the gap
+          between design and tech.
         </p>
       </div>
       {/* <div className=" absolute bg-black/15 w-full h-full"></div> */}
