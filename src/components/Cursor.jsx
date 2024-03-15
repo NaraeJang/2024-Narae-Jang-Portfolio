@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const Cursor = () => {
+  const location = useLocation();
+
   const getBrowserPrefix = () => {
     const usrAg = navigator.userAgent;
     if (usrAg.indexOf('Chrome') > -1 || usrAg.indexOf('Safari') > -1) {

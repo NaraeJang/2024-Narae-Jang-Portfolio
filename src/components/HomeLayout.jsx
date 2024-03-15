@@ -3,6 +3,7 @@ import { Cursor, Footer, Navbar } from './';
 import { useState, useEffect, createContext, useContext } from 'react';
 
 const HomeContext = createContext();
+
 const HomeLayout = () => {
   const [shouldShowCursor, setShouldShowCursor] = useState(true);
 
