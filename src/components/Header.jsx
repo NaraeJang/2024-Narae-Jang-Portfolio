@@ -1,4 +1,3 @@
-import Spline from '@splinetool/react-spline';
 import { useEffect } from 'react';
 import { useNavigation } from 'react-router-dom';
 
