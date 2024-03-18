@@ -68,7 +68,7 @@ export const projectsData = [
     title: 'Mobile Wedding Invitation',
     keyword: `React | SASS | UX/UI`,
     liveBtn: `Live Demo`,
-    livePath: `https://naraejang-wegic-project.netlify.app/`,
+    livePath: `./wegic`,
     designBtn: null,
     designPath: null,
     git: true,
