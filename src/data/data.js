@@ -37,7 +37,7 @@ export const projectsData = [
     client: 'Personal Project',
     title: 'Narae Jang Portfolio',
     keyword: `TailwindCSS | SASS | React Router Dom | React | UI`,
-    liveBtn: 'Live Demo',
+    liveBtn: `You're here!`,
     livePath: null,
     designBtn: null,
     designPath: null,
