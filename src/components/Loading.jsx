@@ -45,17 +45,17 @@ const Loading = () => {
         id="intro-slider"
         className="h-screen w-screen p-0 md:p-10 fixed top-0 left-0 dt-black capitalize  grid place-content-center flex-col md:flex-row gap-5 tracking-tight text-left md:text-center ">
         <h3
-          className="leading-normal text-4xl md:text-6xl lg:text-8xl uppercase"
+          className="leading-normal text-4xl md:text-6xl lg:text-8xl uppercase loading-header"
           id="title-1">
           Developer
         </h3>
         <h3
-          className="leading-normal text-4xl md:text-6xl lg:text-8xl uppercase"
+          className="leading-normal text-4xl md:text-6xl lg:text-8xl uppercase loading-header"
           id="title-2">
           Designer
         </h3>
         <h3
-          className="leading-normal text-4xl md:text-6xl lg:text-8xl uppercase"
+          className="leading-normal text-4xl md:text-6xl lg:text-8xl uppercase loading-header"
           id="title-3">
           Narae Jang
         </h3>
