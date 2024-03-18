@@ -38,7 +38,7 @@ const Navbar = () => {
               ? 'active'
               : ''
           }>
-          Works
+          works
         </HashLink>
         <HashLink
           to="./about#about-me"
