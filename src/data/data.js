@@ -36,7 +36,7 @@ export const projectsData = [
     imgAlt: 'NaraeJang Portfolio',
     client: 'Personal Project',
     title: 'Narae Jang Portfolio',
-    keyword: `TailwindCSS | SASS | React Router Dom | React | UI`,
+    keyword: `React | TailwindCSS | SASS | UI`,
     liveBtn: `You're here!`,
     livePath: null,
     designBtn: null,
