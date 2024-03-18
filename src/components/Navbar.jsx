@@ -45,7 +45,9 @@ const Navbar = () => {
           className={location.pathname === '/about' ? 'active' : ''}>
           about
         </HashLink>
-        <a href="#" target="_black">
+        <a
+          href="https://drive.google.com/file/d/1u40opSKDyBVkq_N2Ilqzocx_vt-CiVJv/view?usp=sharing"
+          target="_black">
           resume
         </a>
       </nav>
