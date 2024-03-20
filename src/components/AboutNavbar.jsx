@@ -5,7 +5,7 @@ const AboutNavbar = () => {
   const location = useLocation();
 
   return (
-    <aside className="py-20 hidden invisible opacity-0 md:block md:visible md:opacity-100 md:w-full  md:max-w-[15.5rem]">
+    <aside className="py-20 hidden invisible opacity-0 lg:block lg:visible lg:opacity-100 lg:w-full  lg:max-w-[15.5rem]">
       <nav className="flex flex-col gap-6 sticky top-1/2 -translate-y-1/2">
         {aboutNavbarList.map((nav) => {
           return (

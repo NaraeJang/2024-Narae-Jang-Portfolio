@@ -31,3 +31,15 @@
     box-shadow: $shadow-4;
   }
 }
+
+@media screen and (min-width: $breakpoint-tablet-min) {
+  .education-card {
+    max-width: 20rem;
+  }
+}
+
+@media screen and (min-width: calc($breakpoint-desktop-min + 100px)) {
+  .education-card {
+    max-width: 24rem;
+  }
+}
