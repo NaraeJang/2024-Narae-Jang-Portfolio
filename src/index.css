@@ -483,7 +483,7 @@ footer#footer .custom-container .email .clipboard-msg {
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
 }
-#intro-slider h3 {
+#intro-slider h3.loading-header {
   color: #fefefe;
   opacity: 1;
 }
