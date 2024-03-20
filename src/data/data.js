@@ -298,7 +298,12 @@ export const aboutNavbarList = [
   { id: nanoid(), title: 'work experience', path: '#about-work' },
   {
     id: nanoid(),
-    title: 'education & certifications',
+    title: 'education',
     path: '#about-education',
+  },
+  {
+    id: nanoid(),
+    title: 'certifications',
+    path: '#about-license',
   },
 ];
