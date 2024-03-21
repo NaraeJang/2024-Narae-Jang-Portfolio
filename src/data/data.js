@@ -98,8 +98,8 @@ export const projectsData = [
     client: 'Calego',
     title: 'New IFLY Website',
     keyword: `UX/UI | Web Design`,
-    liveBtn: 'Live Site',
-    livePath: 'https://iflyluggage.com/',
+    liveBtn: null,
+    livePath: null,
     designBtn: 'UX/UI',
     designPath: './redesign-websites#ifly-hero',
     git: false,
@@ -113,8 +113,8 @@ export const projectsData = [
     client: 'Calego',
     title: 'Register Your Tag',
     keyword: `UI | Web Page Design`,
-    liveBtn: 'Live Site',
-    livePath: 'https://iflyluggage.com/pages/candle-review',
+    liveBtn: null,
+    livePath: null,
     designBtn: 'UI Design',
     designPath: './candle-ifly#candle-img',
     git: false,
@@ -308,6 +308,8 @@ export const certificationCards = [
 //   linkTitle: `Show credential`,
 //   link: ``,
 // },
+// 'https://iflyluggage.com/'
+// 'https://iflyluggage.com/pages/candle-review'
 
 export const aboutNavbarList = [
   { id: nanoid(), title: 'about me', path: '#about-me' },
