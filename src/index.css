@@ -557,6 +557,26 @@ footer#footer .custom-container .email .clipboard-msg {
   text-transform: capitalize;
 }
 
+#candle-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-image: url(../public/candle/img-bg.webp);
+}
+#candle-img .candle-title {
+  background: linear-gradient(91deg, #78a7f6 10.48%, #88d6e0 90.27%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#candle-img h4 {
+  color: #7badf4;
+}
+#candle-img p {
+  color: #5383c7;
+}
+
 .btn, .btn:visited, .btn:link {
   display: inline;
   padding: 0.45rem 0.9rem;

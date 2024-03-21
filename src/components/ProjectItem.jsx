@@ -25,7 +25,7 @@ const ProjectItem = ({
               {category.map((item, index) => {
                 return (
                   <span key={title + index} className="category-pill">
-                    {item}
+                    #{item}
                   </span>
                 );
               })}
@@ -39,7 +39,7 @@ const ProjectItem = ({
               {category.map((item, index) => {
                 return (
                   <span key={title + index} className="category-pill">
-                    {item}
+                    #{item}
                   </span>
                 );
               })}
@@ -56,17 +56,28 @@ const ProjectItem = ({
         </div>
         <footer className="flex flex-row flex-wrap items-center justify-end gap-3.5">
           {designBtn && (
-            <HashLink to={designPath} className="btn btn-secondary">
+            <HashLink
+              to={designPath}
+              className="btn btn-secondary"
+              onClick={(e) => e.stopPropagation()}>
               {designBtn}
             </HashLink>
           )}
           {liveBtn && (
-            <a href={livePath} target="_blank" className="btn btn-primary">
+            <a
+              href={livePath}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary">
               {liveBtn}
             </a>
           )}
           {git && (
-            <a href={gitLink} target="_blank" className="git">
+            <a
+              href={gitLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="git">
               <PiGithubLogoLight />
             </a>
           )}

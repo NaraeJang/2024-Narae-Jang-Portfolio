@@ -6,6 +6,7 @@ const Navbar = () => {
   const location = useLocation();
   const [isScrolling, setIsScrolling] = useState(false);
   const onAboutPage = location.pathname.includes('/about');
+  const onCandlePage = location.pathname.includes('/candle-ifly');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,7 +25,7 @@ const Navbar = () => {
   return (
     <div
       className={`absolute navbar ${
-        isScrolling || onAboutPage ? 'show-bg' : ''
+        isScrolling || onAboutPage || onCandlePage ? 'show-bg' : ''
       }`}>
       <HashLink to={'./#header'} className="logo">
         narae jang

@@ -1,0 +1,23 @@
+#candle-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+  background-image: url(../public/candle/img-bg.webp);
+
+  & .candle-title {
+    background: linear-gradient(91deg, #78a7f6 10.48%, #88d6e0 90.27%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  & h4 {
+    color: #7badf4;
+  }
+
+  & p {
+    color: #5383c7;
+  }
+}

@@ -9,6 +9,7 @@ import WegicWebp from '../assets/projects-images/Wegic.webp';
 import GanaWebp from '../assets/projects-images/Gana.webp';
 // import RedesignPng from '../assets/projects-images/RedesignIfly.png';
 import RedesignWebp from '../assets/projects-images/RedesignIfly.webp';
+import TagWebp from '../assets/projects-images/Calego_tag.webp';
 
 export const footerNav = [
   {
@@ -101,6 +102,21 @@ export const projectsData = [
     livePath: null,
     designBtn: 'UX/UI',
     designPath: './redesign-websites#ifly-hero',
+    git: false,
+    gitLink: null,
+  },
+  {
+    id: nanoid(),
+    category: ['design'],
+    img: TagWebp,
+    imgAlt: 'Register Your Tag',
+    client: 'Calego',
+    title: 'Register Your Tag',
+    keyword: `UI | Web Page Design`,
+    liveBtn: null,
+    livePath: null,
+    designBtn: 'UI Design',
+    designPath: './candle-ifly#candle-img',
     git: false,
     gitLink: null,
   },
