@@ -100,7 +100,7 @@ export const projectsData = [
     keyword: `UX/UI | Web Design`,
     liveBtn: 'Live Site',
     livePath: 'https://iflyluggage.com/',
-    designBtn: 'UX/UI Design',
+    designBtn: 'UX/UI',
     designPath: './redesign-websites#ifly-hero',
     git: false,
     gitLink: null,
