@@ -577,6 +577,23 @@ footer#footer .custom-container .email .clipboard-msg {
   color: #5383c7;
 }
 
+#digital-marketing {
+  background: #fff;
+}
+#digital-marketing .hero {
+  width: 100%;
+  height: 50vh;
+  height: 50svh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../public/ifly/Ifly-Marketing-Bg.webp);
+}
+
+.bg-grey {
+  background: #f1f1f1;
+}
+
 .btn, .btn:visited, .btn:link {
   display: inline;
   padding: 0.45rem 0.9rem;

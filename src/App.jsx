@@ -1,6 +1,11 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { HomeLayout, Error, Home, About } from './components';
-import { Ganadara, RedesignIfly, Candle } from './components/pages/';
+import {
+  Ganadara,
+  RedesignIfly,
+  Candle,
+  CalegoDigitalMarketing,
+} from './components/pages/';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +21,7 @@ const router = createBrowserRouter([
       { path: 'ganadara-bar', element: <Ganadara /> },
       { path: 'redesign-websites', element: <RedesignIfly /> },
       { path: 'candle-ifly', element: <Candle /> },
+      { path: 'calego-digital-marketing', element: <CalegoDigitalMarketing /> },
     ],
   },
 ]);

@@ -5,11 +5,11 @@ const IflyTitle = () => {
         <div>
           <h3 className="dt-black text-3xl">Redesigning IFLY Website</h3>
           <p className="mt-[1.75rem]">
-            Calego is a company that owns 4 travel accessories brands&lpar;IFLY,
-            VACAY, IFLY SMART, Sammys&rpar; with each its website. Because of
-            that, The users had a hard time finding the product they want. If
-            they wanted to purchase 2 different products from different brands
-            at once, the consumer had to sign in to different websites and order
+            Calego is a company that owns 4 travel accessories brands (IFLY,
+            VACAY, IFLY SMART, Sammys) with each its website. Because of that,
+            The users had a hard time finding the product they want. If they
+            wanted to purchase 2 different products from different brands at
+            once, the consumer had to sign in to different websites and order
             separately. Furthermore, all the SEO and reviews were spread out and
             disorganized. This inevitably affected their sale.
           </p>
