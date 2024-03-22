@@ -10,6 +10,7 @@ import GanaWebp from '../assets/projects-images/Gana.webp';
 // import RedesignPng from '../assets/projects-images/RedesignIfly.png';
 import RedesignWebp from '../assets/projects-images/RedesignIfly.webp';
 import TagWebp from '../assets/projects-images/Calego_tag.webp';
+import DigitalMarketingWebp from '../assets/projects-images/Calego.webp';
 
 export const footerNav = [
   {
@@ -117,6 +118,21 @@ export const projectsData = [
     livePath: null,
     designBtn: 'UI Design',
     designPath: './candle-ifly#candle-img',
+    git: false,
+    gitLink: null,
+  },
+  {
+    id: nanoid(),
+    category: ['design'],
+    img: DigitalMarketingWebp,
+    imgAlt: 'Digital Marketing',
+    client: 'Calego',
+    title: 'Digital Marketing',
+    keyword: `Graphic Design | Digital Marketing`,
+    liveBtn: null,
+    livePath: null,
+    designBtn: 'Graphic Design',
+    designPath: './calego-digital-marketing#digital-marketing',
     git: false,
     gitLink: null,
   },
