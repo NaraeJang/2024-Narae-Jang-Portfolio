@@ -117,7 +117,7 @@ export const projectsData = [
     liveBtn: null,
     livePath: null,
     designBtn: 'UI Design',
-    designPath: './candle-ifly#candle-img',
+    designPath: './candle-ifly#candle',
     git: false,
     gitLink: null,
   },
