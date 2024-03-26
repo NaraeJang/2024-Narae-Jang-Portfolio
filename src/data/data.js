@@ -11,6 +11,7 @@ import GanaWebp from '../assets/projects-images/Gana.webp';
 import RedesignWebp from '../assets/projects-images/RedesignIfly.webp';
 import TagWebp from '../assets/projects-images/Calego_tag.webp';
 import DigitalMarketingWebp from '../assets/projects-images/Calego.webp';
+import GabrielThumWebp from '../assets/projects-images/GabrielThum.webp';
 
 export const footerNav = [
   {
@@ -38,7 +39,7 @@ export const projectsData = [
     imgAlt: 'NaraeJang Portfolio',
     client: 'Personal Project',
     title: 'Narae Jang Portfolio',
-    keyword: `React | TailwindCSS | SASS | UI`,
+    keyword: `React | TailwindCSS | SASS | UI Design`,
     liveBtn: `You're here!`,
     livePath: null,
     designBtn: null,
@@ -53,7 +54,7 @@ export const projectsData = [
     imgAlt: 'JobMate',
     client: 'Personal Project',
     title: 'JobMate',
-    keyword: `MERN | Style components | UI`,
+    keyword: `MERN | Style components | UI Design`,
     liveBtn: `Live Demo`,
     livePath: `https://jobmate-1gpn.onrender.com/`,
     designBtn: null,
@@ -68,7 +69,7 @@ export const projectsData = [
     imgAlt: 'Wegic',
     client: 'Wegic',
     title: 'Mobile Wedding Invitation',
-    keyword: `React | SASS | UX/UI`,
+    keyword: `React | SASS | UX/UI Design`,
     liveBtn: `Live Demo`,
     livePath: `./wegic`,
     designBtn: null,
@@ -83,7 +84,7 @@ export const projectsData = [
     imgAlt: 'Bar Ganadara',
     client: 'Bar Ganadara',
     title: 'Booking App',
-    keyword: `UX/UI | Web Design`,
+    keyword: `UX/UI Design | Web Design`,
     liveBtn: null,
     livePath: null,
     designBtn: 'UX/UI',
@@ -98,7 +99,7 @@ export const projectsData = [
     imgAlt: 'New IFLY Website',
     client: 'Calego',
     title: 'New IFLY Website',
-    keyword: `UX/UI | Web Design`,
+    keyword: `UX/UI Design | Web Design`,
     liveBtn: null,
     livePath: null,
     designBtn: 'UX/UI',
@@ -113,7 +114,7 @@ export const projectsData = [
     imgAlt: 'Register Your Tag',
     client: 'Calego',
     title: 'Register Your Tag',
-    keyword: `UI | Web Page Design`,
+    keyword: `UI Design | Web Page Design`,
     liveBtn: null,
     livePath: null,
     designBtn: 'UI Design',
@@ -133,6 +134,21 @@ export const projectsData = [
     livePath: null,
     designBtn: 'Graphic Design',
     designPath: './calego-digital-marketing#digital-marketing',
+    git: false,
+    gitLink: null,
+  },
+  {
+    id: nanoid(),
+    category: ['design'],
+    img: GabrielThumWebp,
+    imgAlt: 'Marketing',
+    client: 'Groupe Gabriel',
+    title: 'Marketing',
+    keyword: `Graphic Design | Digital & Print Marketing | Video Editing | Maintaining Gabriel Websites`,
+    liveBtn: null,
+    livePath: null,
+    designBtn: 'Graphic Design',
+    designPath: './group-gabriel#gabriel',
     git: false,
     gitLink: null,
   },

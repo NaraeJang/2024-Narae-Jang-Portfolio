@@ -5,6 +5,7 @@ import {
   RedesignIfly,
   Candle,
   CalegoDigitalMarketing,
+  Gabriel,
 } from './components/pages/';
 
 const router = createBrowserRouter([
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       { path: 'redesign-websites', element: <RedesignIfly /> },
       { path: 'candle-ifly', element: <Candle /> },
       { path: 'calego-digital-marketing', element: <CalegoDigitalMarketing /> },
+      { path: 'group-gabriel', element: <Gabriel /> },
     ],
   },
 ]);

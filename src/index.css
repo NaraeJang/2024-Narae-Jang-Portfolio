@@ -595,6 +595,16 @@ footer#footer .custom-container .email .clipboard-msg {
   background: #f1f1f1;
 }
 
+#gabriel .hero {
+  width: 100%;
+  height: 50vh;
+  height: 50svh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../public/gabriel/banner2.webp);
+}
+
 .btn, .btn:visited, .btn:link {
   display: inline;
   padding: 0.45rem 0.9rem;
