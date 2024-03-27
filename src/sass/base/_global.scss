@@ -59,6 +59,23 @@ p {
   overflow-wrap: break-word;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &::-moz-selection {
+    background-color: $cc-secondary-300;
+    color: $cc-primary-600;
+  }
+  &::selection {
+    background-color: $cc-secondary-300;
+    color: $cc-primary-600;
+  }
+}
+
 h1,
 h2,
 h3,
