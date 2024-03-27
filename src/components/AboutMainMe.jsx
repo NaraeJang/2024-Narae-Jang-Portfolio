@@ -23,16 +23,11 @@ const AboutMainMe = () => {
             of my design background and web development skills enables me to
             seamlessly bridge the gap between the aesthetics and functionality.
           </p>
-          <p className="mb-5">
+          <p>
             Originally from South Korea, and currently based in Montreal,
             Canada, my diverse cultural background enriches my creative
             approach, allowing me to infuse international perspectives into my
             work.
-          </p>
-          <p>
-            I am committed to evolving as a front-end developer, continuously
-            seeking opportunities to innovate, collaborate, and craft
-            exceptional digital solutions.
           </p>
         </div>
       </div>
