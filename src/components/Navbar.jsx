@@ -5,8 +5,6 @@ import { HashLink } from 'react-router-hash-link';
 const Navbar = () => {
   const location = useLocation();
   const [isScrolling, setIsScrolling] = useState(false);
-  const onAboutPage = location.pathname.includes('/about');
-  const onCandlePage = location.pathname.includes('/candle-ifly');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,10 +21,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div
-      className={`absolute navbar ${
-        isScrolling || onAboutPage || onCandlePage ? 'show-bg' : ''
-      }`}>
+    <div className={`absolute navbar ${isScrolling ? 'show-bg' : ''}`}>
       <HashLink to={'./#header'} className="logo">
         narae jang
       </HashLink>

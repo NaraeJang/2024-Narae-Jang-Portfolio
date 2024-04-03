@@ -304,8 +304,7 @@ hr {
   transition: 0.3s ease-in-out all;
 }
 .navbar .logo {
-  font-size: 1rem;
-  color: #fefefe;
+  font-size: clamp(0.875rem, 1.25vw, 1.25rem);
 }
 .navbar .navbar__list {
   display: flex;
@@ -316,12 +315,15 @@ hr {
 .navbar .navbar__list > * {
   font-size: 0.875rem;
   line-height: 100%;
-  color: #fefefe;
 }
 .navbar.show-bg {
   background: rgba(70, 55, 209, 0.4);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+}
+.navbar.show-bg > *,
+.navbar.show-bg a {
+  color: #fefefe;
 }
 
 @media screen and (min-width: 768px) {
@@ -437,19 +439,18 @@ hr {
   }
 }
 footer#footer {
-  background: #4637d1;
-  color: #edecfd;
+  color: #4e3de8;
 }
 footer#footer .custom-container {
   width: 90%;
 }
 footer#footer .custom-container h5 {
-  color: #cac5f8;
+  color: #a79ef4;
   font-size: 0.875rem;
   text-transform: uppercase;
 }
 footer#footer .custom-container a {
-  color: #fefefe;
+  color: #4e3de8;
   text-transform: capitalize;
   transition: 0.3s ease-in-out all;
 }
@@ -466,7 +467,7 @@ footer#footer .custom-container .email .out-link {
 footer#footer .custom-container .email .clipboard-msg {
   top: -1.5rem;
   left: 2.5rem;
-  color: #edecfd;
+  color: #372ba2;
   border-radius: 2rem;
   font-size: 0.875rem;
 }

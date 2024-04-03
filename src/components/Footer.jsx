@@ -24,7 +24,7 @@ const Footer = () => {
   return (
     <footer id="footer">
       <div className="custom-container text-left flex flex-col gap-20 lg:flex-row justify-between">
-        <div className="contact-container ">
+        <div className="contact-container">
           <div
             className="email flex flex-row gap-4 relative"
             onClick={copyEmail}>

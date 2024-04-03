@@ -1,10 +1,11 @@
-import { Faq, Header, Projects, Loading } from './';
+import { Faq, Header, Projects, Loading, SecondHeader } from './';
 
 const Home = () => {
   return (
     <main>
-      <Loading />
-      <Header />
+      {/* <Loading /> */}
+      {/* <Header /> */}
+      <SecondHeader />
       <Projects />
       <Faq />
     </main>

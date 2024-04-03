@@ -1,18 +1,17 @@
 footer#footer {
-  background: $cc-primary-600;
-  color: $cc-primary-50;
+  color: $cc-primary-500;
 
   .custom-container {
     width: 90%;
 
     h5 {
-      color: $cc-primary-100;
+      color: $cc-primary-200;
       font-size: $text-sm;
       text-transform: uppercase;
     }
 
     a {
-      color: $cc-white;
+      color: $cc-primary-500;
       text-transform: capitalize;
       transition: $transition;
     }
@@ -38,7 +37,7 @@ footer#footer {
         left: 2.5rem;
 
         // background: $cc-secondary-300;
-        color: $cc-primary-50;
+        color: $cc-primary-700;
         border-radius: $border-radius-pill;
         font-size: $text-sm;
       }
