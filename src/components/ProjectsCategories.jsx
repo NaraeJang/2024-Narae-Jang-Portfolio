@@ -4,7 +4,7 @@ const ProjectsCategories = () => {
   const { allCategories, filterItems, currentCategory } = useProjectContext();
 
   return (
-    <div className="pill-container gap-4">
+    <div className="pill-container gap-4  flex flex-row flex-wrap">
       {allCategories.map((category) => {
         return (
           <button

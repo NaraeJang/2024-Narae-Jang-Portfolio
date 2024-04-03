@@ -34,7 +34,7 @@ export const footerNav = [
 export const projectsData = [
   {
     id: nanoid(),
-    category: ['development', 'design'],
+    category: ['development', 'ux/ui'],
     img: NaraeJangWebp,
     imgAlt: 'NaraeJang Portfolio',
     client: 'Personal Project',
@@ -49,7 +49,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['development', 'design'],
+    category: ['development', 'ux/ui'],
     img: JobmateWebp,
     imgAlt: 'JobMate',
     client: 'Personal Project',
@@ -64,7 +64,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['development', 'design'],
+    category: ['development', 'ux/ui'],
     img: WegicWebp,
     imgAlt: 'Wegic',
     client: 'Wegic',
@@ -79,7 +79,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['design'],
+    category: ['ux/ui'],
     img: GanaWebp,
     imgAlt: 'Bar Ganadara',
     client: 'Bar Ganadara',
@@ -94,7 +94,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['design'],
+    category: ['ux/ui'],
     img: RedesignWebp,
     imgAlt: 'New IFLY Website',
     client: 'Calego',
@@ -109,7 +109,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['design'],
+    category: ['ux/ui'],
     img: TagWebp,
     imgAlt: 'Register Your Tag',
     client: 'Calego',
@@ -124,7 +124,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['design'],
+    category: ['marketing'],
     img: DigitalMarketingWebp,
     imgAlt: 'Digital Marketing',
     client: 'Calego',
@@ -139,7 +139,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['design'],
+    category: ['marketing'],
     img: GabrielThumWebp,
     imgAlt: 'Marketing',
     client: 'Groupe Gabriel',
