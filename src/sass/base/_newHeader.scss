@@ -1,0 +1,26 @@
+.intro-container {
+  padding: 28vh clamp(4rem, 12vw, 20rem) 12rem;
+  text-align: left;
+
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 8rem);
+    line-height: 140%;
+    text-transform: none;
+
+    color: $cc-primary-500;
+  }
+
+  h1::selection,
+  div::selection {
+    background-color: $cc-primary-600;
+    color: $cc-secondary-300;
+  }
+}
+
+@media screen and (max-width: $breakpoint-mobile-max) {
+  .intro-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40vh 0 4rem;
+  }
+}

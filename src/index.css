@@ -627,6 +627,29 @@ footer#footer .custom-container .email .clipboard-msg {
   background-image: url(../public/gabriel/banner2.webp);
 }
 
+.intro-container {
+  padding: 28vh clamp(4rem, 12vw, 20rem) 12rem;
+  text-align: left;
+}
+.intro-container h1 {
+  font-size: clamp(2.5rem, 5vw, 8rem);
+  line-height: 140%;
+  text-transform: none;
+  color: #4e3de8;
+}
+.intro-container h1::selection,
+.intro-container div::selection {
+  background-color: #4637d1;
+  color: #fff397;
+}
+
+@media screen and (max-width: 767px) {
+  .intro-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40vh 0 4rem;
+  }
+}
 .btn, .btn:visited, .btn:link {
   display: inline;
   padding: 0.45rem 0.9rem;
