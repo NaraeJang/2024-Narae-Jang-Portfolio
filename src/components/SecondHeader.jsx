@@ -18,7 +18,7 @@ const SecondHeader = () => {
         scrollTrigger: {
           trigger: char,
           start: 'top 60%',
-          end: 'bottom 20%',
+          end: 'bottom 30%',
           scrub: true,
           markers: false,
         },
