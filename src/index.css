@@ -772,6 +772,11 @@ button:disabled {
   transition: all 320ms cubic-bezier(0.26, 0.01, 0.17, 1);
 }
 
+@media screen and (768px) {
+  * {
+    cursor: default;
+  }
+}
 .plus-minus {
   width: 2rem;
   height: 2rem;
