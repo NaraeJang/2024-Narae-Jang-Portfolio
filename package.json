@@ -12,6 +12,8 @@
     "sass-prod": "sass --no-source-map --style=compressed src/sass/main.scss:src/index.css"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "@studio-freight/react-lenis": "^0.0.46",
     "dayjs": "^1.11.10",
     "gsap": "^3.12.5",
     "nanoid": "^5.0.6",

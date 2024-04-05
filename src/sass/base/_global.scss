@@ -20,7 +20,8 @@
 
 html {
   font-size: 100%; /* 16px */
-  scroll-behavior: smooth;
+  // scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 body {

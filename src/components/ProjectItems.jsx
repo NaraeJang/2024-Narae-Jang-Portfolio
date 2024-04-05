@@ -1,5 +1,10 @@
+import { useEffect } from 'react';
 import ProjectItem from './ProjectItem';
 import { useProjectContext } from './Projects';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const ProjectItems = () => {
   const { projectsItems } = useProjectContext();

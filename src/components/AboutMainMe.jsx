@@ -3,31 +3,38 @@ import { Title } from './';
 const AboutMainMe = () => {
   return (
     <section id="about-me">
-      <div className="pt-[6rem] pb-20">
+      <div className="pt-[8rem] lg:pt-[20vh] 2xl:pt-[14rem] pb-20">
         <Title title="about me" />
         <div className="text-left">
           <p className="mt-6 mb-5">
-            Hi! I&apos;m Narae.
-            <br />
-            I'm passionate about coding and view it as a powerful tool to bring
-            imaginative concepts to life in the online world. I have over three
-            years of experience in the design realm where I've gained an
-            understanding of the intricacies of creating visually appealing and
-            functional digital experiences.
+            Hi! I&apos;m Narae, a Designer & Developer passionate about crafting
+            seamless interfaces that bridge the gap between design and
+            technology, thereby enhancing user experiences and driving digital
+            innovation.
           </p>
           <p className="mb-5">
-            Through my experience as a designer, I recognize the critical
-            intersection of design and development. This unique vantage point
-            enables me to facilitate effective communication, streamline
-            workflow, and ultimately deliver superior results. The combination
-            of my design background and web development skills enables me to
-            seamlessly bridge the gap between the aesthetics and functionality.
+            With over three years of experience in marketing and UX/UI design,
+            I've further honed my skills in web development through dedicated
+            self-study over the past year and a half.
           </p>
+          <p className="mb-5">
+            My approach is rooted in effective communication and collaboration.
+            Understanding user needs is key, and I've learned the importance of
+            working closely with clients, users, stakeholders, and colleagues to
+            achieve our goals.
+          </p>
+          <p className="mb-5">
+            I'm proficient in Figma, Adobe Creative Suite and front-end
+            technologies like HTML, CSS, JavaScript, ReactJS, SASS, TailwindCSS,
+            Style-Components and more. I thrive on creating user-centered
+            solutions and collaborating with diverse teams.
+          </p>
+
           <p>
-            Originally from South Korea, and currently based in Montreal,
-            Canada, my diverse cultural background enriches my creative
-            approach, allowing me to infuse international perspectives into my
-            work.
+            I believe in the power of design and technology to transform
+            businesses and improve lives and I&apos;m ready to get my heart
+            pumping and work alongside like-minded professionals to grow
+            together.
           </p>
         </div>
       </div>

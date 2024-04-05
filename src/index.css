@@ -103,7 +103,7 @@
 
 html {
   font-size: 100%; /* 16px */
-  scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 body {

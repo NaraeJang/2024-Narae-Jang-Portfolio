@@ -4,7 +4,6 @@ const Home = () => {
   return (
     <main>
       <Loading />
-      {/* <Header /> */}
       <SecondHeader />
       <Projects />
       <Faq />

@@ -44,7 +44,7 @@ const Header = () => {
           between design and tech.
         </p>
       </div>
-      {/* <div className=" absolute bg-black/15 w-full h-full"></div> */}
+
       <div className="gradient-bg">
         <svg xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -73,7 +73,6 @@ const Header = () => {
           <div className="interactive"></div>
         </div>
       </div>
-      {/* <Spline scene="https://prod.spline.design/D726QFNsxJlXYBml/scene.splinecode" /> */}
     </div>
   );
 };
