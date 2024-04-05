@@ -12,7 +12,7 @@ const AboutNavbar = () => {
             <a
               key={nav.id}
               href={`/about${nav.path}`}
-              className={`work-pill leading-tight text-left ${
+              className={`w-full min-w-[9.375rem] work-pill leading-tight text-left ${
                 location.pathname === '/about' &&
                 location.hash === `${nav.path}`
                   ? 'active'
