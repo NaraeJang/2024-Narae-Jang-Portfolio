@@ -12,7 +12,8 @@ you'll discover a collection of projects reflecting my journey as a web develope
 | Dayjs                  | 1.11.10 | React-icon       | 4.12.0  |
 | gsap                   | 3.12.5  | TailwindCSS      | 3.4.1   |
 | nanoid                 | 5.0.6   | react-router-dom | 6.22.2  |
-| react-router-hash-link | 2.4.3   |
+| react-router-hash-link | 2.4.3   | react-lenis      | 0.0.46  |
+| split-type             | 0.3.4   |
 
 ## About Me
 
@@ -24,11 +25,11 @@ Front-End Developer & Designer with 3 years of experience designing, managing e-
 
 **Version Control:** `Git`
 
-**Backend Development:** `Express.js` `MongoDB` `Mongoose` `Postman`
+**Backend Development:** `Express.js` `MongoDB` `Mongoose`
 
 **Design:** `Figma` `Adobe Creative Suite`
 
-**Others:** `Notion`
+**Others:** `Postman` `Notion`
 
 ## Contact Me
 

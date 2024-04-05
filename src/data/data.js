@@ -39,7 +39,7 @@ export const projectsData = [
     imgAlt: 'JobMate',
     client: 'Personal Project',
     title: 'JobMate',
-    keyword: `MERN | Style components | UI Design`,
+    keyword: `MERN | MongoDB | Express | React | NodeJS | Style components | UI Design`,
     liveBtn: `Live Demo`,
     livePath: `https://jobmate-1gpn.onrender.com/`,
     designBtn: null,
