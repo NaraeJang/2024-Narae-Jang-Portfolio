@@ -53,7 +53,7 @@ const Ganadara = () => {
 
   return (
     <main id="ganadara" className="relative">
-      <Loading />
+      {/* <Loading /> */}
       <div className="hero" id="gana-hero"></div>
       <GanaTitle />
       <GanaDesignProcess />

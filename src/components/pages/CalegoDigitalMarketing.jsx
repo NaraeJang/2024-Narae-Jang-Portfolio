@@ -11,7 +11,7 @@ import {
 const CalegoDigitalMarketing = () => {
   return (
     <main id="digital-marketing">
-      <Loading />
+      {/* <Loading /> */}
       <div className="w-full h-full hero"></div>
       <CTitle />
       <CEmailNewsletter />
