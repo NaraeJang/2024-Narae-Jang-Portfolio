@@ -24,7 +24,7 @@ const HomeLayout = () => {
   return (
     <HomeContext.Provider value={{}}>
       {shouldShowCursor && <Cursor />}
-      <div className="relative overflow-hidden">
+      <div className="relative">
         <Navbar />
         <Outlet />
         <Footer />

@@ -1,4 +1,4 @@
-import { ProjectsCategories, Title, ProjectItems } from './';
+import { ProjectsCategories, Title, ProjectItems, SmoothScroll } from './';
 import { projectsData } from '../data/data';
 import { createContext, useContext, useState } from 'react';
 import { gsap } from 'gsap';
@@ -79,31 +79,17 @@ const Projects = () => {
       }
     );
 
-    gsap.fromTo(
-      '.project-item',
-      {
-        scrollTrigger: {
-          trigger: '.project-item',
-          start: 'top 80%',
-          scrub: 1,
-        },
-        opacity: 0,
-        y: 100,
+    gsap.to('.project-item', {
+      scrollTrigger: {
+        trigger: '.project-item',
+        end: 'top 60%',
+        scrub: true,
       },
-      {
-        scrollTrigger: {
-          trigger: '.project-item',
-          start: 'top 80%',
-          end: 'top 50%',
-          scrub: 1,
-        },
-        delay: 0.5,
-        opacity: 1,
-        y: 0,
-        stagger: 0.3,
-      }
-    );
-  }, []);
+      opacity: 1,
+      y: '0px',
+      stagger: 0.5,
+    });
+  }, [projectsItems]);
 
   // ...
 

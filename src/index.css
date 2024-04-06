@@ -103,6 +103,7 @@
 
 html {
   font-size: 100%; /* 16px */
+  scroll-behavior: smooth;
   overscroll-behavior: none;
 }
 
@@ -366,6 +367,11 @@ hr {
 .work-article .git:hover {
   background: #edecfd;
   border: 1px solid #a79ef4;
+}
+
+article.project-item {
+  opacity: 0;
+  transform: translateY(200px);
 }
 
 #faq .faq-container h2 {

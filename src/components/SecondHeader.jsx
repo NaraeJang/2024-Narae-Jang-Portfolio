@@ -2,6 +2,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useEffect } from 'react';
 import SplitType from 'split-type';
+import { SmoothScroll } from './';
 
 gsap.registerPlugin(ScrollTrigger);
 

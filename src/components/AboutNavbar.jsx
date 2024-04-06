@@ -6,7 +6,7 @@ const AboutNavbar = () => {
 
   return (
     <aside className="py-20 hidden invisible opacity-0 lg:block lg:visible lg:opacity-100 lg:w-full  lg:max-w-[15.5rem]">
-      <nav className="flex flex-col gap-6 fixed top-1/2 -translate-y-1/2">
+      <nav className="flex flex-col gap-6 sticky top-1/2 -translate-y-1/2">
         {aboutNavbarList.map((nav) => {
           return (
             <a

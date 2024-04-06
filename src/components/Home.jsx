@@ -2,7 +2,7 @@ import { Faq, Header, Projects, Loading, SecondHeader } from './';
 
 const Home = () => {
   return (
-    <main>
+    <main className="relative overflow-hidden">
       {/* <Loading /> */}
       <SecondHeader />
       <Projects />
