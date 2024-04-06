@@ -5,8 +5,11 @@ const AboutMainLicense = () => {
   return (
     <section id="about-license" className="mb-[8rem]">
       <div className="custom-container">
-        <Title title="certifications" />
-        <AboutCards cards={certificationCards} />
+        <Title title="certifications" extraClass="about-license-title" />
+        <AboutCards
+          cards={certificationCards}
+          extraClass="about-license-card"
+        />
       </div>
     </section>
   );

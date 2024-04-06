@@ -4,8 +4,8 @@ const AboutMainSchool = () => {
   return (
     <section id="about-education">
       <div className="py-[6rem] pb-20">
-        <Title title="Education" />
-        <AboutCards cards={educationCards} />
+        <Title title="Education" extraClass="about-education-title" />
+        <AboutCards cards={educationCards} extraClass="about-school-card" />
       </div>
     </section>
   );

@@ -527,6 +527,29 @@ footer#footer .custom-container .email .clipboard-msg {
     max-width: 24rem;
   }
 }
+#about-work,
+.about-school-card,
+.about-license-card {
+  opacity: 0;
+  transform: translateY(200px);
+}
+
+.about-education-title,
+.about-license-title {
+  opacity: 0;
+  transform: translateX(-25px);
+}
+
+@media screen and (min-width: 2000px), (min-height: 2000px) {
+  #about-work,
+  .about-school-card,
+  .about-license-card,
+  .about-education-title,
+  .about-license-title {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
 #intro-slider {
   background: #4637d1;
   z-index: 200;

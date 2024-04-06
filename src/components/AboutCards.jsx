@@ -1,6 +1,6 @@
 import { AboutCard } from './';
 
-const AboutCards = ({ cards }) => {
+const AboutCards = ({ cards, extraClass = '' }) => {
   return (
     <div className="mt-6 flex flex-col gap-5 md:flex-row flex-wrap">
       {cards.map((card) => {
@@ -13,6 +13,7 @@ const AboutCards = ({ cards }) => {
             title={title}
             linkTitle={linkTitle}
             link={link}
+            extraClass={extraClass}
           />
         );
       })}

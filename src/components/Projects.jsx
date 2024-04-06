@@ -58,7 +58,9 @@ const Projects = () => {
         opacity: 1,
       }
     );
+  }, []);
 
+  useEffect(() => {
     gsap.to('.project-item', {
       scrollTrigger: {
         trigger: '.project-item',
