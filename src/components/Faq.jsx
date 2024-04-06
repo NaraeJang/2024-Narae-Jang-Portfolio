@@ -20,19 +20,6 @@ const Faq = () => {
     setActiveId(newActiveId);
   };
 
-  useEffect(() => {
-    gsap.to('.faq-container', {
-      scrollTrigger: {
-        trigger: '.faq-container',
-        start: 'top 80%',
-        end: 'top 60%',
-        scrub: true,
-      },
-      opacity: 1,
-      y: 0,
-    });
-  }, []);
-
   return (
     <FaqContext.Provider value={{ toggleQuestion, questions, activeId }}>
       <section id="faq">
