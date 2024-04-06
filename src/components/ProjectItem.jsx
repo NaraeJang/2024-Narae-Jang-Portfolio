@@ -17,7 +17,7 @@ const ProjectItem = ({
   gitLink,
 }) => {
   return (
-    <article className="work-article relative">
+    <article className="work-article relative project-item">
       <div className="img-container">
         {gitLink && (
           <a href={gitLink} target="_blank" className="link">

@@ -30,35 +30,82 @@ const Projects = () => {
     return setProjectsItems(newItems);
   };
 
-  // // ...
+  // ...
 
-  // useEffect(() => {
-  //   gsap.fromTo(
-  //     '.project-title',
-  //     {
-  //       scrollTrigger: {
-  //         trigger: '.project-title',
-  //         start: 'bottom 80vh',
-  //         end: '100vh top',
-  //         scrub: 1,
-  //       },
-  //       x: '-50%',
-  //       opacity: 0,
-  //     },
-  //     {
-  //       scrollTrigger: {
-  //         trigger: '.project-title',
-  //         start: 'bottom 80vh',
-  //         end: '80vh top',
-  //         scrub: 1,
-  //       },
-  //       x: '0%',
-  //       opacity: 1,
-  //     }
-  //   );
-  // }, []);
+  useEffect(() => {
+    gsap.fromTo(
+      '.project-title',
+      {
+        scrollTrigger: {
+          trigger: '.project-title',
+          start: 'top end',
+          scrub: 1,
+        },
+        x: '-50%',
+        opacity: 0,
+      },
+      {
+        scrollTrigger: {
+          trigger: '.project-title',
+          start: 'top 80%',
+          end: 'top 50%',
+          scrub: 1,
+        },
+        x: '0%',
+        opacity: 1,
+      }
+    );
 
-  // // ...
+    gsap.fromTo(
+      '.project-category',
+      {
+        scrollTrigger: {
+          trigger: '.project-category',
+          start: 'top end',
+          scrub: 1,
+        },
+        x: '50%',
+        opacity: 0,
+      },
+      {
+        scrollTrigger: {
+          trigger: '.project-category',
+          start: 'top 80%',
+          end: 'top 50%',
+          scrub: 1,
+        },
+        x: '0%',
+        opacity: 1,
+      }
+    );
+
+    gsap.fromTo(
+      '.project-item',
+      {
+        scrollTrigger: {
+          trigger: '.project-item',
+          start: 'top 80%',
+          scrub: 1,
+        },
+        opacity: 0,
+        y: 100,
+      },
+      {
+        scrollTrigger: {
+          trigger: '.project-item',
+          start: 'top 80%',
+          end: 'top 50%',
+          scrub: 1,
+        },
+        delay: 0.5,
+        opacity: 1,
+        y: 0,
+        stagger: 0.3,
+      }
+    );
+  }, []);
+
+  // ...
 
   return (
     <ProjectContext.Provider

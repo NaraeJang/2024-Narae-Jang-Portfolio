@@ -1,9 +1,13 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useState, useEffect } from 'react';
 import { FaqQuestion, Title } from './';
 import { faqQuestions } from '../data/data';
 import { FaArrowRight } from 'react-icons/fa6';
 
 import { HashLink } from 'react-router-hash-link';
+
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
 const FaqContext = createContext();
 
@@ -15,6 +19,32 @@ const Faq = () => {
     const newActiveId = id === activeId ? null : id;
     setActiveId(newActiveId);
   };
+
+  useEffect(() => {
+    gsap.fromTo(
+      '.faq-container',
+      {
+        scrollTrigger: {
+          trigger: '.faq-container',
+          start: 'top 95%',
+          scrub: true,
+        },
+        opacity: 0,
+        y: 200,
+      },
+      {
+        scrollTrigger: {
+          trigger: '.faq-container',
+          start: 'top 90%',
+          end: 'top 60%',
+          scrub: 1,
+          markers: true,
+        },
+        opacity: 1,
+        y: 0,
+      }
+    );
+  }, []);
 
   return (
     <FaqContext.Provider value={{ toggleQuestion, questions, activeId }}>
