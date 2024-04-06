@@ -1,5 +1,8 @@
 #faq {
   .faq-container {
+    opacity: 0;
+    transform: translateY(200px);
+
     h2 {
       margin-bottom: 2.5rem;
     }

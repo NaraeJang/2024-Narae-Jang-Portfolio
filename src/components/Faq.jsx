@@ -21,28 +21,16 @@ const Faq = () => {
   };
 
   useEffect(() => {
-    gsap.fromTo(
-      '.faq-container',
-      {
-        scrollTrigger: {
-          trigger: '.faq-container',
-          start: 'top 95%',
-          scrub: true,
-        },
-        opacity: 0,
-        y: 200,
+    gsap.to('.faq-container', {
+      scrollTrigger: {
+        trigger: '.faq-container',
+        start: 'top 80%',
+        end: 'top 60%',
+        scrub: true,
       },
-      {
-        scrollTrigger: {
-          trigger: '.faq-container',
-          start: 'top 90%',
-          end: 'top 60%',
-          scrub: true,
-        },
-        opacity: 1,
-        y: 0,
-      }
-    );
+      opacity: 1,
+      y: 0,
+    });
   }, []);
 
   return (

@@ -33,45 +33,25 @@ const Projects = () => {
   // ...
 
   useEffect(() => {
-    gsap.fromTo(
-      '.project-title',
-      {
-        scrollTrigger: {
-          trigger: '.project-title',
-          start: 'top end',
-          scrub: 1,
-        },
-        x: '-50%',
-        opacity: 0,
+    gsap.to('.project-title', {
+      scrollTrigger: {
+        trigger: '.project-title',
+        start: 'top 80%',
+        end: 'top 60%',
+        scrub: 1,
       },
-      {
-        scrollTrigger: {
-          trigger: '.project-title',
-          start: 'top 80%',
-          end: 'top 50%',
-          scrub: 1,
-        },
-        x: '0%',
-        opacity: 1,
-      }
-    );
+      x: '0px',
+      opacity: 1,
+    });
 
-    gsap.fromTo(
+    gsap.to(
       '.project-category',
-      {
-        scrollTrigger: {
-          trigger: '.project-category',
-          start: 'top end',
-          scrub: 1,
-        },
-        x: '50%',
-        opacity: 0,
-      },
+
       {
         scrollTrigger: {
           trigger: '.project-category',
           start: 'top 80%',
-          end: 'top 50%',
+          end: 'top 60%',
           scrub: 1,
         },
         x: '0%',
@@ -82,6 +62,7 @@ const Projects = () => {
     gsap.to('.project-item', {
       scrollTrigger: {
         trigger: '.project-item',
+        start: 'top 80%',
         end: 'top 60%',
         scrub: true,
       },

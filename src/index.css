@@ -371,9 +371,23 @@ hr {
 
 article.project-item {
   opacity: 0;
-  transform: translateY(200px);
+  transform: translateY(100px);
 }
 
+.project-title {
+  opacity: 0;
+  transform: translateX(-200%);
+}
+
+.project-category {
+  opacity: 0;
+  transform: translateX(200%);
+}
+
+#faq .faq-container {
+  opacity: 0;
+  transform: translateY(200px);
+}
 #faq .faq-container h2 {
   margin-bottom: 2.5rem;
 }
