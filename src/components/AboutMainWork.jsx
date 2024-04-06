@@ -11,7 +11,7 @@ const AboutMainWork = () => {
             return (
               <article key={work.id}>
                 <span className="text-sm">{work.year}</span>
-                <h4 className="text-lg poppins-semibold leading-loose">
+                <h4 className="text-lg poppins-semibold py-1 leading-tight">
                   {work.title}
                 </h4>
                 {work.company && <p className="text-sm">{work.company}</p>}
