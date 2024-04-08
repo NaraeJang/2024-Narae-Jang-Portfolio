@@ -2,7 +2,6 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useEffect } from 'react';
 import SplitType from 'split-type';
-import { SmoothScroll } from './';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -18,8 +17,8 @@ const SecondHeader = () => {
       gsap.from(text.chars, {
         scrollTrigger: {
           trigger: char,
-          start: 'top 60%',
-          end: 'bottom 30%',
+          start: 'top 38%',
+          end: 'bottom 35%',
           scrub: true,
           markers: false,
         },

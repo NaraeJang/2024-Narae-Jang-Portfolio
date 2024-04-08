@@ -1,10 +1,20 @@
 import { useEffect, useState } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const location = useLocation();
   const [isScrolling, setIsScrolling] = useState(false);
+  const navigate = useNavigate();
+
+  console.log(location.pathname);
+
+  const navigateToHome = () => {
+    navigate({
+      pathname: '/',
+      state: { from: location.pathname },
+    });
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,7 +38,8 @@ const Navbar = () => {
 
       <nav className="navbar__list">
         <HashLink
-          to={'./#projects'}
+          to="#projects"
+          onClick={navigateToHome}
           className={
             location.pathname === '/' && location.hash === '#projects'
               ? 'active'

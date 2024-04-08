@@ -84,7 +84,7 @@ export const projectsData = [
     imgAlt: 'Bar Ganadara',
     client: 'Personal Project',
     title: 'Bar Ganadara App',
-    keyword: `Case Study | UX/UI Design | Web Design`,
+    keyword: `Case Study | UX/UI Design`,
     liveBtn: null,
     livePath: null,
     designBtn: 'Learn More',

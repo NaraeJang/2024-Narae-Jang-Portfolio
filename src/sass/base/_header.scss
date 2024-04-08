@@ -20,6 +20,11 @@
 }
 
 .navbar {
+  opacity: 0;
+  transition: $transition;
+}
+
+.navbar {
   position: fixed;
   width: min(92%, 26rem);
   top: 1rem;
