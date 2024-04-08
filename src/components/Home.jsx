@@ -18,10 +18,7 @@ const Home = () => {
         opacity: 1,
         y: 0,
       }
-    ).to('.navbar', {
-      opacity: 1,
-      duration: 0.4,
-    });
+    );
   }, []);
 
   return (
