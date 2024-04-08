@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import { gsap } from 'gsap';
 
 const Navbar = () => {
   const location = useLocation();
@@ -18,12 +17,6 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    const t1 = gsap.timeline();
-    t1.to('.navbar', {
-      opacity: 1,
-      duration: 0.4,
-    });
-
     const handleScroll = () => {
       const scrolled = window.scrollY > 0;
 
