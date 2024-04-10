@@ -6,6 +6,7 @@ import {
   Candle,
   CalegoDigitalMarketing,
   Gabriel,
+  PrintGana,
 } from './components/pages/';
 import Lenis from '@studio-freight/lenis';
 
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       { path: 'candle-ifly', element: <Candle /> },
       { path: 'calego-digital-marketing', element: <CalegoDigitalMarketing /> },
       { path: 'group-gabriel', element: <Gabriel /> },
+      { path: 'ganabar-print', element: <PrintGana /> },
     ],
   },
 ]);

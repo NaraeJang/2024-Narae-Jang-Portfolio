@@ -10,6 +10,7 @@ import GabrielThumWebp from '../assets/projects-images/GabrielThum.webp';
 import GanaPrintThumWebp from '../assets/projects-images/Thumb-Gana.webp';
 import LogoThumWebp from '../assets/projects-images/Thumb-Logo.webp';
 import ArtThumWebp from '../assets/projects-images/Thumb-Other.webp';
+import EwThumWebp from '../assets/projects-images/Thumb-Stationary.webp';
 
 export const footerNav = [
   {
@@ -157,7 +158,22 @@ export const projectsData = [
     imgAlt: 'Marketing',
     client: 'Bar Ganadara',
     title: 'Print Design',
-    keyword: `Graphic Design | Print Marketing | Brochure | Business Card`,
+    keyword: `Freelance Work | Graphic Design | Print Design | Menu | Business Card`,
+    liveBtn: null,
+    livePath: null,
+    designBtn: 'Learn More',
+    designPath: './ganabar-print#print-gana-toppage',
+    git: false,
+    gitLink: null,
+  },
+  {
+    id: nanoid(),
+    category: ['marketing'],
+    img: EwThumWebp,
+    imgAlt: 'Marketing',
+    client: 'EW Network',
+    title: 'Stationary Design',
+    keyword: `Freelance Work | Graphic Design | Print Design | Brochure | Business Card | Envelope`,
     liveBtn: null,
     livePath: null,
     designBtn: 'Learn More',
@@ -170,9 +186,9 @@ export const projectsData = [
     category: ['other'],
     img: LogoThumWebp,
     imgAlt: 'Freelance Work',
-    client: 'Freelance Work',
+    client: 'Several Clients',
     title: 'Logo Design',
-    keyword: `Han International | Jako Restaurant | R&K Consulting`,
+    keyword: `Freelance Work | Han International | Jako Restaurant | R&K Consulting`,
     liveBtn: null,
     livePath: null,
     designBtn: 'Learn More',
