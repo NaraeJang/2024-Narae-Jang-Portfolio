@@ -192,7 +192,7 @@ export const projectsData = [
     liveBtn: null,
     livePath: null,
     designBtn: 'Learn More',
-    designPath: './group-gabriel#gabriel',
+    designPath: './logo_design#logo_design-top',
     git: false,
     gitLink: null,
   },

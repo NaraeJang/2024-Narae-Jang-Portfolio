@@ -8,6 +8,7 @@ import {
   Gabriel,
   PrintGana,
   EwNetwork,
+  LogoDesign,
 } from './components/pages/';
 import Lenis from '@studio-freight/lenis';
 
@@ -29,6 +30,7 @@ const router = createBrowserRouter([
       { path: 'group-gabriel', element: <Gabriel /> },
       { path: 'ganabar-print', element: <PrintGana /> },
       { path: 'ew_network', element: <EwNetwork /> },
+      { path: 'logo_design', element: <LogoDesign /> },
     ],
   },
 ]);
