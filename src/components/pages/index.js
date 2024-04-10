@@ -5,3 +5,4 @@ export { default as Candle } from './Candle';
 export { default as CalegoDigitalMarketing } from './CalegoDigitalMarketing';
 export { default as Gabriel } from './Gabriel';
 export { default as PrintGana } from './PrintGana';
+export { default as EwNetwork } from './EwNetwork';

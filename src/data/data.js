@@ -177,7 +177,7 @@ export const projectsData = [
     liveBtn: null,
     livePath: null,
     designBtn: 'Learn More',
-    designPath: './group-gabriel#gabriel',
+    designPath: './ew_network#ew_network-top',
     git: false,
     gitLink: null,
   },

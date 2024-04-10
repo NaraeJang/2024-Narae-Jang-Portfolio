@@ -7,6 +7,7 @@ import {
   CalegoDigitalMarketing,
   Gabriel,
   PrintGana,
+  EwNetwork,
 } from './components/pages/';
 import Lenis from '@studio-freight/lenis';
 
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
       { path: 'calego-digital-marketing', element: <CalegoDigitalMarketing /> },
       { path: 'group-gabriel', element: <Gabriel /> },
       { path: 'ganabar-print', element: <PrintGana /> },
+      { path: 'ew_network', element: <EwNetwork /> },
     ],
   },
 ]);
