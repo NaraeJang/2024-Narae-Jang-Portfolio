@@ -9,6 +9,7 @@ import {
   PrintGana,
   EwNetwork,
   LogoDesign,
+  Artwork,
 } from './components/pages/';
 import Lenis from '@studio-freight/lenis';
 
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
       { path: 'ganabar-print', element: <PrintGana /> },
       { path: 'ew_network', element: <EwNetwork /> },
       { path: 'logo_design', element: <LogoDesign /> },
+      { path: 'artwork', element: <Artwork /> },
     ],
   },
 ]);
