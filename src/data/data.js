@@ -1,17 +1,15 @@
 import { nanoid } from 'nanoid';
-// import NaraeJangPng from '../assets/projects-images/NaraeJangPortfolio.png';
 import NaraeJangWebp from '../assets/projects-images/NaraeJangPortfolio.webp';
-// import JobmatePng from '../assets/projects-images/Jobmate.png';
 import JobmateWebp from '../assets/projects-images/Jobmate.webp';
-// import WegicPng from '../assets/projects-images/Wegic.png';
 import WegicWebp from '../assets/projects-images/Wegic.webp';
-// import GanaPng from '../assets/projects-images/Gana.png';
 import GanaWebp from '../assets/projects-images/Gana.webp';
-// import RedesignPng from '../assets/projects-images/RedesignIfly.png';
 import RedesignWebp from '../assets/projects-images/RedesignIfly.webp';
 import TagWebp from '../assets/projects-images/Calego_tag.webp';
 import DigitalMarketingWebp from '../assets/projects-images/Calego.webp';
 import GabrielThumWebp from '../assets/projects-images/GabrielThum.webp';
+import GanaPrintThumWebp from '../assets/projects-images/Thumb-Gana.webp';
+import LogoThumWebp from '../assets/projects-images/Thumb-Logo.webp';
+import ArtThumWebp from '../assets/projects-images/Thumb-Other.webp';
 
 export const footerNav = [
   {
@@ -145,6 +143,51 @@ export const projectsData = [
     client: 'Groupe Gabriel',
     title: 'Marketing',
     keyword: `Graphic Design | Digital & Print Marketing | Video Editing | Maintaining Gabriel Websites`,
+    liveBtn: null,
+    livePath: null,
+    designBtn: 'Learn More',
+    designPath: './group-gabriel#gabriel',
+    git: false,
+    gitLink: null,
+  },
+  {
+    id: nanoid(),
+    category: ['marketing'],
+    img: GanaPrintThumWebp,
+    imgAlt: 'Marketing',
+    client: 'Bar Ganadara',
+    title: 'Print Design',
+    keyword: `Graphic Design | Print Marketing | Brochure | Business Card`,
+    liveBtn: null,
+    livePath: null,
+    designBtn: 'Learn More',
+    designPath: './group-gabriel#gabriel',
+    git: false,
+    gitLink: null,
+  },
+  {
+    id: nanoid(),
+    category: ['other'],
+    img: LogoThumWebp,
+    imgAlt: 'Freelance Work',
+    client: 'Freelance Work',
+    title: 'Logo Design',
+    keyword: `Han International | Jako Restaurant | R&K Consulting`,
+    liveBtn: null,
+    livePath: null,
+    designBtn: 'Learn More',
+    designPath: './group-gabriel#gabriel',
+    git: false,
+    gitLink: null,
+  },
+  {
+    id: nanoid(),
+    category: ['other'],
+    img: ArtThumWebp,
+    imgAlt: 'Artwork',
+    client: 'Personal Project',
+    title: 'Artwork',
+    keyword: `Adobe Creative Suite | Illustrator | Photoshop | InDesign | After Effects | Premiere Pro | Traditional Artwork`,
     liveBtn: null,
     livePath: null,
     designBtn: 'Learn More',
