@@ -676,11 +676,11 @@ footer#footer .custom-container .email .clipboard-msg {
 }
 
 .intro-container {
-  padding: 2rem clamp(4rem, 12vw, 20rem) 0;
+  padding: max(7rem, 10vh) clamp(4rem, 12vw, 18rem) 0;
   display: grid;
   place-items: center;
   text-align: left;
-  height: 100vh;
+  min-height: 100vh;
   max-height: 1920px;
 }
 .intro-container h1 {

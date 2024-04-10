@@ -32,8 +32,10 @@ const SecondHeader = () => {
     <section id="header">
       <div className="intro-container">
         <h1 className="poppins-medium reveal-type">
-          I craft seamless interfaces that bridge the gap between design and
-          technology, enhancing user experiences and driving digital innovation.
+          From defining brand identities to refining user interfaces, my
+          expertise encompasses branding, logo design, publication design,
+          digital marketing, UI/UX, and development, forging new paths into the
+          digital landscape.
         </h1>
       </div>
     </section>
