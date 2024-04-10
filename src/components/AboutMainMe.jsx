@@ -7,10 +7,12 @@ const AboutMainMe = () => {
         <Title title="about me" />
         <div className="text-left">
           <p className="mt-6 mb-5">
-            Hi! I&apos;m Narae, a Designer & Developer passionate about crafting
-            seamless interfaces that bridge the gap between design and
-            technology, thereby enhancing user experiences and driving digital
-            innovation.
+            Hi! I&apos;m Narae, a Designer & Developer with a passion for
+            blending aesthetic design and technological innovation to craft
+            seamless digital experiences. My expertise encompasses branding,
+            logo design, publication design, digital marketing, UI/UX, and web
+            development, each area reinforcing my commitment to enhancing user
+            experiences and driving digital innovation.
           </p>
           <p className="mb-5">
             With over three years of experience in marketing and UX/UI design,
