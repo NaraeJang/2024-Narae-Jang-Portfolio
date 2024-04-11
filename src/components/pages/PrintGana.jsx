@@ -6,7 +6,9 @@ import MockImg from '../../assets/print-gana/GanadaraMenu.webp';
 
 const PrintGana = () => {
   return (
-    <main id="print-gana-toppage" className="text-left w-[90%]  mx-auto">
+    <main
+      id="print-gana-toppage"
+      className="text-left w-[90%] max-w-[2560px] mx-auto">
       <section className="py-[6rem] lg:py-[10rem] flex flex-col">
         <div>
           <span className="poppins-medium">Bar Ganadara</span>

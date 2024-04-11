@@ -55,16 +55,18 @@ const Ganadara = () => {
     <main id="ganadara" className="relative">
       {/* <Loading /> */}
       <div className="hero" id="gana-hero"></div>
-      <GanaTitle />
-      <GanaDesignProcess />
-      <GanaToPainPoint />
-      <GanaJourneyPaper />
-      <GanaDigitalToLowFidelity />
-      <GanaUsabilityToMockUp />
-      <GanaBookingFlow />
-      <GanaHighFidelity />
-      <GanaDesignSystem />
-      <GanaAccessibilityTakeaways />
+      <div className="max-w-[2560px] mx-auto">
+        <GanaTitle />
+        <GanaDesignProcess />
+        <GanaToPainPoint />
+        <GanaJourneyPaper />
+        <GanaDigitalToLowFidelity />
+        <GanaUsabilityToMockUp />
+        <GanaBookingFlow />
+        <GanaHighFidelity />
+        <GanaDesignSystem />
+        <GanaAccessibilityTakeaways />
+      </div>
     </main>
   );
 };

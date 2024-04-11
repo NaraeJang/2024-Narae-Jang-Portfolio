@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react';
 const Footer = () => {
   const currentYear = dayjs().get('year');
   const [copySuccessMessage, setCopySuccessMessage] = useState('');
+  const isMobile = window.innerWidth < 768;
 
   const email = 'naraejang0117@gmail.com';
 
@@ -38,23 +39,11 @@ const Footer = () => {
               </p>
             )}
           </div>
-          <p>
-            You can also find me on{' '}
-            <a
-              target="_blank"
-              href="https://github.com/NaraeJang"
-              className="out-link poppins-semibold hover:underline">
-              Github
-            </a>
-            , and{' '}
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/naraejang0117"
-              className="out-link poppins-semibold hover:underline">
-              LinkedIn.
-            </a>
-          </p>
-          <p>&copy; 2023 - {currentYear} Narae Jang</p>
+          {!isMobile && (
+            <p className="mt-0 mb-10 ">
+              &copy; 2023 - {currentYear} Narae Jang
+            </p>
+          )}
         </div>
 
         <div className="flex flex-col gap-20  lg:flex-row ">
@@ -64,7 +53,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col">
-            <h5 className="poppins-semibold leading-loose">Projects</h5>
+            <h5 className="poppins-semibold leading-loose">Socials</h5>
             <nav className="flex flex-col gap-1">
               {footerNav.map((project) => {
                 return (
@@ -81,6 +70,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      {isMobile && (
+        <p className="mt-0 mb-10 text-left md:text-center w-[90%] mx-auto">
+          &copy; 2023 - {currentYear} Narae Jang
+        </p>
+      )}
     </footer>
   );
 };

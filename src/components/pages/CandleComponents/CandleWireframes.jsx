@@ -9,7 +9,7 @@ import CandleFinal03 from '../../../assets/candle-images/candle-final-03.webp';
 const CandleWireframes = () => {
   return (
     <>
-      <section className="custom-container w-[90%]">
+      <section className="custom-container w-[90%] max-w-[2560px]">
         <p className="poppins-medium text-[#737373]">User Flow</p>
         <CandleTitleText text="Wireframing" />
         <p className="mb-10">
@@ -67,7 +67,7 @@ const CandleWireframes = () => {
       </section>
 
       <section className="bg-[#F3F8FF]">
-        <div className="custom-container w-[90%]">
+        <div className="custom-container w-[90%] max-w-[2560px]">
           <CandleTitleText text="User Interface Design" />
 
           <div className="flex flex-col items-center md:flex-row gap-4 justify-center mt-4 mb-20">

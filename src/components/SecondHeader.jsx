@@ -30,7 +30,7 @@ const SecondHeader = () => {
 
   return (
     <section id="header">
-      <div className="intro-container">
+      <div className="intro-container max-w-[2560px] mx-auto">
         <h1 className="opacity-0 invisible hidden">
           From defining brand identities to refining user interfaces, my
           expertise encompasses branding, logo design, publication design,

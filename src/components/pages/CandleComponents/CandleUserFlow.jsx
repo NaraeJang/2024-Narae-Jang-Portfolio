@@ -5,7 +5,7 @@ import CandleUserFlow03 from '../../../assets/candle-images/candle-user-flow-03.
 
 const CandleUserFlow = () => {
   return (
-    <section className="custom-container w-[90%]">
+    <section className="custom-container w-[90%] max-w-[2560px]">
       <p className="poppins-medium text-[#737373]">User Flow</p>
       <CandleTitleText text="Making a smooth flow to “leave a review” while the consumer is registering their tag." />
 

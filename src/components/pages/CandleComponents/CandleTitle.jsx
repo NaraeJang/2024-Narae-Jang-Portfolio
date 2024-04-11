@@ -4,7 +4,7 @@ import CandleTitleImg from '../../../assets/candle-images/Candle-title.webp';
 const CandleTitle = () => {
   return (
     <>
-      <section className="py-[6rem] lg:py-[10rem] w-[90%] mx-auto flex flex-col text-left">
+      <section className="py-[6rem] lg:py-[10rem] w-[90%] mx-auto flex flex-col text-left max-w-[2560px]">
         <div className="flex flex-row gap-10">
           <div className="flex flex-col gap-10 basic-3/5 md:w-[65%]">
             <div>
@@ -65,7 +65,7 @@ const CandleTitle = () => {
       </section>
 
       <section className="bg-[#F3F8FF]">
-        <div className="w-[90%] custom-container">
+        <div className="w-[90%] custom-container max-w-[2560px]">
           <CandleTitleText text="Before Start" />
           <p>
             In the design process, we took a goal-directed design approach that

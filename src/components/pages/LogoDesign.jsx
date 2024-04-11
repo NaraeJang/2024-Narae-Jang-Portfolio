@@ -14,7 +14,9 @@ import Logo2Img from '../../assets/logo/logo2.webp';
 
 const LogoDesign = () => {
   return (
-    <main id="logo_design-top" className="text-left w-[90%]  mx-auto">
+    <main
+      id="logo_design-top"
+      className="text-left w-[90%] max-w-[2560px] mx-auto">
       <section className="py-[6rem] lg:py-[10rem] flex flex-col">
         <div>
           <h3 className="dt-black text-3xl">Print Design</h3>

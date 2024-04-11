@@ -15,18 +15,19 @@ import EwThumWebp from '../assets/projects-images/Thumb-Stationary.webp';
 export const footerNav = [
   {
     id: nanoid(),
-    title: 'Narae Jang',
-    gitLink: 'https://github.com/NaraeJang/2024-Narae-Jang-Portfolio',
+    title: 'Instagram',
+    gitLink:
+      'https://www.instagram.com/art.phile?igsh=MmVlMjlkMTBhMg%3D%3D&utm_source=qr',
   },
   {
     id: nanoid(),
-    title: 'JobMate',
-    gitLink: 'https://github.com/NaraeJang/Jobmate',
+    title: 'LinkedIn',
+    gitLink: 'https://www.linkedin.com/in/naraejang0117/',
   },
   {
     id: nanoid(),
-    title: 'Wegic',
-    gitLink: 'https://github.com/NaraeJang/Wegic',
+    title: 'GitHub',
+    gitLink: 'https://github.com/naraejang',
   },
 ];
 

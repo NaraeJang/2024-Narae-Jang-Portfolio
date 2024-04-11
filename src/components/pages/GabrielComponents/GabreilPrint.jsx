@@ -67,11 +67,6 @@ const GabreilPrint = () => {
           className="w-full max-w-[58rem] rounded-sm shadow-sm mt-10 mx-auto"
         />
       </section>
-
-      <section className="custom-container w-[90%] text-center">
-        <h3 className="dt-black text-xl mb-2 text-[#4e3de8]">Thank you!</h3>
-        <p>I appreciate you taking the time to check out my project.</p>
-      </section>
     </>
   );
 };

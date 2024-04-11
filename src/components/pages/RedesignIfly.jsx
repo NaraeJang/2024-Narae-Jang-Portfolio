@@ -14,19 +14,21 @@ import {
 
 const RedesignIfly = () => {
   return (
-    <main id="redesign-ifly" className="text-left">
+    <main id="redesign-ifly" className="text-left  bg-[#fff]">
       {/* <Loading /> */}
       <div className="hero" id="ifly-hero"></div>
-      <IflyTitle />
-      <IflyResearch />
-      <IflyPersona />
-      <IflyUserJourneyToUserFlow />
-      <IflySitemapToWireFrames />
-      <IflyStyleGuide />
-      <IflyProtos />
-      <UIDesktop />
-      <UIMobile />
-      <IflyEnding />
+      <div className="max-w-[2560px] mx-auto">
+        <IflyTitle />
+        <IflyResearch />
+        <IflyPersona />
+        <IflyUserJourneyToUserFlow />
+        <IflySitemapToWireFrames />
+        <IflyStyleGuide />
+        <IflyProtos />
+        <UIDesktop />
+        <UIMobile />
+        <IflyEnding />
+      </div>
     </main>
   );
 };

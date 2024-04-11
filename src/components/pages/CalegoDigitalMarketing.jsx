@@ -13,12 +13,14 @@ const CalegoDigitalMarketing = () => {
     <main id="digital-marketing">
       {/* <Loading /> */}
       <div className="w-full h-full hero"></div>
-      <CTitle />
-      <CEmailNewsletter />
-      <CSocialMedia />
-      <Cbanners />
-      <CCooperated />
-      <CEnding />
+      <div className="max-w-[2560px] mx-auto">
+        <CTitle />
+        <CEmailNewsletter />
+        <CSocialMedia />
+        <Cbanners />
+        <CCooperated />
+        <CEnding />
+      </div>
     </main>
   );
 };
