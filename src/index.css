@@ -683,7 +683,7 @@ footer#footer .custom-container .email .clipboard-msg {
   min-height: 100vh;
   max-height: 1920px;
 }
-.intro-container h1 {
+.intro-container h5 {
   font-size: clamp(2.5rem, 5vw, 8rem);
   line-height: 140%;
   text-transform: none;

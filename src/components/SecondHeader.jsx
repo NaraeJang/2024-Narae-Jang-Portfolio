@@ -31,12 +31,19 @@ const SecondHeader = () => {
   return (
     <section id="header">
       <div className="intro-container">
-        <h1 className="poppins-medium reveal-type">
+        <h1 className="opacity-0 invisible hidden">
           From defining brand identities to refining user interfaces, my
           expertise encompasses branding, logo design, publication design,
           digital marketing, UI/UX, and development, forging new paths into the
           digital landscape.
         </h1>
+
+        <h5 className="poppins-medium reveal-type">
+          From defining brand identities to refining user interfaces, my
+          expertise encompasses branding, logo design, publication design,
+          digital marketing, UI/UX, and development, forging new paths into the
+          digital landscape.
+        </h5>
       </div>
     </section>
   );
