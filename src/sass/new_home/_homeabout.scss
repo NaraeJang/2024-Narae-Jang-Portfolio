@@ -1,0 +1,33 @@
+.home_about {
+  &--my_image {
+    width: 80vw;
+    height: 80vw;
+    max-width: 400px;
+    max-height: 400px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../public/narae.webp);
+    background-color: $cc-primary-700;
+    background-blend-mode: screen;
+
+    transition: $transition 0.025s;
+    &:hover {
+      transform: scale(1.05);
+      background-color: transparent;
+    }
+  }
+  &--me {
+    text-align: left;
+
+    p {
+      color: $cc-primary-600;
+      min-height: 40px;
+    }
+  }
+
+  &--experience {
+    background-color: yellow;
+  }
+}

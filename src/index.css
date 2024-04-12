@@ -1112,8 +1112,32 @@ button:disabled {
   opacity: 1;
 }
 
-.about {
-  background-color: #fdfcf9;
+.home_about--my_image {
+  width: 80vw;
+  height: 80vw;
+  max-width: 400px;
+  max-height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../public/narae.webp);
+  background-color: #372ba2;
+  background-blend-mode: screen;
+  transition: 0.3s ease-in-out all 0.025s;
+}
+.home_about--my_image:hover {
+  transform: scale(1.05);
+  background-color: transparent;
+}
+.home_about--me {
+  text-align: left;
+}
+.home_about--me p {
+  color: #4637d1;
+  min-height: 40px;
+}
+.home_about--experience {
+  background-color: yellow;
 }
 
 /*# sourceMappingURL=index.css.map */

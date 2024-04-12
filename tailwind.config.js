@@ -6,7 +6,10 @@ export default {
       white: '#fefefe',
       black: '#222',
       bgcolor: '#fdfcf9',
-      sand: '##fcf6ec',
+      sand: {
+        600: '##fcf6ec',
+        800: '#e5ddce',
+      },
       primary: {
         50: '#edecfd',
         100: '#cac5f8',

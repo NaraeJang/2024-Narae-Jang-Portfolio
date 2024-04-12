@@ -11,7 +11,7 @@ const Hero = () => {
     const bganimation = gsap.utils.toArray('.scale-bg');
 
     bganimation.forEach((bgani, i) => {
-      gsap.set(bgani, { scaleX: 0.95 }); // Set initial scaleX to 0
+      gsap.set(bgani, { scaleX: 0.9 }); // Set initial scaleX to 0
 
       gsap.to(bgani, {
         scaleX: 1,
@@ -26,20 +26,20 @@ const Hero = () => {
       });
     });
 
-    // change about section color
-    gsap.to('.cc-change', {
-      scrollTrigger: {
-        trigger: '.cc-change',
-        start: 'top 85%',
-        end: 'top 75%',
-        scrub: true,
-        markers: true,
-      },
-      duration: 1,
-
-      backgroundColor: '#FFA500',
-      ease: 'none',
-    });
+    // // change about section color
+    // gsap.to('.cc-change', {
+    //   scrollTrigger: {
+    //     trigger: '.cc-change',
+    //     start: 'top 85%',
+    //     end: 'top 75%',
+    //     scrub: true,
+    //     markers: false,
+    //   },
+    //   duration: 1,
+    //   opacity: 1,
+    //   backgroundColor: '#fcf6ec',
+    //   ease: 'none',
+    // });
 
     // hero text reveal animation
     const splitTypes = document.querySelectorAll('.text-reveal');
@@ -73,6 +73,21 @@ const Hero = () => {
       x: 0,
       opacity: 1,
       duration: 1,
+    });
+
+    const textSplitTypes = document.querySelectorAll('.circle-text');
+
+    textSplitTypes.forEach((char, i) => {
+      const text = new SplitType(char, {
+        types: 'chars',
+      });
+
+      // Wrap each word in a span tag
+      text.chars.forEach((wordDiv, i) => {
+        wordDiv.innerHTML = `<span style="transform:rotate(${i * 10.3}deg)">${
+          wordDiv.textContent
+        }</span>`;
+      });
     });
   }, []);
 
