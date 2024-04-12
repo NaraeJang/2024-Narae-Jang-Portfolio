@@ -1,10 +1,13 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import SplitType from 'split-type';
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
   useEffect(() => {
+    // scale animation in about section
     const bganimation = gsap.utils.toArray('.scale-bg');
 
     bganimation.forEach((bgani, i) => {
@@ -23,6 +26,7 @@ const Hero = () => {
       });
     });
 
+    // change about section color
     gsap.to('.cc-change', {
       scrollTrigger: {
         trigger: '.cc-change',
@@ -36,13 +40,47 @@ const Hero = () => {
       backgroundColor: '#FFA500',
       ease: 'none',
     });
+
+    // hero text reveal animation
+    const splitTypes = document.querySelectorAll('.text-reveal');
+    const tl = gsap.timeline();
+
+    splitTypes.forEach((word, i) => {
+      const text = new SplitType(word, {
+        types: 'words',
+      });
+
+      gsap.from(text.words, {
+        scrollTrigger: {
+          trigger: text.words,
+          toggleActions: 'restart none restart none',
+        },
+        yPercent: 100,
+        duration: 0.5,
+        opacity: 0,
+        stagger: 0.1,
+      });
+    });
+
+    gsap.set('.hero-title p', { x: -50, opacity: 0 });
+
+    gsap.to('.hero-title p', {
+      scrollTrigger: {
+        trigger: '.hero-title p',
+        toggleActions: 'restart none restart none',
+      },
+      delay: 1.5,
+      x: 0,
+      opacity: 1,
+      duration: 1,
+    });
   }, []);
 
   return (
     <>
       <section id="hero" className="min-h-[100vh]">
         <div className="hero-title">
-          <h5 className="dt-black reveal-type">
+          <h5 className="dt-black text-reveal">
             From defining brand identities to refining user interfaces.
           </h5>
           <p>

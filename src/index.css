@@ -1104,10 +1104,12 @@ button:disabled {
   max-width: max(68rem, 60vw);
 }
 #hero .hero-title p {
+  margin-top: 1rem;
   color: #e5ddce;
-  font-size: clamp(1.375rem, 2.5vw, 4rem);
-  line-height: 140%;
+  font-size: clamp(1.25rem, 1.75vw, 2rem);
+  line-height: 180%;
   max-width: max(68rem, 60vw);
+  opacity: 1;
 }
 
 .about {
