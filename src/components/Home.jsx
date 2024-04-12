@@ -8,7 +8,6 @@ gsap.registerPlugin(ScrollTrigger);
 const Home = () => {
   useEffect(() => {
     const t1 = gsap.timeline();
-    const tlTwo = gsap.timeline();
 
     t1.fromTo(
       '.intro-container',
@@ -22,21 +21,10 @@ const Home = () => {
         y: 0,
       }
     );
-
-    tlTwo.from('#home-about', {});
-
-    ScrollTrigger.create({
-      animation: tlTwo,
-      start: 'top top',
-      end: '+=4000',
-      scrub: true,
-      pin: true,
-      anticipatePin: 1,
-    });
   }, []);
 
   return (
-    <main className="relative">
+    <main className="relative" id="container">
       {/* <Loading /> */}
       <SecondHeader />
       {/* <ThirdHeader /> */}

@@ -15,33 +15,33 @@ const SecondHeader = () => {
         types: 'words',
       });
 
-      // gsap.from(text.words, {
-      //   scrollTrigger: {
-      //     trigger: word,
-      //     start: 'top 38%',
-      //     end: 'bottom 35%',
-      //     scrub: true,
-      //   },
-      //   opacity: 0.2,
-      //   stagger: 0.1,
-      // });
-
       gsap.from(text.words, {
-        yPercent: 100,
-        delay: 0.5,
-        opacity: 0,
-        duration: 0.65,
+        scrollTrigger: {
+          trigger: word,
+          start: 'top 38%',
+          end: 'bottom 35%',
+          scrub: true,
+        },
+        opacity: 0.2,
         stagger: 0.1,
-        ease: 'back',
       });
+
+      // gsap.from(text.words, {
+      //   yPercent: 100,
+      //   delay: 0.5,
+      //   opacity: 0,
+      //   duration: 0.65,
+      //   stagger: 0.1,
+      //   ease: 'back',
+      // });
     });
 
-    gsap.to('.reveal-content', {
-      x: 0,
-      opacity: 1,
-      delay: 1.5,
-      duration: 0.5,
-    });
+    // gsap.to('.reveal-content', {
+    //   x: 0,
+    //   opacity: 1,
+    //   delay: 1.5,
+    //   duration: 0.5,
+    // });
   }, []);
 
   return (
@@ -55,20 +55,13 @@ const SecondHeader = () => {
             the digital landscape.
           </h1>
 
-          <div>
-            <h5 className="dt-black reveal-type">
-              From defining brand identities to refining user interfaces.
-            </h5>
-            <p className="mt-4 poppins-regular text-xl leading-relaxed reveal-content">
-              My expertise encompasses branding, logo design, publication
-              design, digital marketing, UI/UX, and development, forging new
-              paths into the digital landscape.
-            </p>
-          </div>
+          <h5 className="poppins-medium reveal-type">
+            From defining brand identities to refining user interfaces. My
+            expertise encompasses branding, logo design, publication design,
+            digital marketing, UI/UX, and development, forging new paths into
+            the digital landscape.
+          </h5>
         </div>
-      </section>
-      <section id="home-about">
-        <p>page 2</p>
       </section>
     </>
   );

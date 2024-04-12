@@ -7,8 +7,6 @@ const Navbar = () => {
   const [isScrolling, setIsScrolling] = useState(false);
   const navigate = useNavigate();
 
-  console.log(location.pathname);
-
   const navigateToHome = () => {
     navigate({
       pathname: '/',

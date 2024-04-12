@@ -377,6 +377,21 @@ hr {
   border: 1px solid #a79ef4;
 }
 
+article.project-item {
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.project-title {
+  opacity: 0;
+  transform: translateX(-200%);
+}
+
+.project-category {
+  opacity: 0;
+  transform: translateX(200%);
+}
+
 #faq .faq-container {
   opacity: 0;
   transform: translateY(200px);
@@ -664,7 +679,7 @@ footer#footer .custom-container .email .clipboard-msg {
 }
 
 .intro-container {
-  padding: 0 clamp(4rem, 12vw, 18rem) 0;
+  padding: max(7rem, 10vh) clamp(4rem, 12vw, 18rem) 0;
   display: grid;
   place-items: center;
   text-align: left;
@@ -672,7 +687,7 @@ footer#footer .custom-container .email .clipboard-msg {
   max-height: 1920px;
 }
 .intro-container h5 {
-  font-size: clamp(2.5rem, 3.5vw, 3.5rem);
+  font-size: clamp(2.5rem, 5vw, 8rem);
   line-height: 140%;
   text-transform: none;
   color: #4e3de8;

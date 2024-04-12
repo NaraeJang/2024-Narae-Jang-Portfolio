@@ -1,6 +1,6 @@
 .intro-container {
-  // padding: max(7rem, 10vh) clamp(4rem, 12vw, 18rem) 0;
-  padding: 0 clamp(4rem, 12vw, 18rem) 0;
+  padding: max(7rem, 10vh) clamp(4rem, 12vw, 18rem) 0;
+  // padding: 0 clamp(4rem, 12vw, 18rem) 0;
   display: grid;
   place-items: center;
   text-align: left;
@@ -8,7 +8,7 @@
   max-height: 1920px;
 
   h5 {
-    font-size: clamp(2.5rem, 3.5vw, 3.5rem);
+    font-size: clamp(2.5rem, 5vw, 8rem);
     line-height: 140%;
     text-transform: none;
 
