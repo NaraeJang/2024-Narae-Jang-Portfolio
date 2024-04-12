@@ -90,13 +90,15 @@ const Projects = () => {
   return (
     <ProjectContext.Provider
       value={{ allCategories, filterItems, projectsItems, currentCategory }}>
-      <section id="projects" className="mt-[3rem] max-w-[2560px] mx-auto">
-        <div className="pt-[10rem] mx-auto pb-[5rem]">
-          <div className="title-container gap-y-6 md:flex-row md:items-center md:justify-between mb-8">
-            <Title title="works" extraClass="project-title" />
-            <ProjectsCategories />
+      <section id="projects" className="gsap-section">
+        <div className="mt-[3rem] max-w-[2560px] mx-auto">
+          <div className="pt-[10rem] mx-auto pb-[5rem]">
+            <div className="title-container gap-y-6 md:flex-row md:items-center md:justify-between mb-8">
+              <Title title="works" extraClass="project-title" />
+              <ProjectsCategories />
+            </div>
+            <ProjectItems />
           </div>
-          <ProjectItems />
         </div>
       </section>
     </ProjectContext.Provider>

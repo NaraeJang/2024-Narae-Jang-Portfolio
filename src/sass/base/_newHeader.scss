@@ -1,5 +1,6 @@
 .intro-container {
-  padding: max(7rem, 10vh) clamp(4rem, 12vw, 18rem) 0;
+  // padding: max(7rem, 10vh) clamp(4rem, 12vw, 18rem) 0;
+  padding: 0 clamp(4rem, 12vw, 18rem) 0;
   display: grid;
   place-items: center;
   text-align: left;
@@ -7,7 +8,7 @@
   max-height: 1920px;
 
   h5 {
-    font-size: clamp(2.5rem, 5vw, 8rem);
+    font-size: clamp(2.5rem, 3.5vw, 3.5rem);
     line-height: 140%;
     text-transform: none;
 
@@ -19,6 +20,26 @@
     background-color: $cc-primary-600;
     color: $cc-secondary-300;
   }
+}
+
+.reveal-content {
+  color: $cc-primary-400;
+  transform: translateX(-40px);
+  opacity: 0;
+  transition: $transition;
+}
+
+#home-about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  min-height: 100vh;
+  min-height: 100svh;
+  width: 100vw;
+  width: 100svw;
+  background-color: $cc-primary-600;
+  color: $cc-primary-100;
 }
 
 @media screen and (max-width: $breakpoint-mobile-max) {

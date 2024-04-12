@@ -24,3 +24,4 @@ export { default as AboutCard } from './AboutCard';
 export { default as Loading } from './Loading';
 export { default as SecondHeader } from './SecondHeader';
 export { default as SmoothScroll } from './SmoothScroll';
+export { default as ThirdHeader } from './ThirdHeader';
