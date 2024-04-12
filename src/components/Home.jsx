@@ -3,34 +3,41 @@ import { Faq, Header, Projects, Loading, SecondHeader, ThirdHeader } from './';
 import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { Hero, HomeAbout, Items } from './newHompage';
+
 gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
-  useEffect(() => {
-    const t1 = gsap.timeline();
+  // useEffect(() => {
+  //   const t1 = gsap.timeline();
 
-    t1.fromTo(
-      '.intro-container',
-      {
-        opacity: 0,
-        y: -100,
-      },
-      {
-        duration: 1,
-        opacity: 1,
-        y: 0,
-      }
-    );
-  }, []);
+  //   t1.fromTo(
+  //     '.intro-container',
+  //     {
+  //       opacity: 0,
+  //       y: -100,
+  //     },
+  //     {
+  //       duration: 1,
+  //       opacity: 1,
+  //       y: 0,
+  //     }
+  //   );
+  // }, []);
 
   return (
     <main className="relative" id="container">
-      {/* <Loading /> */}
-      <SecondHeader />
+      {/* <Loading />
+      <SecondHeader /> */}
       {/* <ThirdHeader /> */}
-      <div className="overflow-hidden">
+      {/* <div className="overflow-hidden">
         <Projects />
         <Faq />
+      </div> */}
+      <div className="bg-primary-600">
+        <Hero />
+        <HomeAbout />
+        <Items />
       </div>
     </main>
   );

@@ -42,6 +42,10 @@
 
   transition: $transition;
 
+  a {
+    color: $cc-white;
+  }
+
   .logo {
     @extend .dt-black;
     font-size: clamp(0.875rem, 1.25vw, 1.25rem);
