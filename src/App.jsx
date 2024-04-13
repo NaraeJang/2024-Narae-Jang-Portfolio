@@ -23,7 +23,6 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      { path: 'about', element: <About /> },
       { path: 'ganadara-bar', element: <Ganadara /> },
       { path: 'redesign-websites', element: <RedesignIfly /> },
       { path: 'candle-ifly', element: <Candle /> },

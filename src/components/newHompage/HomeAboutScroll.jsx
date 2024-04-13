@@ -5,6 +5,7 @@ const HomeAboutScroll = ({
   list,
   dataDirection,
   dataSpeed,
+  keyname,
 }) => {
   function addAnimation(scrollers) {
     scrollers.forEach((scroller) => {
@@ -34,8 +35,8 @@ const HomeAboutScroll = ({
       data-direction={dataDirection}
       data-speed={dataSpeed}>
       <ul className="tag-list scroller__inner">
-        {list.map((item) => (
-          <li>{item}</li>
+        {list.map((item, i) => (
+          <li key={keyname + i}>{item}</li>
         ))}
       </ul>
     </div>

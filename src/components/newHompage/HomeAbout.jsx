@@ -43,7 +43,9 @@ const HomeAbout = () => {
   }, []);
 
   return (
-    <section className="scale-bg min-h-[120vh] min-w-[100vw] grid place-items-center mt-[-8vh]  rounded-3xl overflow-hidden bg-bgcolor ">
+    <section
+      id="about"
+      className="scale-bg min-h-[120vh] min-w-[100vw] grid place-items-center mt-[-8vh]  rounded-3xl overflow-hidden bg-bgcolor ">
       <div className="cc-change h-full w-full  py-[9vh]">
         <div className="home_about--me-section max-w-[1960px] mx-auto px-[2vw]">
           <div className="flex flex-col lg:flex-row gap-10 justify-between items-center">
@@ -88,6 +90,7 @@ const HomeAbout = () => {
             extraClass="fill_scroller"
             dataDirection="left"
             dataSpeed="slow"
+            keyname="scroll-design"
           />
         </div>
 
@@ -96,6 +99,7 @@ const HomeAbout = () => {
           extraClass="stroke_scroller"
           dataDirection="right"
           dataSpeed="slow"
+          keyname="scroll-dev"
         />
 
         <HomeAboutExperience />

@@ -1,7 +1,23 @@
 import { workExperience } from '../../data/data';
 
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useEffect } from 'react';
+
+gsap.registerPlugin(ScrollTrigger);
 const HomeAboutExperience = () => {
   const currentYear = new Date().getFullYear();
+
+  useEffect(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.home_about--experience',
+        toggleActions: 'restart reset restart reset',
+        start: 'top 80%',
+        markers: true,
+      },
+    });
+  }, []);
 
   return (
     <div className="home_about--experience px-[2vw] mt-20">

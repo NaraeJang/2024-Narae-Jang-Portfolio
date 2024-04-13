@@ -46,8 +46,8 @@ const Navbar = () => {
           works
         </HashLink>
         <HashLink
-          to="./about#about-me"
-          className={location.pathname === '/about' ? 'active' : ''}>
+          to="#about"
+          className={location.hash === '#about' ? 'active' : ''}>
           about
         </HashLink>
         <a
