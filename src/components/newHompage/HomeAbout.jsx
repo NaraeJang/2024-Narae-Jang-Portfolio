@@ -1,3 +1,5 @@
+import { HomeAboutScroll, HomeAboutExperience } from './';
+
 import { gsap } from 'gsap';
 import { TextPlugin } from 'gsap/TextPlugin';
 import { useEffect } from 'react';
@@ -25,7 +27,7 @@ const HomeAbout = () => {
                   <span className="block poppins-regular text-sm text-primary-400">
                     (1)
                   </span>
-                  Equipped with computer science and in-house creative team
+                  Equipped with front-end development and in-house creative team
                   experience.
                 </p>
                 <p className="poppins-medium text-left text-base w-full 2xl:max-w-[20vw]">
@@ -47,7 +49,8 @@ const HomeAbout = () => {
           </div>
         </div>
 
-        <div className="home_about--experience">not</div>
+        <HomeAboutScroll />
+        <HomeAboutExperience />
       </div>
     </section>
   );
