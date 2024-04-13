@@ -62,8 +62,8 @@ const HomeAbout = () => {
                   <span className="block poppins-regular text-sm text-primary-400">
                     (1)
                   </span>
-                  Equipped with front-end development and in-house creative team
-                  experience.
+                  Equipped with front-end development skills and in-house
+                  creative team experience.
                 </p>
                 <p className="home_about-feature poppins-medium text-left text-base w-full 2xl:max-w-[20vw]">
                   <span className="block poppins-regular text-sm text-primary-400">
@@ -76,8 +76,8 @@ const HomeAbout = () => {
                   <span className="block poppins-regular text-sm text-primary-400">
                     (3)
                   </span>
-                  Interested in using the science of design to create more
-                  humane interface.
+                  Interested in creating easy-to-use, unique digital interfaces
+                  for the web and mobile devices.
                 </p>
               </div>
             </div>
