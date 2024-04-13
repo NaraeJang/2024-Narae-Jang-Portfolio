@@ -1266,8 +1266,8 @@ p.home_about-feature {
   border-right: 1px solid #8377ef;
 }
 .project_title--img {
-  width: 100%;
-  height: 100%;
+  width: 1/3vw;
+  height: 1/3vw;
   position: relative;
   object-fit: cover;
   z-index: 1;
@@ -1301,6 +1301,10 @@ p.home_about-feature {
   }
   .project_title {
     font-size: 5rem;
+  }
+  .project_title--img {
+    width: 1/2vw;
+    height: 1/2vw;
   }
 }
 

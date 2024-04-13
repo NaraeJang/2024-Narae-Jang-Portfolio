@@ -38,8 +38,8 @@
     border-right: 1px solid $cc-primary-300;
   }
   &--img {
-    width: 100%;
-    height: 100%;
+    width: 1/3vw;
+    height: 1/3vw;
     position: relative;
     object-fit: cover;
     z-index: 1;
@@ -79,6 +79,10 @@
 
     & {
       font-size: 5rem;
+    }
+    &--img {
+      width: 1/2vw;
+      height: 1/2vw;
     }
   }
 }
