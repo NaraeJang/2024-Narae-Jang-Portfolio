@@ -1212,4 +1212,21 @@ p.home_about-feature {
   transition: 0.3s ease-in-out all;
 }
 
+.work-title {
+  transform: translateY(-20px);
+  opacity: 0;
+  transition: 0.3s ease-in-out all;
+}
+
+.work-line {
+  transform: translateX(-100vw);
+  opacity: 0;
+  transition: 0.3s ease-in-out all;
+}
+
+.work-job {
+  opacity: 0;
+  transition: 0.3s ease-in-out all;
+}
+
 /*# sourceMappingURL=index.css.map */

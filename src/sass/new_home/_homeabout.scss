@@ -134,3 +134,24 @@ p.home_about-feature {
 
   transition: $transition;
 }
+
+.work-title {
+  transform: translateY(-20px);
+  opacity: 0;
+
+  transition: $transition;
+}
+
+.work-line {
+  transform: translateX(-100vw);
+  opacity: 0;
+
+  transition: $transition;
+}
+
+.work-job {
+  // transform: translateY(-20px);
+  opacity: 0;
+
+  transition: $transition;
+}
