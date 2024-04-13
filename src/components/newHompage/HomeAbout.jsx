@@ -23,7 +23,7 @@ const HomeAbout = () => {
       x: 0,
       opacity: 1,
       ease: 'none',
-      duration: 0.8,
+      duration: 0.3,
     });
 
     tl.to('.home_me_title', {
@@ -45,7 +45,7 @@ const HomeAbout = () => {
   return (
     <section
       id="about"
-      className="scale-bg min-h-fit min-w-[100vw] grid place-items-center mt-[-8vh]  rounded-3xl overflow-hidden bg-bgcolor relative z-40">
+      className="scale-bg min-h-fit min-w-[100vw] min-w-[100svw] grid place-items-center mt-[-8vh] mt-[-8svh]  rounded-3xl overflow-hidden bg-bgcolor relative z-40">
       <div className="cc-change h-full w-full  py-[9vh]">
         <div className="home_about--me-section max-w-[1960px] mx-auto px-[2vw]">
           <div className="flex flex-col lg:flex-row gap-10 justify-between items-center">

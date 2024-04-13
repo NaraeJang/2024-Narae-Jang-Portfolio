@@ -21,20 +21,20 @@ const HomeAboutExperience = () => {
     tl.to('.work-title', {
       y: 0,
       opacity: 1,
-      duration: 0.5,
+      duration: 0.3,
     });
 
     tl.to('.work-job', {
       y: '0px',
       opacity: 1,
       stagger: 0.3,
-      duration: 0.5,
+      duration: 0.3,
     });
 
     tl.to('.work-line', {
       x: 0,
       opacity: 1,
-      duration: 0.5,
+      duration: 0.3,
     });
   }, []);
 
