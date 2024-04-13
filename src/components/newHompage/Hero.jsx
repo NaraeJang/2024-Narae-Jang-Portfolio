@@ -97,9 +97,9 @@ const Hero = () => {
         id="hero"
         className="min-h-[100vh] min-h-[100svh] overflow-hidden">
         <div className="hero-title">
-          <h5 className="dt-black text-reveal">
+          <h1 className="dt-black text-reveal">
             From defining brand identities to refining user interfaces.
-          </h5>
+          </h1>
           <p>
             My expertise encompasses branding, logo design, publication design,
             digital marketing, UI/UX, and development, forging new paths into

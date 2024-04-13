@@ -1102,7 +1102,7 @@ button:disabled {
   width: 92vw;
   margin: 0 auto;
 }
-#hero .hero-title h5 {
+#hero .hero-title h1 {
   color: #fcf6ec;
   font-size: clamp(2.375rem, 5vw, 8rem);
   line-height: 120%;
