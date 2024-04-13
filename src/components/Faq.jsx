@@ -24,7 +24,7 @@ const Faq = () => {
     gsap.to('.faq-container', {
       scrollTrigger: {
         trigger: '.faq-container',
-        toggleActions: 'play none none none',
+        toggleActions: 'restart none none none',
         start: 'top 90%',
         markers: false,
       },
