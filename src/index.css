@@ -1294,7 +1294,7 @@ p.home_about-feature {
 
 @media screen and (max-width: 767px) {
   .project_title--container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .project_title--container_line--inner {
     grid-template-columns: repeat(2, 1fr);

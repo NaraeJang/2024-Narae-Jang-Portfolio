@@ -82,7 +82,7 @@ const Projects = () => {
         <div className="mt-[3rem] px-[5vw] lg:px-[2vw] max-w-[2560px] mx-auto grid place-items-center">
           <div className="responsive-padding mx-auto">
             <div className="title-container gap-y-6 md:flex-row md:items-center md:justify-between mb-8">
-              <Title title="works" extraClass="project-title" />
+              <Title title="Projects" extraClass="project-title" />
               <ProjectsCategories />
             </div>
             <ProjectItems />

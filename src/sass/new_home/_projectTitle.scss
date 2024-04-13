@@ -69,7 +69,7 @@
 @media screen and (max-width: $breakpoint-mobile-max) {
   .project_title {
     &--container {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
     &--container_line {
       &--inner {
