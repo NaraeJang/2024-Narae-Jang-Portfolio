@@ -473,18 +473,18 @@ article.project-item {
 }
 
 footer#footer {
-  color: #4e3de8;
+  color: #fcf6ec;
 }
 footer#footer .custom-container {
   width: 90%;
 }
 footer#footer .custom-container h5 {
-  color: #a79ef4;
+  color: #e5ddce;
   font-size: 0.875rem;
   text-transform: uppercase;
 }
 footer#footer .custom-container a {
-  color: #4e3de8;
+  color: #fcf6ec;
   text-transform: capitalize;
   transition: 0.3s ease-in-out all;
 }
@@ -500,8 +500,8 @@ footer#footer .custom-container .email .out-link {
 }
 footer#footer .custom-container .email .clipboard-msg {
   top: -1.5rem;
-  left: 2.5rem;
-  color: #372ba2;
+  left: 0;
+  color: #e5ddce;
   border-radius: 2rem;
   font-size: 0.875rem;
 }

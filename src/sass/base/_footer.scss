@@ -1,17 +1,17 @@
 footer#footer {
-  color: $cc-primary-500;
+  color: $cc-sand-600;
 
   .custom-container {
     width: 90%;
 
     h5 {
-      color: $cc-primary-200;
+      color: $cc-sand-800;
       font-size: $text-sm;
       text-transform: uppercase;
     }
 
     a {
-      color: $cc-primary-500;
+      color: $cc-sand-600;
       text-transform: capitalize;
       transition: $transition;
     }
@@ -34,10 +34,10 @@ footer#footer {
 
       .clipboard-msg {
         top: -1.5rem;
-        left: 2.5rem;
+        left: 0;
 
         // background: $cc-secondary-300;
-        color: $cc-primary-700;
+        color: $cc-sand-800;
         border-radius: $border-radius-pill;
         font-size: $text-sm;
       }

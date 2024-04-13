@@ -23,14 +23,15 @@ const Footer = () => {
   }, [copySuccessMessage]);
 
   return (
-    <footer id="footer">
-      <div className="custom-container text-left flex flex-col gap-20 lg:flex-row justify-between">
+    <footer id="footer" className=" bg-primary-600">
+      <hr className="border-primary-400" />
+      <div className="custom-container text-left flex flex-col gap-20 xl:flex-row justify-between">
         <div className="contact-container">
           <div
             className="email flex flex-row gap-4 relative"
             onClick={copyEmail}>
-            <FaRegCopy />
-            <p className="out-link dt-black text-lg hover:translate-y-[-2px]">
+            {/* <FaRegCopy /> */}
+            <p className="out-link dt-black text-4xl w-[100%] md:text-4xl lg:text-5xl hover:translate-y-[-2px] ">
               naraejang0117@gmail.com
             </p>
             {copySuccessMessage && (
@@ -46,14 +47,14 @@ const Footer = () => {
           )}
         </div>
 
-        <div className="flex flex-col gap-20  lg:flex-row ">
+        <div className="flex flex-col gap-20  md:flex-row">
           <div>
-            <h5 className="poppins-semibold leading-loose">location</h5>
+            <h5 className="poppins-semibold leading-loose mb-4">location</h5>
             <p>Montreal, Quebec, Canada</p>
           </div>
 
           <div className="flex flex-col">
-            <h5 className="poppins-semibold leading-loose">Socials</h5>
+            <h5 className="poppins-semibold leading-loose mb-4">Socials</h5>
             <nav className="flex flex-col gap-1">
               {footerNav.map((project) => {
                 return (
@@ -72,7 +73,7 @@ const Footer = () => {
       </div>
 
       {isMobile && (
-        <p className="mt-0 mb-10 text-left md:text-center w-[90%] mx-auto">
+        <p className="mt-0 pb-10 text-left md:text-center w-[90%] mx-auto">
           &copy; 2023 - {currentYear} Narae Jang
         </p>
       )}
