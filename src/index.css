@@ -310,7 +310,7 @@ hr {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  z-index: 20;
+  z-index: 120;
   transition: 0.3s ease-in-out all;
 }
 .navbar a {
@@ -400,6 +400,9 @@ article.project-item {
   transform: translateX(200%);
 }
 
+#faq div.faq-main {
+  width: 100vw;
+}
 #faq .faq-container h2 {
   margin-bottom: 2.5rem;
 }

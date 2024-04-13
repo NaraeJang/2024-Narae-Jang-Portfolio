@@ -1,6 +1,12 @@
-import ArtWork4Img from '../../assets/artwork/artwork4.webp';
-import ArtWork3Img from '../../assets/artwork/artwork3.webp';
-import CandleImg from '../../assets/candle-images/CandleHero.webp';
+import Img01 from '../../assets/project-title-img/ProjectTitleImg.webp';
+import Img02 from '../../assets/project-title-img/ProjectTitleImg-1.webp';
+import Img03 from '../../assets/project-title-img/ProjectTitleImg-2.webp';
+import Img04 from '../../assets/project-title-img/ProjectTitleImg-3.webp';
+import Img05 from '../../assets/project-title-img/ProjectTitleImg-4.webp';
+import Img06 from '../../assets/project-title-img/ProjectTitleImg-5.webp';
+import Img07 from '../../assets/project-title-img/ProjectTitleImg-6.webp';
+import Img08 from '../../assets/project-title-img/ProjectTitleImg-7.webp';
+import Img09 from '../../assets/project-title-img/ProjectTitleImg-8.webp';
 
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -13,8 +19,8 @@ const Items = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: '.project_title--container',
-        toggleActions: 'play none none reverse',
-        markers: true,
+        toggleActions: 'restart none none reverse',
+        markers: false,
         scrub: true,
       },
       ease: 'power4.out', // Use GSAP's built-in easing
@@ -22,12 +28,12 @@ const Items = () => {
 
     tl.to('.project_title--img', {
       stagger: 0.2,
-      y: -700,
+      y: -600,
       duration: 1.2, // Set the duration here
     });
   }, []);
   return (
-    <section id="project-gallery" className="h-[100vh] relative">
+    <section id="project-gallery" className="h-[100vh] relative mt-[-20vh]">
       <div className="absolute h-[200vh] w-[100vw]">
         <h5 className="project_title">Projects</h5>
       </div>
@@ -40,49 +46,49 @@ const Items = () => {
         </div>
       </div>
 
-      <div className="project_title--container h-[100vh] absolute">
+      <div className="project_title--container h-[150vh] absolute">
         <img
-          src={ArtWork4Img}
+          src={Img06}
           alt="project cover photo"
           className="project_title--img"
         />
         <img
-          src={ArtWork3Img}
+          src={Img07}
           alt="project cover photo"
           className="project_title--img"
         />
         <img
-          src={CandleImg}
+          src={Img08}
           alt="project cover photo"
           className="project_title--img"
         />
         <img
-          src={ArtWork4Img}
+          src={Img04}
           alt="project cover photo"
           className="project_title--img"
         />
         <img
-          src={ArtWork4Img}
+          src={Img05}
           alt="project cover photo"
           className="project_title--img"
         />
         <img
-          src={ArtWork4Img}
+          src={Img09}
           alt="project cover photo"
           className="project_title--img"
         />
         <img
-          src={ArtWork4Img}
+          src={Img01}
           alt="project cover photo"
           className="project_title--img"
         />
         <img
-          src={ArtWork4Img}
+          src={Img02}
           alt="project cover photo"
           className="project_title--img"
         />
         <img
-          src={ArtWork4Img}
+          src={Img03}
           alt="project cover photo"
           className="project_title--img"
         />
