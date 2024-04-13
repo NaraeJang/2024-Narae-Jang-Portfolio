@@ -72,17 +72,6 @@ const Projects = () => {
       y: '0px',
       stagger: 0.5,
     });
-
-    gsap.to('.faq-container', {
-      scrollTrigger: {
-        trigger: '.faq-container',
-        start: 'top 90%',
-        end: 'top 70%',
-        scrub: true,
-      },
-      opacity: 1,
-      y: 0,
-    });
   }, [projectsItems]);
 
   // ...

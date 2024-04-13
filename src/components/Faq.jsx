@@ -20,12 +20,25 @@ const Faq = () => {
     setActiveId(newActiveId);
   };
 
+  useEffect(() => {
+    gsap.to('.faq-container', {
+      scrollTrigger: {
+        trigger: '.faq-container',
+        toggleActions: 'restart reset restart reset',
+        start: 'top 80%',
+        markers: false,
+      },
+      opacity: 1,
+      y: 0,
+    });
+  }, []);
+
   return (
     <FaqContext.Provider value={{ toggleQuestion, questions, activeId }}>
       <section id="faq">
         <div className="pt-[5rem] mx-auto pb-[10rem] max-w-[2560px]">
           <div className="faq-container">
-            <h5 className="home_me_title md:w-8/12 md:w-10/12 md:mx-auto dt-black text-3xl md:text-4xl lg:text-5xl mb-[2rem] text-sand-600">
+            <h5 className="home_me_title md:w-8/12 lg:w-10/12 md:mx-auto dt-black text-3xl md:text-4xl lg:text-5xl mb-[2rem] text-sand-600">
               I want people to ask...
             </h5>
             <p className="text-sand-800 mb-10">

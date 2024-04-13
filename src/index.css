@@ -400,10 +400,6 @@ article.project-item {
   transform: translateX(200%);
 }
 
-#faq .faq-container {
-  opacity: 0;
-  transform: translateY(200px);
-}
 #faq .faq-container h2 {
   margin-bottom: 2.5rem;
 }
@@ -470,6 +466,12 @@ article.project-item {
     right: 12px;
   }
 }
+.faq-container {
+  transform: translateY(200px);
+  opacity: 0;
+  transition: 0.3s ease-in-out all;
+}
+
 footer#footer {
   color: #4e3de8;
 }

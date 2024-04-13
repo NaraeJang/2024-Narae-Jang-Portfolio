@@ -1,8 +1,5 @@
 #faq {
   .faq-container {
-    opacity: 0;
-    transform: translateY(200px);
-
     h2 {
       margin-bottom: 2.5rem;
     }
@@ -99,4 +96,11 @@
   60% {
     right: 12px;
   }
+}
+
+.faq-container {
+  transform: translateY(200px);
+  opacity: 0;
+
+  transition: $transition;
 }
