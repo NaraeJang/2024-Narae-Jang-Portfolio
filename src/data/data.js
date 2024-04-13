@@ -34,12 +34,12 @@ export const footerNav = [
 export const projectsData = [
   {
     id: nanoid(),
-    category: ['ux/ui'],
+    category: ['ui/ux'],
     img: GanaWebp,
     imgAlt: 'Bar Ganadara',
     client: 'Personal Project',
     title: 'Bar Ganadara App',
-    keyword: `Case Study | UX/UI Design`,
+    keyword: `Case Study | UI/UX Design`,
     liveBtn: null,
     livePath: null,
     designBtn: 'Learn More',
@@ -49,12 +49,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['ux/ui'],
+    category: ['ui/ux'],
     img: RedesignWebp,
     imgAlt: 'New IFLY Website',
     client: 'Calego',
     title: 'New IFLY Website',
-    keyword: `UX/UI Design | Web Design`,
+    keyword: `UI/UX Design | Web Design`,
     liveBtn: null,
     livePath: null,
     designBtn: 'Learn More',
@@ -64,7 +64,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['ux/ui'],
+    category: ['ui/ux'],
     img: TagWebp,
     imgAlt: 'Register Your Tag',
     client: 'Calego',
@@ -79,7 +79,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['development', 'ux/ui'],
+    category: ['development', 'ui/ux'],
     img: JobmateWebp,
     imgAlt: 'JobMate',
     client: 'Personal Project',
@@ -94,12 +94,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['development', 'ux/ui'],
+    category: ['development', 'ui/ux'],
     img: WegicWebp,
     imgAlt: 'Wegic',
     client: 'Wegic',
     title: 'Mobile Invitation',
-    keyword: `React | SASS | UX/UI Design`,
+    keyword: `React | SASS | UI/UX Design`,
     liveBtn: `Live Demo`,
     livePath: `./wegic`,
     designBtn: null,
@@ -109,7 +109,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    category: ['development', 'ux/ui'],
+    category: ['development', 'ui/ux'],
     img: NaraeJangWebp,
     imgAlt: 'NaraeJang Portfolio',
     client: 'Personal Project',
@@ -241,7 +241,7 @@ export const faqQuestions = [
 export const workExperience = [
   {
     id: nanoid(),
-    title: 'UX/UI Designer ❘ Senior Graphic Designer',
+    title: 'UI/UX & Senior Graphic Designer',
     company: 'Calego Inc.',
     year: '2022',
     other: null,
@@ -416,4 +416,32 @@ export const aboutNavbarList = [
     title: 'certifications',
     path: '#about-license',
   },
+];
+
+export const infiniteScrollDesign = [
+  'Figma',
+  'Illustrator',
+  'Photoshop',
+  'Indesign',
+  'GoogleAnalytics',
+  'InteractionDesign',
+  'VisualDesign',
+  'Branding',
+  'Marketing',
+  'Prototyping',
+  'VideoEditing',
+  'JourneyMapping',
+];
+export const infiniteScrollDev = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'TailwindCSS',
+  'SCSS',
+  'StyledComponents',
+  'GitHub',
+  'VSCode',
+  'PostMan',
+  'Gsap',
 ];
