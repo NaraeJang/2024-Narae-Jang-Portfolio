@@ -50,8 +50,8 @@ const Projects = () => {
       {
         scrollTrigger: {
           trigger: '.project-category',
-          start: 'top 80%',
-          end: 'top 60%',
+          start: 'top 90%',
+          end: 'top 70%',
           scrub: 1,
         },
         x: '0%',
@@ -64,8 +64,8 @@ const Projects = () => {
     gsap.to('.project-item', {
       scrollTrigger: {
         trigger: '.project-item',
-        start: 'top 80%',
-        end: 'top 60%',
+        start: 'top 90%',
+        end: 'top 70%',
         scrub: true,
       },
       opacity: 1,
@@ -76,8 +76,8 @@ const Projects = () => {
     gsap.to('.faq-container', {
       scrollTrigger: {
         trigger: '.faq-container',
-        start: 'top 80%',
-        end: 'top 60%',
+        start: 'top 90%',
+        end: 'top 70%',
         scrub: true,
       },
       opacity: 1,
@@ -90,9 +90,11 @@ const Projects = () => {
   return (
     <ProjectContext.Provider
       value={{ allCategories, filterItems, projectsItems, currentCategory }}>
-      <section id="projects">
-        <div className="mt-[3rem] max-w-[2560px] mx-auto">
-          <div className="pt-[10rem] mx-auto pb-[5rem]">
+      <section
+        id="projects"
+        className="mt-[-8vh] bg-bgcolor  min-h-[120vh] rounded-3xl z-40">
+        <div className="mt-[3rem] px-[5vw] lg:px-[2vw] max-w-[2560px] mx-auto grid place-items-center">
+          <div className="responsive-padding mx-auto">
             <div className="title-container gap-y-6 md:flex-row md:items-center md:justify-between mb-8">
               <Title title="works" extraClass="project-title" />
               <ProjectsCategories />

@@ -30,11 +30,16 @@ const Navbar = () => {
 
   return (
     <div className={`absolute navbar ${isScrolling ? 'show-bg' : ''}`}>
-      <HashLink to={'./#header'} className="logo">
+      <HashLink to={'./#hero'} className="logo">
         narae jang
       </HashLink>
 
       <nav className="navbar__list">
+        <HashLink
+          to="#about"
+          className={location.hash === '#about' ? 'active' : ''}>
+          about
+        </HashLink>
         <HashLink
           to="#projects"
           onClick={navigateToHome}
@@ -45,11 +50,7 @@ const Navbar = () => {
           }>
           works
         </HashLink>
-        <HashLink
-          to="#about"
-          className={location.hash === '#about' ? 'active' : ''}>
-          about
-        </HashLink>
+
         <a
           href="https://drive.google.com/file/d/1u40opSKDyBVkq_N2Ilqzocx_vt-CiVJv/view?usp=sharing"
           target="_black">

@@ -39,7 +39,7 @@ const HomeAboutExperience = () => {
   }, []);
 
   return (
-    <div className="home_about--experience px-[2vw] mt-20">
+    <div className="home_about--experience px-[5vw] lg:px-[2vw] mt-20">
       <div className="work-title flex flex-row justify-between items-center">
         <h5 className="dt-black text-primary-600 text-2xl lg:text-3xl">
           Past Experience

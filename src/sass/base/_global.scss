@@ -164,12 +164,6 @@ hr {
   }
 }
 
-#projects,
-#faq {
-  width: 90%;
-  margin: 0 auto;
-}
-
 // option for hero on landing page
 .wrapper {
   width: 100%;
@@ -197,5 +191,17 @@ hr {
   }
   100% {
     background-position: 100%;
+  }
+}
+
+.responsive-padding {
+  padding-top: max(10rem, 9vh);
+  padding-bottom: max(10rem, 9vh);
+}
+
+@media screen and (max-width: $breakpoint-mobile-max) {
+  .responsive-padding {
+    padding-top: max(5rem, 9vh);
+    padding-bottom: max(5rem, 9vh);
   }
 }

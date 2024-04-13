@@ -3,7 +3,7 @@ import { Faq, Header, Projects, Loading, SecondHeader, ThirdHeader } from './';
 import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Hero, HomeAbout, Items } from './newHompage';
+import { Hero, HomeAbout, ProjectTitle, ProjectSection } from './newHompage';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -32,12 +32,16 @@ const Home = () => {
       {/* <ThirdHeader /> */}
       {/* <div className="overflow-hidden">
         <Projects />
-        <Faq />
+   
       </div> */}
-      <div className="bg-primary-600">
+
+      <div className="bg-primary-600 overflow-hidden">
         <Hero />
         <HomeAbout />
-        <Items />
+        <ProjectTitle />
+
+        <Projects />
+        <Faq />
       </div>
     </main>
   );
