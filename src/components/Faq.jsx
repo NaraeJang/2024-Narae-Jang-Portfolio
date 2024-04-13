@@ -39,10 +39,10 @@ const Faq = () => {
       <section id="faq" className="w-[100vw]  overflow-hidden">
         <div className="pt-[5rem] mx-auto pb-[10rem] max-w-[2560px] faq-main">
           <div className="faq-container">
-            <h5 className="px-[5vw] md:px-[2vw] home_me_title md:w-8/12 lg:w-10/12 md:mx-auto dt-black text-3xl md:text-4xl lg:text-5xl mb-[2rem] text-sand-600">
+            <h5 className="text-left md:text-center px-[5vw] md:px-[2vw] home_me_title md:w-8/12 lg:w-10/12 md:mx-auto dt-black text-3xl md:text-4xl lg:text-5xl mb-[2rem] text-sand-600">
               If you want to know more about me...
             </h5>
-            <p className="px-[5vw] md:px-[2vw]  text-sand-800 mb-10">
+            <p className="text-left md:text-center px-[5vw] md:px-[2vw]  text-sand-800 mb-10">
               I've prepared some questions & answers about me.
             </p>
             {faqQuestions.map((question) => {
