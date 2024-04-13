@@ -1,0 +1,63 @@
+.project_title {
+  &--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+    margin: 0 auto;
+  }
+  &--container_line {
+    &--inner {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      height: 100vh;
+    }
+    position: sticky;
+
+    height: 20vh;
+    margin: 0 auto;
+  }
+
+  & {
+    font-size: 14rem;
+    font-family: 'Bebas Neue';
+    position: sticky;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+
+    z-index: 5;
+    margin: 0;
+    color: white;
+  }
+
+  &--line {
+    border-right: 1px solid $cc-primary-300;
+  }
+  &--img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+
+    &:before {
+      content: '';
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      z-index: 4;
+      top: 0;
+      left: 0;
+      border-right: 1px solid $cc-primary-300;
+    }
+  }
+}
+
+#project-gallery {
+  position: relative;
+  z-index: 2;
+}
+
+.gallery {
+  height: 200vh;
+}

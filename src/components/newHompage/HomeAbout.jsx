@@ -45,7 +45,7 @@ const HomeAbout = () => {
   return (
     <section
       id="about"
-      className="scale-bg min-h-fit min-w-[100vw] grid place-items-center mt-[-8vh]  rounded-3xl overflow-hidden bg-bgcolor ">
+      className="scale-bg min-h-fit min-w-[100vw] grid place-items-center mt-[-8vh]  rounded-3xl overflow-hidden bg-bgcolor relative z-40">
       <div className="cc-change h-full w-full  py-[9vh]">
         <div className="home_about--me-section max-w-[1960px] mx-auto px-[2vw]">
           <div className="flex flex-col lg:flex-row gap-10 justify-between items-center">

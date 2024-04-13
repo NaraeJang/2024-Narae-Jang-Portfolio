@@ -78,7 +78,7 @@ const Projects = () => {
       value={{ allCategories, filterItems, projectsItems, currentCategory }}>
       <section
         id="projects"
-        className="mt-[-8vh] bg-bgcolor  min-h-[120vh] rounded-3xl z-40">
+        className="mt-[-8vh] bg-bgcolor  min-h-[120vh] h-fit rounded-3xl z-40 relative">
         <div className="mt-[3rem] px-[5vw] lg:px-[2vw] max-w-[2560px] mx-auto grid place-items-center">
           <div className="responsive-padding mx-auto">
             <div className="title-container gap-y-6 md:flex-row md:items-center md:justify-between mb-8">

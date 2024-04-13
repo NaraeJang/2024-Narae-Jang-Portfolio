@@ -35,11 +35,10 @@ const Home = () => {
    
       </div> */}
 
-      <div className="bg-primary-600 overflow-hidden">
+      <div className="bg-primary-600">
         <Hero />
         <HomeAbout />
         <ProjectTitle />
-
         <Projects />
         <Faq />
       </div>
