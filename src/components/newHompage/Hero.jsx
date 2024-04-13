@@ -93,7 +93,7 @@ const Hero = () => {
 
   return (
     <>
-      <section id="hero" className="min-h-[100vh]">
+      <section id="hero" className="min-h-[100vh] overflow-hidden">
         <div className="hero-title">
           <h5 className="dt-black text-reveal">
             From defining brand identities to refining user interfaces.

@@ -35,7 +35,7 @@ const Faq = () => {
 
   return (
     <FaqContext.Provider value={{ toggleQuestion, questions, activeId }}>
-      <section id="faq">
+      <section id="faq" className="w-[100vw]  overflow-hidden">
         <div className="pt-[5rem] mx-auto pb-[10rem] max-w-[2560px] faq-main">
           <div className="faq-container">
             <h5 className="px-[5vw] md:px-[2vw] home_me_title md:w-8/12 lg:w-10/12 md:mx-auto dt-black text-3xl md:text-4xl lg:text-5xl mb-[2rem] text-sand-600">
