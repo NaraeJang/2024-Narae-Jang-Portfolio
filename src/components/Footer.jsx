@@ -31,7 +31,7 @@ const Footer = () => {
             className="email flex flex-row gap-4 relative"
             onClick={copyEmail}>
             {/* <FaRegCopy /> */}
-            <p className="out-link dt-black text-4xl w-[100%] md:text-4xl lg:text-5xl hover:translate-y-[-2px] ">
+            <p className="out-link dt-black text-4xl w-[100%] md:text-4xl lg:text-5xl hover:translate-y-[-2px] no-underline">
               naraejang0117@gmail.com
             </p>
             {copySuccessMessage && (
