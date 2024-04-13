@@ -48,7 +48,7 @@ const Navbar = () => {
               ? 'active'
               : ''
           }>
-          works
+          projects
         </HashLink>
 
         <a
