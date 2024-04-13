@@ -46,7 +46,7 @@ const FaqQuestion = ({ id, title, info }) => {
         <div className="infos" ref={infoRef}>
           {isActive && (
             <>
-              <p className="px-4 pt-6 pb-10 text-left">{info}</p>
+              <p className="px-4 pt-6 pb-10 text-left text-sand-800">{info}</p>
               <hr />
             </>
           )}

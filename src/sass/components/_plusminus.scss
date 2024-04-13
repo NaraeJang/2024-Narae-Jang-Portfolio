@@ -19,7 +19,7 @@
     right: 0;
     margin: auto;
 
-    background-color: $cc-primary-500;
+    background-color: $cc-sand-600;
 
     border-radius: 1rem;
 
@@ -38,11 +38,11 @@
   }
 
   &.question-active {
-    background-color: $cc-primary-500;
+    background-color: $cc-sand-600;
 
     &:after,
     &:before {
-      background-color: $cc-white;
+      background-color: $cc-primary-600;
     }
 
     &:after {

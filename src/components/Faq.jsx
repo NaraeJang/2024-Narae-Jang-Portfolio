@@ -25,11 +25,11 @@ const Faq = () => {
       <section id="faq">
         <div className="pt-[5rem] mx-auto pb-[10rem] max-w-[2560px]">
           <div className="faq-container">
-            <h5 className="home_me_title md:w-10/12 lg:w-9/12 md:mx-auto dt-black text-3xl md:text-4xl lg:text-5xl mb-[2rem] text-sand-600">
-              Before you go...
+            <h5 className="home_me_title md:w-8/12 md:w-10/12 md:mx-auto dt-black text-3xl md:text-4xl lg:text-5xl mb-[2rem] text-sand-600">
+              I want people to ask...
             </h5>
-            <p className="text-primary-100 mb-10">
-              I've prepared some of answers if you want to know more about me.
+            <p className="text-sand-800 mb-10">
+              Nobody asked me but here are some questions & answers about me.
             </p>
             {faqQuestions.map((question) => {
               return <FaqQuestion key={question.id} {...question} />;

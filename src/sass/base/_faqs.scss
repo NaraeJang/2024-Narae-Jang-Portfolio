@@ -6,6 +6,10 @@
     h2 {
       margin-bottom: 2.5rem;
     }
+
+    h5 {
+      color: $cc-sand-600;
+    }
   }
 
   .link-about {
@@ -17,7 +21,6 @@
     margin: 2.5rem auto;
     max-width: 20rem;
 
-    border-radius: $border-radius-pill;
     background: $cc-primary-500;
     color: $cc-white;
     padding: 0.5rem 1rem;
@@ -52,16 +55,16 @@
     .faq-container {
       padding: 5rem 0;
 
-      border: $border-basic;
-      border-radius: $border-radius-pill;
+      // border: $border-basic;
+      // border-radius: $border-radius-pill;
 
-      box-shadow: $shadow-3;
+      // box-shadow: $shadow-3;
 
       transition: $transition;
 
-      &:hover {
-        box-shadow: $shadow-4;
-      }
+      // &:hover {
+      //   box-shadow: $shadow-4;
+      // }
       h2 {
         text-align: center;
         margin-bottom: 3rem;
