@@ -59,7 +59,7 @@
   font-style: italic;
 }
 
-.dt-black, .navbar .logo {
+.dt-black, .project_title, .navbar .logo {
   font-family: "DTGetaiGroteskDisplay";
   font-weight: 900;
   font-style: normal;
@@ -1252,8 +1252,8 @@ p.home_about-feature {
   height: 100vh;
 }
 .project_title {
-  font-size: 14rem;
-  font-family: "Bebas Neue";
+  font-size: 10rem;
+  text-shadow: 2px 2px rgba(70, 55, 209, 0.05);
   position: sticky;
   left: 50%;
   top: 50%;
@@ -1290,6 +1290,18 @@ p.home_about-feature {
 
 .gallery {
   height: 200vh;
+}
+
+@media screen and (max-width: 767px) {
+  .project_title--container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .project_title--container_line--inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .project_title {
+    font-size: 5rem;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

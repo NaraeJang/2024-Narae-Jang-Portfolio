@@ -18,8 +18,12 @@
   }
 
   & {
-    font-size: 14rem;
-    font-family: 'Bebas Neue';
+    font-size: 10rem;
+    @extend .dt-black;
+
+    text-shadow: 2px 2px rgba($cc-primary-600, 0.05);
+
+    // text-transform: uppercase;
     position: sticky;
     left: 50%;
     top: 50%;
@@ -60,4 +64,21 @@
 
 .gallery {
   height: 200vh;
+}
+
+@media screen and (max-width: $breakpoint-mobile-max) {
+  .project_title {
+    &--container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    &--container_line {
+      &--inner {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    & {
+      font-size: 5rem;
+    }
+  }
 }
