@@ -25,14 +25,15 @@ const Faq = () => {
       <section id="faq">
         <div className="pt-[5rem] mx-auto pb-[10rem] max-w-[2560px]">
           <div className="faq-container">
-            <Title title="FAQs" />
+            <h5 className="home_me_title md:w-10/12 lg:w-9/12 md:mx-auto dt-black text-3xl md:text-4xl lg:text-5xl mb-[2rem] text-sand-600">
+              Before you go...
+            </h5>
+            <p className="text-primary-100 mb-10">
+              I've prepared some of answers if you want to know more about me.
+            </p>
             {faqQuestions.map((question) => {
               return <FaqQuestion key={question.id} {...question} />;
             })}
-            <HashLink to="./about#about-me" className="link-about">
-              <span>do you want to know about me more?</span>
-              <FaArrowRight />
-            </HashLink>
           </div>
         </div>
       </section>

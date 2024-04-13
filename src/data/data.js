@@ -222,13 +222,13 @@ export const faqQuestions = [
   },
   {
     id: nanoid(),
-    title: 'What tools do I use?',
-    info: `I utilize a variety of tools depending on the project requirements. For the front-end, I work with HTML, CSS, JavaScript, React.js, TailwindCSS, SASS, Bootstrap, Styled-Components, React Router Dom, and React Query. These tools enable me to create dynamic and responsive user interfaces efficiently. For the back-end, I rely on PostMan for API testing, alongside Node.js, Express.js, and MongoDB for server-side development and database management. For design tasks, I use Figma and Adobe Creative Suite to conceptualize and design user interfaces. Additionally, I employ essential development tools such as NPM, GitHub, and VS Code for package management, version control, and coding tasks, ensuring a streamlined and effective development process.`,
+    title: 'Things I love',
+    info: `🏂 Snowboarding | 🏕 Camping | 🕹 Gaming | 🐶 Dogs | 🤤 Food | 🤿 Scuba diving | 🛫 Traveling | 📸 Photography`,
   },
   {
     id: nanoid(),
-    title: 'What do I do outside of work?',
-    info: `Outside work, I enjoy coffee, listening to music, exploring the world with my partner, and playing with my Jack Russel, Doong-E. Currently, I’m interested in Tango, I might learn it with my partner. 🙂`,
+    title: 'My MBTI',
+    info: `I am an INTJ who is a strategic thinker who is analytical, logical, and creative. I am always looking for ways to improve and optimize and a problem solver who enjoys challenges and is always looking for ways to improve.`,
   },
   {
     id: nanoid(),
