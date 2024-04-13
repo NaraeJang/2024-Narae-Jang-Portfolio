@@ -33,41 +33,41 @@ const Projects = () => {
   // ...
 
   useEffect(() => {
-    gsap.to('.project-title', {
+    const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: '.project-title',
-        toggleActions: 'restart reset restart reset',
-        start: 'top 90%',
+        trigger: '#projects',
+        toggleActions: 'restart none none none',
+        start: 'top 80%',
       },
-      x: '0px',
-      opacity: 1,
     });
 
-    gsap.to(
-      '.project-category',
+    tl.to('.project-title', {
+      x: '0px',
+      opacity: 1,
+      duration: 0.5,
+      ease: 'none',
+    });
 
-      {
-        scrollTrigger: {
-          trigger: '.project-category',
-          toggleActions: 'restart reset restart reset',
-          start: 'top 90%',
-        },
-        x: '0%',
-        opacity: 1,
-      }
-    );
+    tl.to('.project-category', {
+      x: '0%',
+      opacity: 1,
+      duration: 0.5,
+      ease: 'none',
+    });
   }, []);
 
   useEffect(() => {
     gsap.to('.project-item', {
       scrollTrigger: {
-        trigger: '.project-item',
-        toggleActions: 'restart reset restart reset',
-        start: 'top 90%',
+        trigger: '#projects',
+        toggleActions: 'restart none none none',
+        start: 'top 80%',
+        markers: false,
       },
       opacity: 1,
       y: '0px',
-      stagger: 0.5,
+      delay: 0.5,
+      ease: 'none',
     });
   }, [projectsItems]);
 

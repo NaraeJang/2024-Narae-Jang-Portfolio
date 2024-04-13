@@ -387,7 +387,7 @@ hr {
 
 article.project-item {
   opacity: 0;
-  transform: translateY(100px);
+  transform: translateY(400px);
 }
 
 .project-title {
