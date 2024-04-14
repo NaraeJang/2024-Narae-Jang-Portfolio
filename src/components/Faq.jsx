@@ -20,19 +20,19 @@ const Faq = () => {
     setActiveId(newActiveId);
   };
 
-  useEffect(() => {
-    gsap.to('.faq-container', {
-      scrollTrigger: {
-        trigger: '.faq-container',
-        toggleActions: 'restart none none none',
-        start: 'top 90%',
-        markers: false,
-      },
-      ease: 'none',
-      opacity: 1,
-      y: 0,
-    });
-  }, []);
+  // useEffect(() => {
+  //   gsap.to('.faq-container', {
+  //     scrollTrigger: {
+  //       trigger: '.faq-container',
+  //       toggleActions: 'restart none none none',
+  //       start: 'top 90%',
+  //       markers: false,
+  //     },
+  //     ease: 'none',
+  //     opacity: 1,
+  //     y: 0,
+  //   });
+  // }, []);
 
   return (
     <FaqContext.Provider value={{ toggleQuestion, questions, activeId }}>

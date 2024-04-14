@@ -69,6 +69,18 @@ const Projects = () => {
       delay: 0.5,
       ease: 'none',
     });
+
+    gsap.to('.faq-container', {
+      scrollTrigger: {
+        trigger: '.faq-container',
+        toggleActions: 'restart none none none',
+        start: 'top 90%',
+        markers: false,
+      },
+      ease: 'none',
+      opacity: 1,
+      y: 0,
+    });
   }, [projectsItems]);
 
   // ...
