@@ -228,7 +228,7 @@ export const faqQuestions = [
   {
     id: nanoid(),
     title: 'My MBTI',
-    info: `I am an INTJ who is a strategic thinker who is analytical, logical, and creative. I am always looking for ways to improve and optimize and a problem solver who enjoys challenges and is always looking for ways to improve.`,
+    info: `I am an INTJ, known for my strategic thinking and analytical, logical, and creative abilities. I am always seeking ways to improve and optimize as a problem solver who enjoys challenges and continually strives for enhancement.`,
   },
   {
     id: nanoid(),

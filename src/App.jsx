@@ -11,7 +11,6 @@ import {
   LogoDesign,
   Artwork,
 } from './components/pages/';
-import Lenis from '@studio-freight/lenis';
 
 const router = createBrowserRouter([
   {
@@ -37,19 +36,6 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  // const lenis = new Lenis();
-
-  // lenis.on('scroll', (e) => {
-  //   console.log(e);
-  // });
-
-  // function raf(time) {
-  //   lenis.raf(time);
-  //   requestAnimationFrame(raf);
-  // }
-
-  // requestAnimationFrame(raf);
-
   return <RouterProvider router={router}></RouterProvider>;
 }
 
