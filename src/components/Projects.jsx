@@ -41,15 +41,22 @@ const Projects = () => {
       },
     });
 
-    tl.to('.project-title', {
-      x: '0px',
-      opacity: 1,
-      duration: 0.5,
-      ease: 'none',
-    });
+    // tl.to('.project-title', {
+    //   x: '0px',
+    //   opacity: 1,
+    //   duration: 0.5,
+    //   ease: 'none',
+    // });
+
+    // tl.to('.project-category', {
+    //   x: '0%',
+    //   opacity: 1,
+    //   duration: 0.5,
+    //   ease: 'none',
+    // });
 
     tl.to('.project-category', {
-      x: '0%',
+      y: '0%',
       opacity: 1,
       duration: 0.5,
       ease: 'none',
@@ -66,7 +73,6 @@ const Projects = () => {
       },
       opacity: 1,
       y: '0px',
-      delay: 0.5,
       ease: 'none',
     });
 
@@ -79,6 +85,7 @@ const Projects = () => {
       },
       ease: 'none',
       opacity: 1,
+      duration: 0.3,
       y: 0,
     });
   }, [projectsItems]);
@@ -93,8 +100,9 @@ const Projects = () => {
         className="mt-[-8vh] bg-bgcolor  min-h-[120vh] h-fit rounded-3xl z-40 relative overflow-hidden">
         <div className="mt-[3rem] px-[5vw] lg:px-[2vw] max-w-[2560px] mx-auto grid place-items-center">
           <div className="responsive-padding mx-auto">
-            <div className="title-container gap-y-6 md:flex-row md:items-center md:justify-between mb-8">
-              <Title title="Projects" extraClass="project-title" />
+            {/* <div className="title-container gap-y-6 md:flex-row md:items-center md:justify-between mb-8"> */}
+            <div className="title-container flex items-center mb-8">
+              {/* <Title title="Projects" extraClass="project-title" /> */}
               <ProjectsCategories />
             </div>
             <ProjectItems />

@@ -347,7 +347,7 @@ hr {
 .title-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 #projects {
@@ -397,7 +397,7 @@ article.project-item {
 
 .project-category {
   opacity: 0;
-  transform: translateX(200%);
+  transform: translateY(-200%);
 }
 
 #faq div.faq-main {
