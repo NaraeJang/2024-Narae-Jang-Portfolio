@@ -1,5 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import { Faq, Header, Projects, Loading, SecondHeader, ThirdHeader } from './';
+import { NewProjects } from './newProject';
 import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -40,6 +41,7 @@ const Home = () => {
         <HomeAbout />
         <ProjectTitle />
         <Projects />
+        {/* <NewProjects /> */}
         <Faq />
       </div>
     </main>
