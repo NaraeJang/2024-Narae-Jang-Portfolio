@@ -1,0 +1,148 @@
+.product-box {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+  column-count: 1;
+  column-gap: 0.5rem;
+  counter-reset: count;
+  width: 100%;
+  margin-bottom: 15rem;
+  overflow: hidden;
+}
+
+.product-div {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: opacity 0.5s ease;
+  -webkit-column-break-inside: avoid;
+  margin-bottom: 0.625rem;
+}
+
+.image-with-text {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.8rem;
+}
+
+.box-item-start {
+  align-items: start;
+}
+.flex-box-space {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.flex-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-element-link {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.element-link {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  display: grid;
+  place-items: center;
+
+  transition: $transition;
+
+  span {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  &:hover {
+    background: $cc-primary-50;
+    border-radius: 100px;
+  }
+}
+
+.item-title {
+  @extend .poppins-bold;
+  color: $cc-primary-600;
+  font-size: 1.125rem;
+  line-height: 1.15rem;
+  word-wrap: break-word;
+  align-self: flex-start;
+  padding-top: 0.3125rem;
+  text-align: left;
+}
+
+.description {
+  @extend .poppins-regular;
+  width: auto;
+  padding-top: 0.3rem;
+  color: $cc-primary-300;
+  font-size: 0.875rem;
+  line-height: 1.15rem;
+  word-wrap: break-word;
+  align-self: flex-start;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+  opacity: 0;
+
+  transition: $transition;
+}
+
+.mySwiper:hover .swiper-button-prev,
+.mySwiper:hover .swiper-button-next {
+  opacity: 1;
+}
+
+@media screen and (min-width: $breakpoint-desktop-min) {
+  .product-box {
+    column-count: 2;
+  }
+}
+@media screen and (min-width: $breakpoint-xl-desktop-min) {
+  .product-box {
+    column-count: 2;
+  }
+}

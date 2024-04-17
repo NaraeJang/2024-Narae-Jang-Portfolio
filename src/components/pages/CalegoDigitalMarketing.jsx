@@ -1,4 +1,3 @@
-import { Loading } from '../';
 import {
   CTitle,
   CEmailNewsletter,
@@ -11,7 +10,6 @@ import {
 const CalegoDigitalMarketing = () => {
   return (
     <main id="digital-marketing">
-      {/* <Loading /> */}
       <div className="w-full h-full hero"></div>
       <div className="max-w-[2560px] mx-auto">
         <CTitle />

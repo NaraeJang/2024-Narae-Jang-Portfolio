@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { Loading } from '../';
 import {
   GanaDesignProcess,
   GanaTitle,
@@ -53,7 +52,6 @@ const Ganadara = () => {
 
   return (
     <main id="ganadara" className="relative">
-      {/* <Loading /> */}
       <div className="hero" id="gana-hero"></div>
       <div className="max-w-[2560px] mx-auto">
         <GanaTitle />

@@ -11,7 +11,7 @@
 /* rest of the vars */
 /* box shadow */
 /* break points */
-.poppins-regular, #hero .hero-title p, .btn, .btn:visited, .btn:link, .navbar .navbar__list > * {
+.poppins-regular, #hero .hero-title p, .btn, .btn:visited, .btn:link, .description, .navbar .navbar__list > * {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -29,7 +29,7 @@
   font-style: normal;
 }
 
-.poppins-bold, .navbar .navbar__list .active {
+.poppins-bold, .item-title, .navbar .navbar__list .active {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -687,53 +687,6 @@ footer#footer .custom-container .email .clipboard-msg {
   background-image: url(../public/gabriel/banner2.webp);
 }
 
-.intro-container {
-  padding: max(7rem, 10vh) clamp(4rem, 12vw, 18rem) 0;
-  display: grid;
-  place-items: center;
-  text-align: left;
-  min-height: 100vh;
-  max-height: 1920px;
-}
-.intro-container h5 {
-  font-size: clamp(2.5rem, 5vw, 8rem);
-  line-height: 140%;
-  text-transform: none;
-  color: #4e3de8;
-}
-.intro-container h1::selection,
-.intro-container div::selection {
-  background-color: #4637d1;
-  color: #fff397;
-}
-
-.reveal-content {
-  color: #6050ea;
-  transform: translateX(-40px);
-  opacity: 0;
-  transition: 0.3s ease-in-out all;
-}
-
-#home-about {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  min-height: 100vh;
-  min-height: 100svh;
-  width: 100vw;
-  width: 100svw;
-  background-color: #4637d1;
-  color: #cac5f8;
-}
-
-@media screen and (max-width: 767px) {
-  .intro-container {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20vh 0 5vh;
-  }
-}
 .controls {
   border: 3px solid red;
   color: hsl(0, 0%, 10%);
@@ -798,6 +751,149 @@ footer#footer .custom-container .email .clipboard-msg {
         color: #4637d1;
       }
     }
+  }
+}
+.product-box {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+  column-count: 1;
+  column-gap: 0.5rem;
+  counter-reset: count;
+  width: 100%;
+  margin-bottom: 15rem;
+  overflow: hidden;
+}
+
+.product-div {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: opacity 0.5s ease;
+  -webkit-column-break-inside: avoid;
+  margin-bottom: 0.625rem;
+}
+
+.image-with-text {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.8rem;
+}
+
+.box-item-start {
+  align-items: start;
+}
+
+.flex-box-space {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-element-link {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.element-link {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  transition: 0.3s ease-in-out all;
+}
+.element-link span {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.element-link:hover {
+  background: #edecfd;
+  border-radius: 100px;
+}
+
+.item-title {
+  color: #4637d1;
+  font-size: 1.125rem;
+  line-height: 1.15rem;
+  word-wrap: break-word;
+  align-self: flex-start;
+  padding-top: 0.3125rem;
+  text-align: left;
+}
+
+.description {
+  width: auto;
+  padding-top: 0.3rem;
+  color: #8377ef;
+  font-size: 0.875rem;
+  line-height: 1.15rem;
+  word-wrap: break-word;
+  align-self: flex-start;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+  opacity: 0;
+  transition: 0.3s ease-in-out all;
+}
+
+.mySwiper:hover .swiper-button-prev,
+.mySwiper:hover .swiper-button-next {
+  opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .product-box {
+    column-count: 2;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .product-box {
+    column-count: 2;
   }
 }
 .btn, .btn:visited, .btn:link {

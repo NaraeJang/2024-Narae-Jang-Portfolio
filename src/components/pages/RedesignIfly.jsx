@@ -1,4 +1,3 @@
-import { Loading } from '../';
 import {
   IflyTitle,
   IflyResearch,
@@ -15,7 +14,6 @@ import {
 const RedesignIfly = () => {
   return (
     <main id="redesign-ifly" className="text-left  bg-[#fff]">
-      {/* <Loading /> */}
       <div className="hero" id="ifly-hero"></div>
       <div className="max-w-[2560px] mx-auto">
         <IflyTitle />
