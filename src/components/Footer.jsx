@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import { footerNav } from '../data/data';
+import { footerNav } from '../data/footerNavbar';
 import { FaRegCopy } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
 

@@ -5,7 +5,10 @@ import { TextPlugin } from 'gsap/TextPlugin';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useEffect } from 'react';
 
-import { infiniteScrollDesign, infiniteScrollDev } from '../../data/data';
+import {
+  infiniteScrollDesign,
+  infiniteScrollDev,
+} from '../../data/aboutScroll';
 gsap.registerPlugin(TextPlugin, ScrollTrigger);
 
 const HomeAbout = () => {

@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import { FaqQuestion, Title } from './';
-import { faqQuestions } from '../data/data';
+import { faqQuestions } from '../data/faqQuestions';
 import { FaArrowRight } from 'react-icons/fa6';
 
 import { HashLink } from 'react-router-hash-link';

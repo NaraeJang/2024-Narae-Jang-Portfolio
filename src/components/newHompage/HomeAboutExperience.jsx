@@ -1,4 +1,4 @@
-import { workExperience } from '../../data/data';
+import { workExperience } from '../../data/workExperience';
 
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
