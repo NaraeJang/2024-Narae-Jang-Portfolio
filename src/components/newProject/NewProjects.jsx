@@ -36,7 +36,7 @@ const NewProjects = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: '#projects',
-        toggleActions: 'restart none none none',
+        toggleActions: 'play none none none',
         start: 'top 80%',
       },
     });
@@ -99,7 +99,7 @@ const NewProjects = () => {
         id="projects"
         className="mt-[-8vh] bg-bgcolor  min-h-[120vh] h-fit rounded-3xl z-40 relative overflow-hidden">
         <div className="mt-[3rem]  max-w-[2560px] grid place-items-center">
-          <div className="responsive-padding mx-auto w-full max-w-[100vw] px-[5vw] lg:px-[2vw]">
+          <div className="responsive-padding-2 mx-auto w-full max-w-[100vw] px-[5vw] lg:px-[2vw]">
             {/* <div className="title-container gap-y-6 md:flex-row md:items-center md:justify-between mb-8"> */}
             <div className="title-container flex items-center mb-8">
               {/* <Title title="Projects" extraClass="project-title" /> */}

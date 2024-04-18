@@ -792,6 +792,10 @@ footer#footer .custom-container .email .clipboard-msg {
   border-radius: 0.8rem;
 }
 
+.responsive-padding-2 {
+  padding-top: max(10rem, 9vh);
+}
+
 img {
   width: 100%;
 }
