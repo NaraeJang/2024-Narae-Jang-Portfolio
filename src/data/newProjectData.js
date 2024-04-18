@@ -153,7 +153,7 @@ export const projectsData = [
     img: [Wegic],
     imgAlt: 'Wegic',
     title: 'Wegic: Mobile Invitation',
-    keyword: `React | SASS | Google Sheet REST API | UI/UX Design`,
+    keyword: `React | SASS | Google Sheets API | UI/UX Design`,
     livePath: './wegic',
     internalPath: null,
     gitLink: 'https://github.com/NaraeJang/Wegic',
