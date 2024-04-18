@@ -5,7 +5,7 @@ import PorschePrestige from '../../../assets/gabriel/PorschePrestige.mp4';
 
 const GabrielVideo = () => {
   return (
-    <section className="custom-container w-[90%]">
+    <section id="gabriel-video" className="custom-container w-[90%]">
       <GabrielTitleText text="Video Editing" />
       <p className="mb-10">
         My secondary responsibility involved the creation of localized Groupe

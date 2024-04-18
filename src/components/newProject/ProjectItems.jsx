@@ -11,11 +11,14 @@ import { PiGithubLogo } from 'react-icons/pi';
 import { GoLinkExternal } from 'react-icons/go';
 // data
 import { projectsData } from '../../data/newProjectData';
+import { useProjectContext } from './NewProjects';
 
 const ProjectItems = () => {
+  const { projectsItems } = useProjectContext();
+
   return (
     <div className="product-box">
-      {projectsData.map(
+      {projectsItems.map(
         ({
           id,
           category,

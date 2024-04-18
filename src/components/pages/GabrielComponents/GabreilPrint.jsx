@@ -10,7 +10,7 @@ import LexusVIPCard from '../../../assets/gabriel/LexusVIPCard.webp';
 const GabreilPrint = () => {
   return (
     <>
-      <section className="custom-container w-[90%]">
+      <section id="GabrielPrint" className="custom-container w-[90%]">
         <GabrielTitleText text="Print Design" />
         <p>
           My responsibilities extended to generating fresh ideas, retouching

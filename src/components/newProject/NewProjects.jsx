@@ -1,5 +1,5 @@
 import { ProjectsCategories, ProjectItems } from './';
-import { projectsData } from '../../data/projectData';
+import { projectsData } from '../../data/newProjectData';
 import { createContext, useContext, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
