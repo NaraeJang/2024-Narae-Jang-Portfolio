@@ -20,7 +20,7 @@ const Items = () => {
       scrollTrigger: {
         trigger: '#project-gallery',
         toggleActions: 'restart none none reverse',
-        markers: true,
+        markers: false,
         scrub: true,
       },
       ease: 'power4.out', // Use GSAP's built-in easing
