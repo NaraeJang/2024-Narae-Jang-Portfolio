@@ -146,7 +146,7 @@ img {
   opacity: 1;
 }
 
-@media screen and (min-width: $breakpoint-desktop-min) {
+@media screen and (min-width: $breakpoint-tablet-min) {
   .product-box {
     column-count: 2;
   }
