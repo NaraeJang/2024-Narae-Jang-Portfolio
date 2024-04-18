@@ -53,6 +53,8 @@ import Vacay14 from '../assets/newItemThumbs/Vacay14.webp';
 import GaBa01 from '../assets/newItemThumbs/Ga_Banner01.webp';
 import GaBa02 from '../assets/newItemThumbs/Ga_Banner02.webp';
 import GaBa03 from '../assets/newItemThumbs/Ga_Banner03.webp';
+import CaDi01 from '../assets/newItemThumbs/Ca_Di01.gif';
+import CaDi02 from '../assets/newItemThumbs/Ca_Di02.gif';
 import DigitalMarketingWebp from '../assets/projects-images/Calego.webp';
 
 export const projectsData = [
@@ -136,7 +138,7 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['Brand Identity', 'Marketing'],
-    img: [DigitalMarketingWebp],
+    img: [DigitalMarketingWebp, CaDi01, CaDi02],
     imgAlt: 'Calego Marketing',
     title: 'Calego Digital Marketing',
     keyword: `Marketing | Email Marketing | Social Media Marketing | Web Design `,
