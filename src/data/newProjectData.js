@@ -53,6 +53,7 @@ import Vacay14 from '../assets/newItemThumbs/Vacay14.webp';
 import GaBa01 from '../assets/newItemThumbs/Ga_Banner01.webp';
 import GaBa02 from '../assets/newItemThumbs/Ga_Banner02.webp';
 import GaBa03 from '../assets/newItemThumbs/Ga_Banner03.webp';
+import DigitalMarketingWebp from '../assets/projects-images/Calego.webp';
 
 export const projectsData = [
   {
@@ -113,6 +114,17 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['Brand Identity', 'Marketing'],
+    img: [GaVi],
+    imgAlt: 'Groupe Gabriel Marketing',
+    title: 'Groupe Gabriel Video Ads',
+    keyword: `Marketing | Video Editing | Merging Videos | Premier Pro | After Effect`,
+    livePath: null,
+    internalPath: './group-gabriel#gabriel-video',
+    gitLink: null,
+  },
+  {
+    id: nanoid(),
+    category: ['Brand Identity', 'Marketing'],
     img: [GaDi01, GaDi02, GaDi03],
     imgAlt: 'Groupe Gabriel Digital Marketing',
     title: 'Groupe Gabriel Digital Marketing',
@@ -124,13 +136,25 @@ export const projectsData = [
   {
     id: nanoid(),
     category: ['Brand Identity', 'Marketing'],
-    img: [GaVi],
-    imgAlt: 'Groupe Gabriel Marketing',
-    title: 'Groupe Gabriel Video Ads',
-    keyword: `Marketing | Video Editing | Merging Videos | Premier Pro | After Effect`,
+    img: [DigitalMarketingWebp],
+    imgAlt: 'Calego Marketing',
+    title: 'Calego Digital Marketing',
+    keyword: `Marketing | Email Marketing | Social Media Marketing | Web Design `,
     livePath: null,
-    internalPath: './group-gabriel#gabriel-video',
+    internalPath: './calego-digital-marketing#digital-marketing',
     gitLink: null,
+  },
+
+  {
+    id: nanoid(),
+    category: ['development', 'ui/ux'],
+    img: [Wegic],
+    imgAlt: 'Wegic',
+    title: 'Wegic: Mobile Invitation',
+    keyword: `React | SASS | Google Sheet REST API | UI/UX Design`,
+    livePath: './wegic',
+    internalPath: null,
+    gitLink: 'https://github.com/NaraeJang/Wegic',
   },
   {
     id: nanoid(),
@@ -143,17 +167,6 @@ export const projectsData = [
       'https://app.flexitive.com/preview/?breakpoints=970x250,300x50,300x250,320x50,728x90,300x600&pageId=N4XwH4wbCqm&templateId=5686&tab=fix-inPage',
     internalPath: null,
     gitLink: null,
-  },
-  {
-    id: nanoid(),
-    category: ['development', 'ui/ux'],
-    img: [Wegic],
-    imgAlt: 'Wegic',
-    title: 'Wegic: Mobile Invitation',
-    keyword: `React | SASS | Google Sheet REST API | UI/UX Design`,
-    livePath: './wegic',
-    internalPath: null,
-    gitLink: 'https://github.com/NaraeJang/Wegic',
   },
   {
     id: nanoid(),
