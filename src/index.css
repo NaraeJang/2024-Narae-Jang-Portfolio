@@ -792,6 +792,10 @@ footer#footer .custom-container .email .clipboard-msg {
   border-radius: 0.8rem;
 }
 
+img {
+  width: 100%;
+}
+
 .box-item-start {
   align-items: start;
 }
@@ -800,6 +804,7 @@ footer#footer .custom-container .email .clipboard-msg {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  gap: 1rem;
 }
 
 .flex-element {
@@ -851,6 +856,7 @@ footer#footer .custom-container .email .clipboard-msg {
   line-height: 1.15rem;
   word-wrap: break-word;
   align-self: flex-start;
+  text-align: left;
 }
 
 .swiper {
@@ -893,7 +899,7 @@ footer#footer .custom-container .email .clipboard-msg {
 }
 @media screen and (min-width: 1280px) {
   .product-box {
-    column-count: 2;
+    column-count: 3;
   }
 }
 .btn, .btn:visited, .btn:link {
