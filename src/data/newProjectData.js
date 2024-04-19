@@ -74,7 +74,7 @@ export const projectsData = [
     category: ['ui/ux'],
     img: [GanaApp01, GanaApp02],
     imgAlt: 'Ganadara App',
-    title: 'Job Tracking Web Application',
+    title: 'Bar Ganadara Booking App',
     keyword: `UI/UX Design | Competitive Analysis | Persona | User Journey Map | User Flow | Sitemap | Usability Study | Wireframing | Prototyping | Case Study`,
     livePath: null,
     internalPath: './ganadara-bar#gana-hero',
