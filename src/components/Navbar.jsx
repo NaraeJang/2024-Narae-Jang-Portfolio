@@ -37,6 +37,7 @@ const Navbar = () => {
       <nav className="navbar__list">
         <HashLink
           to="#about"
+          onClick={navigateToHome}
           className={location.hash === '#about' ? 'active' : ''}>
           about
         </HashLink>
