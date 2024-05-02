@@ -14,7 +14,7 @@ const CSocialMedia = () => {
         Social Media Content
       </h5>
 
-      <div className="flex flex-row flex-wrap gap-4 items-center justify-center lg:justify-between">
+      <div className="columns-2 lg:columns-4">
         <img
           src={SocialMedia07}
           alt="Social Media img 07"

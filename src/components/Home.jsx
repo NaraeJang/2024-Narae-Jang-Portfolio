@@ -2,7 +2,7 @@ import { Faq, Projects } from './';
 import { NewProjects } from './newProject';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Hero, HomeAbout, ProjectTitle, ProjectSection } from './newHompage';
+import { Hero, HomeAbout, ProjectTitle } from './newHompage';
 
 gsap.registerPlugin(ScrollTrigger);
 

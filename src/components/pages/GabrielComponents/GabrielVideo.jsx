@@ -19,7 +19,7 @@ const GabrielVideo = () => {
 
       <div className="flex flex-col items-center justify-center gap-10">
         <div>
-          <video width="1000" autoplay controls>
+          <video width="1000" autoPlay controls>
             <source src={PorschePrestige} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -27,7 +27,7 @@ const GabrielVideo = () => {
         </div>
 
         <div>
-          <video width="1000" autoplay controls>
+          <video width="1000" autoPlay controls>
             <source src={AudiQ7video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -35,7 +35,7 @@ const GabrielVideo = () => {
         </div>
 
         <div>
-          <video width="1000" autoplay controls>
+          <video width="1000" autoPlay controls>
             <source src={Audivideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
