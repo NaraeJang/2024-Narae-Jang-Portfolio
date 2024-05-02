@@ -6,7 +6,7 @@ const GabrielVideo = () => {
   return (
     <section>
       <div>
-        <video preload autoPlay muted controls>
+        <video autoPlay muted loop>
           <source src={PorschePrestige} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

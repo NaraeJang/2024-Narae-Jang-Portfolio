@@ -19,7 +19,7 @@ const GabrielVideo = () => {
 
       <div className="flex flex-col items-center justify-center gap-10">
         <div>
-          <video width="1000" autoPlay controls>
+          <video width="1000" autoPlay muted controls>
             <source src={PorschePrestige} type="video/mp4" />
             Your browser does not support the video tag.
           </video>

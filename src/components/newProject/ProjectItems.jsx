@@ -24,6 +24,7 @@ const ProjectItems = () => {
           category,
           img,
           imgAlt,
+          video = null,
           title,
           keyword,
           livePath,
@@ -34,7 +35,13 @@ const ProjectItems = () => {
             <div className="product-div" key={id}>
               <div className="image-with-text">
                 <div className="img-container">
-                  {img.length < 2 ? (
+                  {video ? (
+                    <video autoPlay muted loop>
+                      <source src={video} type="video/mp4" />
+                      <img src={img} alt={imgAlt} />
+                      Your browser does not support the video tag.
+                    </video>
+                  ) : img.length < 2 ? (
                     <img src={img} alt={imgAlt} />
                   ) : (
                     <Swiper
@@ -54,13 +61,11 @@ const ProjectItems = () => {
                       speed="500"
                       loop={true}
                       className="mySwiper">
-                      {img.map((item, index) => {
-                        return (
-                          <SwiperSlide key={title + index}>
-                            <img src={item} alt={title + index} />
-                          </SwiperSlide>
-                        );
-                      })}
+                      {img.map((item, index) => (
+                        <SwiperSlide key={title + index}>
+                          <img src={item} alt={title + index} />
+                        </SwiperSlide>
+                      ))}
                     </Swiper>
                   )}
                 </div>
