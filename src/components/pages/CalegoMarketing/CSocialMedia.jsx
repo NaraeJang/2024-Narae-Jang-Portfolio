@@ -18,23 +18,23 @@ const CSocialMedia = () => {
         <img
           src={SocialMedia07}
           alt="Social Media img 07"
-          className="border rounded border-slate-200 shadow-sm w-[45%] max-w-[18rem]"
+          className="border rounded border-slate-50 shadow-sm mb-8"
         />
         <img
           src={SocialMedia04}
           alt="Social Media img 04"
-          className="border rounded border-slate-200 shadow-sm w-[45%] max-w-[18rem]"
+          className="border rounded border-slate-50 shadow-sm mb-8"
         />
         <img
           src={SocialMedia05}
           alt="Social Media img 05"
-          className="border rounded border-slate-200 shadow-sm w-[45%] max-w-[18rem]"
+          className="border rounded border-slate-50 shadow-sm mb-8"
         />
 
         <img
           src={SocialMedia06}
           alt="Social Media img 06"
-          className="border rounded border-slate-200 shadow-sm w-[45%] max-w-[18rem]"
+          className="border rounded border-slate-50 shadow-sm mb-8"
         />
       </div>
 
