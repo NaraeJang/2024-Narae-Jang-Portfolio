@@ -4,7 +4,7 @@ import PorschePrestige from '../../assets/gabriel/PorschePrestige.mp4';
 
 const GabrielVideo = () => {
   return (
-    <section>
+    <section id="gabriel-video-intro">
       <div>
         <video autoPlay muted loop>
           <source src={PorschePrestige} type="video/mp4" />

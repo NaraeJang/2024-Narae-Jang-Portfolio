@@ -79,7 +79,7 @@ export const projectsData = [
     title: 'Groupe Gabriel Video Ads',
     keyword: `Marketing | Video Editing | Merging Videos | Premier Pro | After Effect`,
     livePath: null,
-    internalPath: './gabriel-video',
+    internalPath: './gabriel-video#gabriel-video-intro',
     gitLink: null,
   },
   {
