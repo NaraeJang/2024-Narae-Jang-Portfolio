@@ -56,6 +56,7 @@ import GaBa03 from '../assets/newItemThumbs/Ga_Banner03.webp';
 import CaDi01 from '../assets/newItemThumbs/Ca_Di01.gif';
 import CaDi02 from '../assets/newItemThumbs/Ca_Di02.gif';
 import DigitalMarketingWebp from '../assets/projects-images/Calego.webp';
+import GaVideo from '../assets//gabriel/AudiGabrielVideo.mp4';
 
 export const projectsData = [
   {
@@ -68,6 +69,18 @@ export const projectsData = [
     livePath: 'https://jobmate-1gpn.onrender.com/',
     internalPath: null,
     gitLink: 'https://github.com/NaraeJang/Jobmate',
+  },
+  {
+    id: nanoid(),
+    category: ['Brand Identity', 'Marketing'],
+    img: [GaVi],
+    video: [GaVideo],
+    imgAlt: 'Groupe Gabriel Marketing',
+    title: 'Groupe Gabriel Video Ads',
+    keyword: `Marketing | Video Editing | Merging Videos | Premier Pro | After Effect`,
+    livePath: null,
+    internalPath: './gabriel-video',
+    gitLink: null,
   },
   {
     id: nanoid(),
@@ -113,17 +126,7 @@ export const projectsData = [
     internalPath: null,
     gitLink: null,
   },
-  {
-    id: nanoid(),
-    category: ['Brand Identity', 'Marketing'],
-    img: [GaVi],
-    imgAlt: 'Groupe Gabriel Marketing',
-    title: 'Groupe Gabriel Video Ads',
-    keyword: `Marketing | Video Editing | Merging Videos | Premier Pro | After Effect`,
-    livePath: null,
-    internalPath: './group-gabriel#gabriel-video',
-    gitLink: null,
-  },
+
   {
     id: nanoid(),
     category: ['Brand Identity', 'Marketing'],

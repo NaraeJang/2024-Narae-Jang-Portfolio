@@ -8,3 +8,4 @@ export { default as PrintGana } from './PrintGana';
 export { default as EwNetwork } from './EwNetwork';
 export { default as LogoDesign } from './LogoDesign';
 export { default as Artwork } from './Artwork';
+export { default as GabrielVideo } from './GabrielVideo';

@@ -10,6 +10,7 @@ import {
   EwNetwork,
   LogoDesign,
   Artwork,
+  GabrielVideo,
 } from './components/pages/';
 
 const router = createBrowserRouter([
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
       { path: 'ew_network', element: <EwNetwork /> },
       { path: 'logo_design', element: <LogoDesign /> },
       { path: 'artwork', element: <Artwork /> },
+      { path: 'gabriel-video', element: <GabrielVideo /> },
     ],
   },
 ]);
