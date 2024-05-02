@@ -79,8 +79,7 @@ const HomeAbout = () => {
                   <span className="block poppins-regular text-sm text-primary-400">
                     (3)
                   </span>
-                  Interested in creating easy-to-use, unique digital interfaces
-                  for the web and mobile devices.
+                  Interested in creating unique digital experience.
                 </p>
               </div>
             </div>
