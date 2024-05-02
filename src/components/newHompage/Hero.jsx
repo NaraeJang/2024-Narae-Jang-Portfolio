@@ -93,9 +93,7 @@ const Hero = () => {
 
   return (
     <>
-      <section
-        id="hero"
-        className="min-h-[100vh] min-h-[100svh] overflow-hidden">
+      <section id="hero" className="min-h-screen min-h-svh overflow-hidden">
         <div className="hero-title">
           <h1 className="dt-black text-reveal">
             From defining brand identities to refining user interfaces.
