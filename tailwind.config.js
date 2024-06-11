@@ -52,6 +52,11 @@ export default {
             backgroundColor: '#e5e5e2',
           },
         },
+        '.shadow-navbar': {
+          fill: '#FAFAFA',
+          filter:
+            'drop-shadow(1px 1px 2px rgba(97, 97, 97, 0.10)) drop-shadow(2px 3px 4px rgba(97, 97, 97, 0.09)) drop-shadow(5px 7px 5px rgba(97, 97, 97, 0.05)) drop-shadow(9px 13px 6px rgba(97, 97, 97, 0.01)) drop-shadow(14px 20px 7px rgba(97, 97, 97, 0.00))',
+        },
       });
     }),
   ],
