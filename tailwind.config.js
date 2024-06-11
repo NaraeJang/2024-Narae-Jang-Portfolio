@@ -1,50 +1,58 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require('tailwindcss/defaultTheme');
+const plugin = require('tailwindcss/plugin');
+
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    colors: {
-      white: '#fefefe',
-      black: '#222',
-      bgcolor: '#fdfcf9',
-      sand: {
-        600: '##fcf6ec',
-        800: '#e5ddce',
-      },
-      primary: {
-        50: '#edecfd',
-        100: '#cac5f8',
-        200: '#a79ef4',
-        300: '#8377ef',
-        400: '#6050ea',
-        500: '#4e3de8',
-        600: '#4637d1',
-        700: '#372ba2',
-        800: '#271f74',
-        900: '#171246',
-      },
-      secondary: {
-        300: '#fff397',
-      },
-      grey: {
-        50: '#fefefe',
-        100: '#ebebeb',
-        200: '#c2c2c2',
-        300: '#9a9a9a',
-        400: '#717171',
-        500: '#484848',
-        600: '#343434',
-        700: '#2a2a2a',
-        800: '#1f1f1f',
-        900: '#101010',
-      },
-    },
-
     extend: {
       gridTemplateColumns: {
         // Simple 16 column grid
         13: 'repeat(13, minmax(0, 1fr))',
       },
+      fontFamily: {
+        poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
+        fjalla: ['Fjalla One', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addComponents }) {
+      addComponents({
+        '.btn': {
+          padding: '.625rem 1.25rem',
+          borderRadius: '.375rem',
+          fontWeight: '500',
+          lineHeight: '1',
+          transitionProperty: 'all',
+          transitionDuration: '150ms',
+          transitionTimingFunction: 'cubic-bezier(0.4, 0, 1, 1)',
+        },
+        '.btn-primary': {
+          backgroundColor: '#33332e',
+          color: '#f5f5f5',
+          '&:hover': {
+            backgroundColor: '#888679',
+          },
+        },
+        '.btn-ghost': {
+          backgroundColor: 'transparent',
+          border: '1px solid #aaa89e',
+          color: '#6d6b5f',
+          '&:hover': {
+            border: '1px solid #3b3a34',
+            color: '#0f0f0d',
+          },
+        },
+        '.btn-white': {
+          backgroundColor: '#f5f5f5',
+          color: '##888679',
+          '&:hover': {
+            backgroundColor: '#e5e5e2',
+          },
+        },
+      });
+    }),
+  ],
 };
