@@ -13,7 +13,7 @@ export default {
       },
       fontFamily: {
         poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
-        fjalla: ['Fjalla One', ...defaultTheme.fontFamily.sans],
+        title: ['Fjalla One', ...defaultTheme.fontFamily.sans],
       },
     },
   },
