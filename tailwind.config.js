@@ -57,6 +57,10 @@ export default {
           filter:
             'drop-shadow(1px 1px 2px rgba(97, 97, 97, 0.10)) drop-shadow(2px 3px 4px rgba(97, 97, 97, 0.09)) drop-shadow(5px 7px 5px rgba(97, 97, 97, 0.05)) drop-shadow(9px 13px 6px rgba(97, 97, 97, 0.01)) drop-shadow(14px 20px 7px rgba(97, 97, 97, 0.00))',
         },
+        '.shadow-category': {
+          boxShadow:
+            '23px 45px 14px 0px rgba(18, 18, 18, 0.00), 15px 29px 13px 0px rgba(18, 18, 18, 0.01), 8px 16px 11px 0px rgba(18, 18, 18, 0.05), 4px 7px 8px 0px rgba(18, 18, 18, 0.09), 1px 2px 4px 0px rgba(18, 18, 18, 0.10)',
+        },
       });
     }),
   ],
