@@ -3,6 +3,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useEffect } from 'react';
 
 //ShaderGradient
+import React from 'react';
 import { ShaderGradientCanvas, ShaderGradient } from 'shadergradient';
 import * as reactSpring from '@react-spring/three';
 import * as drei from '@react-three/drei';
@@ -70,8 +71,6 @@ const Hero = () => {
 
         {/* <ShaderGradientCanvas
           importedFiber={{ ...fiber, ...drei, ...reactSpring }}
-          zoomOut={false}
-          cDistance={1}
           style={{
             position: 'absolute',
             top: 0,
