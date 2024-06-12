@@ -3,7 +3,7 @@ import { createContext, useContext, useState, useEffect } from 'react';
 
 // Components
 import { projectsData } from '../../data/newProjectData';
-import { WorkCategories } from './WorkSection';
+import { WorkCategories, WorkItems } from './WorkSection';
 
 // GSAP
 import { TextPlugin } from 'gsap/TextPlugin';
@@ -60,8 +60,8 @@ const Works = () => {
       <section
         id="work"
         className="scale-95 bg-transparent g-bg-scale relative min-h-fit min-w-[100svw] grid place-items-center mt-[-10svh] rounded-3xl overflow-hidden border-2 border-white z-40">
-        <div className="cc-change h-full w-full py-24 px-[4%]">
-          <div className="w-full flex felx-col justify-between items-end">
+        <div className="cc-change h-full w-full py-24">
+          <div className="w-full flex felx-col justify-between items-end  px-[4%]">
             <div>
               <h3 className="font-title text-neutral-900 uppercase text-3xl leading-tight">
                 work
@@ -73,6 +73,7 @@ const Works = () => {
 
             <WorkCategories />
           </div>
+          <WorkItems />
         </div>
       </section>
     </ProjectContext.Provider>

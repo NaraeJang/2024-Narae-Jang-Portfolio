@@ -11,6 +11,40 @@
   clip-path: circle(0% at 50% 50%);
 }
 
+/* SWIPER */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+  opacity: 0;
+  @apply transition-all;
+}
+
+.mySwiper:hover .swiper-button-prev,
+.mySwiper:hover .swiper-button-next {
+  opacity: 1;
+}
+
 @layer base {
   html {
     font-family: 'Poppins', ui-sans-serif, system-ui, sans-serif,
