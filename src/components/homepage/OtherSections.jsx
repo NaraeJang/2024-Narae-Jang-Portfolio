@@ -1,11 +1,11 @@
-import { Generalist, Journey } from './';
+import { Generalist, Journey } from './OtherSection';
 
 const OtherSections = () => {
   return (
-    <div>
+    <section className="bg-black mt-[-10svh]  py-24">
       <Journey />
       <Generalist />
-    </div>
+    </section>
   );
 };
 export default OtherSections;
