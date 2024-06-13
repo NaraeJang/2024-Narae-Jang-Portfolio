@@ -18,8 +18,8 @@ export const workExperience = [
   },
   {
     id: nanoid(),
-    title: 'Freelance Designer',
-    company: null,
+    title: 'Freelance Graphic Designer',
+    company: 'Freelancer',
     year: '2018 - 2023',
     other: {
       clients:

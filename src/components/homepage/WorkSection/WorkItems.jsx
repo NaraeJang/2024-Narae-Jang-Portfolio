@@ -38,7 +38,7 @@ const WorkItems = () => {
               className="relative w-full h-auto p-1 box-border transition-all mb-6 break-inside-avoid-column"
               key={id}>
               <div className="group relative w-full flex gap-4 flex-col items-center">
-                <div className="relative w-full overflow-hidden rounded-xl border border-neutral-200">
+                <div className="relative w-full overflow-hidden rounded-xl border border-neutral-200 group-hover:border-neutral-400">
                   {video ? (
                     <a href={internalPath}>
                       <video autoPlay muted loop>
