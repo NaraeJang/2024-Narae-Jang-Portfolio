@@ -60,9 +60,9 @@ const Works = () => {
       <section
         id="work"
         className="scale-95 bg-transparent g-bg-scale relative min-h-fit min-w-[100svw] grid place-items-center mt-[-10svh] rounded-3xl overflow-hidden border-2 border-white z-40">
-        <div className="cc-change h-full w-full py-24">
-          <div className="w-full flex felx-col justify-between items-end  px-[4%]">
-            <div>
+        <div className="cc-change h-full w-svw py-24">
+          <div className="w-full flex flex-col gap-4 xl:gap-0 xl:flex-row items-start xl:justify-between xl:items-end">
+            <div className="px-[4%] shrink-0">
               <h3 className="font-title text-neutral-900 uppercase text-3xl leading-tight">
                 work
               </h3>
