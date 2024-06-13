@@ -15,6 +15,9 @@ export default {
         poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
         title: ['Fjalla One', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        black: '#0b0b0c',
+      },
     },
   },
   plugins: [

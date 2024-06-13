@@ -11,6 +11,7 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 // REACT ICONS
 import { PiGithubLogo } from 'react-icons/pi';
 import { GoLinkExternal } from 'react-icons/go';
+import { MdArrowOutward } from 'react-icons/md';
 
 // DATA
 import { projectsData } from '../../../data/newProjectData';
@@ -103,7 +104,7 @@ const WorkItems = () => {
                         rel="noopener noreferrer"
                         tooltip="Visit Site"
                         className="group/site w-6 h-6 relative before:content-[attr(tooltip)] before:invisible before:absolute before:text-xs  before:-translate-y-3/4 before:-top-[16px] before:-translate-x-1/2 before:-left-1/2 md:before:translate-x-1/2 md:before:left-1/2  before:bg-black before:py-[0.5625rem] before:px-[1.125rem] before:text-white before:rounded-full before:w-max before:text-center z-20 before:opacity-0 hover:before:visible hover:before:opacity-100 hover:before:-translate-x-1/2 hover:before:-translate-y-full">
-                        <GoLinkExternal className="w-full h-full text-neutral-400 group-hover/site:text-neutral-700 transition-colors" />
+                        <MdArrowOutward className="w-full h-full text-neutral-400 group-hover/site:text-neutral-700 transition-colors" />
                       </a>
                     )}
                   </div>

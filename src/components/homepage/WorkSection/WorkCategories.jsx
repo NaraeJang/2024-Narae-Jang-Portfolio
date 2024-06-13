@@ -5,9 +5,11 @@ const WorkCategories = () => {
 
   return (
     <div className="flex flex-1 flex-row flex-nowrap overflow-x-auto w-full md:flex-none gap-3 items-center justify-start px-[4%] xl:w-auto">
-      {allCategories.map((category) => {
+      {allCategories.map((category, index) => {
         return (
-          <div className="flex-auto md:flex-none shrink-0 max-w-full">
+          <div
+            className="flex-auto md:flex-none shrink-0 max-w-full"
+            key={category + index}>
             <button
               type="button"
               key={category}
