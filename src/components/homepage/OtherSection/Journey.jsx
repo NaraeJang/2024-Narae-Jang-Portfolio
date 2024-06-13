@@ -21,7 +21,7 @@ const Journey = () => {
                 <span className="relative z-10 transition-colors duration-[300ms] ease-[cubic-bezier(0.48,0,0.12,1)]">
                   View Certifications
                 </span>
-                <span className="bg-white text-black w-full h-full grid place-items-center text-center absolute bottom-0 transition-all duration-[300ms] ease-[cubic-bezier(0.48,0,0.12,1)] z-20 opacity-0 top-1/2 left-1/2 transform translate-y-[225%] translate-x-[-50%] leading-[13px]">
+                <span className=" tracking-tighter bg-white text-black w-full h-full grid place-items-center text-center absolute bottom-0 transition-all duration-[300ms] ease-[cubic-bezier(0.48,0,0.12,1)] z-20 opacity-0 top-1/2 left-1/2 transform translate-y-[225%] translate-x-[-50%] leading-[13px]">
                   Design & Development
                 </span>
               </div>
