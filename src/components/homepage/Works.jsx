@@ -69,52 +69,6 @@ const Works = () => {
     setCurrentWorkCategory(currentCategory);
   }, [currentCategory]);
 
-  // useEffect(() => {
-  //   //GSAP TEXT ANIMATION IN GENERALIST
-  //   const splitTypes = document.querySelectorAll('.reveal-type');
-
-  //   splitTypes.forEach((words, i) => {
-  //     const text = new SplitType(words, {
-  //       types: 'words',
-  //     });
-
-  //     gsap.from(text.words, {
-  //       scrollTrigger: {
-  //         trigger: words,
-  //         start: 'top bottom-=30%',
-  //         end: 'top top+=25%',
-  //         scrub: 1,
-  //         markers: false,
-  //       },
-  //       opacity: 0.2,
-  //       stagger: 0.1,
-  //     });
-  //   });
-
-  //   // GSAP JOURNEY SECTION DISAPPEAR ANIMATION
-  //   gsap.to('#g-journey-section', {
-  //     scrollTrigger: {
-  //       trigger: '#g-generalist-section',
-  //       scrub: 1,
-  //       start: 'top bottom-=15%',
-  //       end: 'top bottom-=20%',
-  //       markers: false,
-  //     },
-  //     opacity: 0,
-  //   });
-  //   //GSAP BG COLOR CHANGE ANIMATION
-  //   gsap.to('.g-bg-manipulator', {
-  //     scrollTrigger: {
-  //       trigger: '#g-generalist-section',
-  //       scrub: 1,
-  //       start: 'top bottom-=20%',
-  //       end: 'top bottom-=30%',
-  //       markers: true,
-  //     },
-  //     backgroundColor: '#ffffff',
-  //   });
-  // }, [projectsItems]);
-
   return (
     <ProjectContext.Provider
       value={{ allCategories, filterItems, projectsItems, currentCategory }}>
