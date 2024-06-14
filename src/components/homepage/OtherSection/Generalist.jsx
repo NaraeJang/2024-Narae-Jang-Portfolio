@@ -82,6 +82,17 @@ const Generalist = () => {
       },
       backgroundColor: '#ffffff',
     });
+
+    gsap.to('.g-generalist-email', {
+      scrollTrigger: {
+        trigger: '.g-generalist-email',
+        scrub: 1,
+        markers: false,
+        start: 'top bottom-=15%',
+        end: 'top bottom-=18%',
+      },
+      opacity: 1,
+    });
   }, [currentWorkCategory]); // Ensure GSAP animations update when category changes
 
   useEffect(() => {
@@ -97,8 +108,8 @@ const Generalist = () => {
   }, []);
 
   return (
-    <section className="h-[80vh] lg:h-max my-28 md:my-40 lg:mt-56 lg:mb-50 grid place-items-center px-[4%] w-svw">
-      <div id="g-generalist-section">
+    <section className="min-h-[80vh] lg:h-max my-28 md:my-40 lg:mt-56 lg:mb-50 px-[4%] w-svw">
+      <div id="g-generalist-section" className="grid place-items-center">
         <div className="w-full">
           {windowWidth < 448 ? (
             <h1 className="text-left reveal-type text-neutral-900 font-title text-[2.5rem] leading-normal">
@@ -126,8 +137,17 @@ const Generalist = () => {
           )}
         </div>
       </div>
-      <div className="mt-14 text-lg text-center">
-        <h5>Are you looking for generalist? Let's set the time.</h5>
+      <div className="opacity-0 g-generalist-email mt-10 lg:mt-14 text-lg text-center">
+        {windowWidth < 448 ? (
+          <h5>
+            Are you looking for generalist?
+            <br />
+            Let's have a coffee chat. 🙂
+          </h5>
+        ) : (
+          <h5>Are you looking for generalist? Let's have a coffee chat. 🙂</h5>
+        )}
+
         <button
           className="mt-4 py-3 px-6 border border-neutral-300 rounded-full text-base transition-colors hover:text-neutral-700 hover:border-neutral-700"
           onClick={copyEmail}>
