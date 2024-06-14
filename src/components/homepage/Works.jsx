@@ -1,25 +1,19 @@
-import { gsap } from 'gsap';
-import { createContext, useContext, useState, useEffect } from 'react';
-
-// Components
+import { createContext, useContext, useState, useEffect, useRef } from 'react';
 import { projectsData } from '../../data/newProjectData';
 import { WorkCategories, WorkItems } from './WorkSection';
-
-// GSAP
-import { TextPlugin } from 'gsap/TextPlugin';
+import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-// Context
+gsap.registerPlugin(ScrollTrigger);
+
 const ProjectContext = createContext();
 
 const Works = () => {
-  //CATEGORY FILTER FUNCTION
   const allCategories = [
     'all',
     ...new Set(projectsData.flatMap((item) => item.category)),
   ];
   const [currentCategory, setCurrentCategory] = useState('all');
-
   const [projectsItems, setProjectsItems] = useState(projectsData);
 
   const filterItems = (category) => {
@@ -32,14 +26,15 @@ const Works = () => {
       return item.category.some((cat) => cat === category);
     });
     setCurrentCategory(category);
-    return setProjectsItems(newItems);
+    setProjectsItems(newItems);
   };
 
-  // GSAP ANIMATION
+  const workSectionRef = useRef(null);
+
   useEffect(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: '.g-bg-scale',
+        trigger: workSectionRef.current,
         toggleActions: 'play none none reverse',
         scrub: 1,
         start: 'top bottom-=5%',
@@ -48,16 +43,21 @@ const Works = () => {
       },
     });
 
-    tl.to('#work', {
+    tl.to(workSectionRef.current, {
       scale: 1,
       backgroundColor: '#fff',
     });
+
+    return () => {
+      if (tl) tl.kill();
+    };
   }, []);
 
   return (
     <ProjectContext.Provider
       value={{ allCategories, filterItems, projectsItems, currentCategory }}>
       <section
+        ref={workSectionRef}
         id="work"
         className="scale-95 bg-transparent g-bg-scale relative min-h-fit min-w-[100svw] grid place-items-center mt-[-20svh] rounded-3xl overflow-hidden border-2 border-white z-40">
         <div className="cc-change h-full w-svw py-24">
@@ -70,7 +70,6 @@ const Works = () => {
                 I help businesses in design to drive more digital sales.
               </p>
             </div>
-
             <WorkCategories />
           </div>
           <WorkItems />

@@ -65,9 +65,14 @@
 #certification-btn:hover span:last-child {
   transform: translateX(-50%) translateY(-50%);
   opacity: 1;
-  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
 }
 
+.gradient-word-generalist {
+  background: linear-gradient(90deg, #97b3ff, #6ec3f4, #99e6ee, #b9beff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @layer base {
   html {
     font-family: 'Poppins', ui-sans-serif, system-ui, sans-serif,

@@ -2,7 +2,7 @@ import { workExperience } from '../../../data/workExperience';
 
 const Journey = () => {
   return (
-    <section className="my-28 md:my-40 lg:my-52 px-[4%]">
+    <section id="g-journey-section" className="my-28 md:my-40 lg:my-52 px-[4%]">
       <h3 className="font-title text-white uppercase text-3xl leading-tight">
         My Journey
       </h3>
