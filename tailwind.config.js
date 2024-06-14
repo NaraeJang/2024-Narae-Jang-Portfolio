@@ -64,6 +64,10 @@ export default {
           boxShadow:
             '23px 45px 14px 0px rgba(18, 18, 18, 0.00), 15px 29px 13px 0px rgba(18, 18, 18, 0.01), 8px 16px 11px 0px rgba(18, 18, 18, 0.05), 4px 7px 8px 0px rgba(18, 18, 18, 0.09), 1px 2px 4px 0px rgba(18, 18, 18, 0.10)',
         },
+        '.shadow-footer': {
+          boxShadow:
+            '43px 73px 24px 0px rgba(173, 173, 173, 0.00), 27px 47px 22px 0px rgba(173, 173, 173, 0.01), 15px 26px 18px 0px rgba(173, 173, 173, 0.05), 7px 12px 14px 0px rgba(173, 173, 173, 0.09), 2px 3px 7px 0px rgba(173, 173, 173, 0.10);',
+        },
       });
     }),
   ],

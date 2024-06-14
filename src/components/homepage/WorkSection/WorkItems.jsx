@@ -10,7 +10,6 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 // REACT ICONS
 import { PiGithubLogo } from 'react-icons/pi';
-import { GoLinkExternal } from 'react-icons/go';
 import { MdArrowOutward } from 'react-icons/md';
 
 // DATA
