@@ -1,19 +1,36 @@
-import { createContext, useContext, useState, useEffect, useRef } from 'react';
+import {
+  createContext,
+  useContext,
+  useState,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+} from 'react';
+
+// Components
 import { projectsData } from '../../data/newProjectData';
 import { WorkCategories, WorkItems } from './WorkSection';
+import { useHomeContext } from './Home';
+
+// GSAP
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import SplitType from 'split-type';
 
 gsap.registerPlugin(ScrollTrigger);
 
+// Context
 const ProjectContext = createContext();
 
 const Works = () => {
+  const { setCurrentWorkCategory } = useHomeContext();
+  //CATEGORY FILTER FUNCTION
   const allCategories = [
     'all',
     ...new Set(projectsData.flatMap((item) => item.category)),
   ];
   const [currentCategory, setCurrentCategory] = useState('all');
+
   const [projectsItems, setProjectsItems] = useState(projectsData);
 
   const filterItems = (category) => {
@@ -26,15 +43,14 @@ const Works = () => {
       return item.category.some((cat) => cat === category);
     });
     setCurrentCategory(category);
-    setProjectsItems(newItems);
+    return setProjectsItems(newItems);
   };
 
-  const workSectionRef = useRef(null);
-
+  // GSAP ANIMATION
   useEffect(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: workSectionRef.current,
+        trigger: '.g-bg-scale',
         toggleActions: 'play none none reverse',
         scrub: 1,
         start: 'top bottom-=5%',
@@ -43,21 +59,66 @@ const Works = () => {
       },
     });
 
-    tl.to(workSectionRef.current, {
+    tl.to('#work', {
       scale: 1,
       backgroundColor: '#fff',
     });
-
-    return () => {
-      if (tl) tl.kill();
-    };
   }, []);
+
+  useEffect(() => {
+    setCurrentWorkCategory(currentCategory);
+  }, [currentCategory]);
+
+  // useEffect(() => {
+  //   //GSAP TEXT ANIMATION IN GENERALIST
+  //   const splitTypes = document.querySelectorAll('.reveal-type');
+
+  //   splitTypes.forEach((words, i) => {
+  //     const text = new SplitType(words, {
+  //       types: 'words',
+  //     });
+
+  //     gsap.from(text.words, {
+  //       scrollTrigger: {
+  //         trigger: words,
+  //         start: 'top bottom-=30%',
+  //         end: 'top top+=25%',
+  //         scrub: 1,
+  //         markers: false,
+  //       },
+  //       opacity: 0.2,
+  //       stagger: 0.1,
+  //     });
+  //   });
+
+  //   // GSAP JOURNEY SECTION DISAPPEAR ANIMATION
+  //   gsap.to('#g-journey-section', {
+  //     scrollTrigger: {
+  //       trigger: '#g-generalist-section',
+  //       scrub: 1,
+  //       start: 'top bottom-=15%',
+  //       end: 'top bottom-=20%',
+  //       markers: false,
+  //     },
+  //     opacity: 0,
+  //   });
+  //   //GSAP BG COLOR CHANGE ANIMATION
+  //   gsap.to('.g-bg-manipulator', {
+  //     scrollTrigger: {
+  //       trigger: '#g-generalist-section',
+  //       scrub: 1,
+  //       start: 'top bottom-=20%',
+  //       end: 'top bottom-=30%',
+  //       markers: true,
+  //     },
+  //     backgroundColor: '#ffffff',
+  //   });
+  // }, [projectsItems]);
 
   return (
     <ProjectContext.Provider
       value={{ allCategories, filterItems, projectsItems, currentCategory }}>
       <section
-        ref={workSectionRef}
         id="work"
         className="scale-95 bg-transparent g-bg-scale relative min-h-fit min-w-[100svw] grid place-items-center mt-[-20svh] rounded-3xl overflow-hidden border-2 border-white z-40">
         <div className="cc-change h-full w-svw py-24">
@@ -70,6 +131,7 @@ const Works = () => {
                 I help businesses in design to drive more digital sales.
               </p>
             </div>
+
             <WorkCategories />
           </div>
           <WorkItems />

@@ -1,19 +1,32 @@
+import React, { useState, useEffect } from 'react';
 import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { useState, useEffect, useRef } from 'react';
 import SplitType from 'split-type';
-
+import { useHomeContext } from '../Home';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const Generalist = () => {
+  const { currentWorkCategory } = useHomeContext();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const generalistSectionRef = useRef(null);
 
   useEffect(() => {
+    // Ensure DOM elements exist before initializing GSAP animations
+    const fetchWorkSectionHeight = () => {
+      setTimeout(() => {
+        ScrollTrigger.refresh();
+      }, 1000);
+    };
+    fetchWorkSectionHeight();
+  }, [currentWorkCategory]);
+
+  useEffect(() => {
+    // GSAP TEXT ANIMATION IN GENERALIST
     const splitTypes = document.querySelectorAll('.reveal-type');
 
-    splitTypes.forEach((words) => {
-      const text = new SplitType(words, { types: 'words' });
+    splitTypes.forEach((words, i) => {
+      const text = new SplitType(words, {
+        types: 'words',
+      });
 
       gsap.from(text.words, {
         scrollTrigger: {
@@ -28,9 +41,10 @@ const Generalist = () => {
       });
     });
 
+    // GSAP JOURNEY SECTION DISAPPEAR ANIMATION
     gsap.to('#g-journey-section', {
       scrollTrigger: {
-        trigger: generalistSectionRef.current,
+        trigger: '#g-generalist-section',
         scrub: 1,
         start: 'top bottom-=15%',
         end: 'top bottom-=20%',
@@ -39,9 +53,10 @@ const Generalist = () => {
       opacity: 0,
     });
 
+    // GSAP BG COLOR CHANGE ANIMATION
     gsap.to('.g-bg-manipulator', {
       scrollTrigger: {
-        trigger: generalistSectionRef.current,
+        trigger: '#g-generalist-section',
         toggleActions: 'restart none none reset',
         scrub: 1,
         start: 'top bottom-=20%',
@@ -50,7 +65,9 @@ const Generalist = () => {
       },
       backgroundColor: '#ffffff',
     });
+  }, [currentWorkCategory]); // Ensure GSAP animations update when category changes
 
+  useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
@@ -64,10 +81,9 @@ const Generalist = () => {
 
   return (
     <section
-      ref={generalistSectionRef}
       id="g-generalist-section"
-      className="h-[80vh] lg:h-max my-28 md:my-40 lg:mt-56 lg:mb-50 grid place-items-center px-[4%] w-svw ">
-      <div className="w-full ">
+      className="h-[80vh] lg:h-max my-28 md:my-40 lg:mt-56 lg:mb-50 grid place-items-center px-[4%] w-svw">
+      <div className="w-full">
         {windowWidth < 448 ? (
           <h1 className="text-left reveal-type text-neutral-900 font-title text-[2.5rem] leading-normal">
             I’m a{' '}
@@ -84,7 +100,7 @@ const Generalist = () => {
             <span className="gradient-word-generalist transition-all">
               passionate generalist
             </span>
-            <br /> who enjoys the variety of jobs
+            <br /> who enjoys the variety of jobs{' '}
             {windowWidth > 700 && windowWidth < 1330 ? <br /> : ' '}
             that I get to do.
             <br /> which isn’t categorical, is situational.
