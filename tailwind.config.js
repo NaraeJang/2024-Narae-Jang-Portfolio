@@ -56,7 +56,10 @@ export default {
             backgroundColor: '#e5e5e2',
           },
         },
-
+        '.text-stroke-1': {
+          textShadow:
+            ' -1px -1px 0 #BFCFFF, 1px -1px 0 #BFCFFF, -1px 1px 0 #BFCFFF, 1px 1px 0 #BFCFFF;',
+        },
         '.shadow-navbar': {
           fill: '#FAFAFA',
           filter:

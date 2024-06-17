@@ -20,7 +20,7 @@ const Hero = () => {
       },
       scrollTrigger: {
         trigger: '#g-pin',
-        toggleActions: 'restart none none reset',
+        toggleActions: 'play none none reset',
         start: 'top bottom-=25%',
         end: 'bottom top+=25%',
         scrub: 1,
@@ -36,13 +36,13 @@ const Hero = () => {
 
   return (
     <section id="g-hero-container" className="relative h-[200svh] w-svw">
-      <div className="g-element-container absolute top-0 left-0 h-[200svh] w-full">
+      <div className="g-element-container absolute top-0 left-0 h-[200svh] w-full px-[4%]">
         <div className="sticky top-0 left-0 h-svh flex justify-center items-center w-full">
           <div className="w-full md:max-w-3xl text-center px-4">
             <h1 className="w-full md:max-w-xl mx-auto font-title uppercase text-5xl md:text-[5rem] text-black leading-tight">
               Transforming ideas into reality
             </h1>
-            <p className="text-base md:text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed mt-4 md:mt-0">
               My expertise encompasses branding, logo design, publication
               design, digital marketing, UI/UX, and development, forging new
               paths into the digital landscape.
@@ -57,19 +57,26 @@ const Hero = () => {
 
       <div
         id="g-hero-hidden-element"
-        className="sticky top-0 left-0 z-10 h-svh clip-path-hero flex justify-center items-center w-svw bg-black text-white">
+        className="sticky top-0 left-0 z-10 h-svh clip-path-hero flex justify-center items-center w-full px-[4%] bg-black text-white">
         <div className="w-full md:max-w-3xl text-center px-4 z-10">
-          <h1 className="w-full md:max-w-xl mx-auto font-title uppercase text-5xl md:text-[5rem] text-white leading-tight">
-            Transforming ideas into reality
+          <h1 className="w-full md:max-w-xl mx-auto font-title uppercase text-5xl md:text-[5rem] text-white leading-tight text-stroke-1">
+            Transforming{' '}
+            <spa className="font-dm-serif tracking-tighter capitalize italic md:text-[5.25rem]">
+              ideas
+            </spa>{' '}
+            into{' '}
+            <span className="font-dm-serif tracking-tighter capitalize italic md:text-[5.25rem]">
+              reality
+            </span>
           </h1>
-          <p className="text-base md:text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed text-stroke-1  mt-4 md:mt-0">
             My expertise encompasses branding, logo design, publication design,
             digital marketing, UI/UX, and development, forging new paths into
             the digital landscape.
           </p>
         </div>
 
-        {/* <ShaderGradientCanvas
+        <ShaderGradientCanvas
           importedFiber={{ ...fiber, ...drei, ...reactSpring }}
           style={{
             position: 'absolute',
@@ -81,7 +88,7 @@ const Hero = () => {
             control="query"
             urlString="https://www.shadergradient.co/customize?animate=on&axesHelper=off&bgColor1=%23000000&bgColor2=%23000000&brightness=3.95&cAzimuthAngle=170&cDistance=4.4&cPolarAngle=70&cameraZoom=1&color1=c3e4ff&color2=eae2ff&color3=%23ffffff&destination=onCanvas&embedMode=off&envPreset=city&format=gif&fov=45&frameRate=10&gizmoHelper=hide&grain=off&lightType=3d&pixelDensity=1&positionX=0&positionY=0.9&positionZ=-0.3&range=enabled&rangeEnd=40&rangeStart=0&reflection=0.1&rotationX=45&rotationY=0&rotationZ=0&shader=defaults&type=waterPlane&uAmplitude=0&uDensity=1.2&uFrequency=0&uSpeed=0.2&uStrength=3.4&uTime=0&wireframe=false"
           />
-        </ShaderGradientCanvas> */}
+        </ShaderGradientCanvas>
       </div>
     </section>
   );
