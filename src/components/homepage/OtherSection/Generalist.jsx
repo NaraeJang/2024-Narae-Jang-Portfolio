@@ -108,7 +108,7 @@ const Generalist = () => {
   }, []);
 
   return (
-    <section className="min-h-[80vh] lg:h-max my-28 md:my-40 lg:mt-56 lg:mb-50 px-[4%] w-svw">
+    <section className="min-h-[80vh] md:min-h-fit lg:h-max my-28 md:my-40 lg:mt-56 lg:mb-56 2xl:min-h-[50vh] px-[4%] w-svw">
       <div id="g-generalist-section" className="grid place-items-center">
         <div className="w-full">
           {windowWidth < 448 ? (
