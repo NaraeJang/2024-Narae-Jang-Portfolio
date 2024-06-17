@@ -61,7 +61,6 @@ const Works = () => {
 
     tl.to('#work', {
       scale: 1,
-      backgroundColor: '#fff',
     });
   }, []);
 
@@ -74,7 +73,7 @@ const Works = () => {
       value={{ allCategories, filterItems, projectsItems, currentCategory }}>
       <section
         id="work"
-        className="scale-95 bg-transparent g-bg-scale relative min-h-fit min-w-[100svw] grid place-items-center mt-[-20svh] rounded-3xl overflow-hidden border-2 border-white z-40">
+        className="scale-95 bg-white g-bg-scale relative min-h-fit min-w-[100svw] grid place-items-center mt-[-20svh] rounded-3xl overflow-hidden border-2 border-white z-40">
         <div className="cc-change h-full w-svw py-24">
           <div className="w-full flex flex-col gap-4 xl:gap-0 xl:flex-row items-start xl:justify-between xl:items-end">
             <div className="px-[4%] shrink-0">
