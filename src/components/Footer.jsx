@@ -9,12 +9,12 @@ const Footer = () => {
     <footer className="px-[4%]">
       <section className="text-neutral-600 py-10 lg:py-12 rounded-2xl flex flex-row gap-4 w-full items-center justify-center bg-neutral-50">
         <a
-          href="#"
+          href="https://www.linkedin.com/in/naraejang0117"
           className="p-4 bg-white rounded-full transition-all shadow-footer">
           <RiLinkedinLine className="w-6 h-6" />
         </a>
         <a
-          href="#"
+          href="https://github.com/naraejang"
           className="p-4 bg-white rounded-full transition-all shadow-footer">
           <PiGithubLogo className="w-6 h-6" />
         </a>
