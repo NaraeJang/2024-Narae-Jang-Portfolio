@@ -88,8 +88,8 @@ const Generalist = () => {
         trigger: '.g-generalist-email',
         scrub: 1,
         markers: false,
-        start: 'top bottom-=15%',
-        end: 'top bottom-=18%',
+        start: 'top bottom-=20%',
+        end: 'top bottom-=22%',
       },
       opacity: 1,
     });
@@ -112,32 +112,50 @@ const Generalist = () => {
       <div id="g-generalist-section" className="grid place-items-center">
         <div className="w-full">
           {windowWidth < 448 ? (
-            <h1 className="text-left reveal-type text-neutral-900 font-title text-[2.5rem] leading-normal">
+            <h1 className="text-left reveal-type text-neutral-900 font-title text-[2.5rem] leading-normal tracking-tight">
               I’m a{' '}
               <span className="gradient-word-generalist">
                 passionate generalist
               </span>{' '}
-              who enjoys the variety of jobs that I get to do. which isn’t
-              categorical, is situational. I can be graphic designer, UI
-              designer, and front-end developer.
+              who enjoys the{' '}
+              <span className="font-dm-serif italic tracking-tighter">
+                variety
+              </span>{' '}
+              <span className="font-dm-serif italic tracking-tighter">of</span>{' '}
+              <span className="font-dm-serif italic tracking-tighter">
+                jobs
+              </span>{' '}
+              that I get to do. which isn’t categorical, but{' '}
+              <span className="font-dm-serif italic transition-colors">
+                situational
+              </span>
+              . I can be a graphic designer, UI designer, and front-end
+              developer.
             </h1>
           ) : (
-            <h1 className="text-center reveal-type text-neutral-800 font-title text-4xl md:text-5xl lg:text-6xl leading-normal md:leading-normal lg:leading-normal lg:tracking-tight">
+            <h1 className="text-center reveal-type text-neutral-800 font-title text-4xl md:text-5xl xl:text-6xl xl:leading-normal leading-normal md:leading-normal lg:leading-normal lg:tracking-tight">
               I’m a{' '}
               <span className="gradient-word-generalist transition-all">
                 passionate generalist
               </span>
-              <br /> who enjoys the variety of jobs{' '}
-              {windowWidth > 700 && windowWidth < 1330 ? <br /> : ' '}
+              <br /> who{' '}
+              <span className="font-dm-serif italic hover:text-[#85A4FF] transition-colors tracking-tight">
+                enjoys the variety of jobs
+              </span>{' '}
+              {windowWidth > 700 && windowWidth < 830 ? <br /> : ' '}
               that I get to do.
-              <br /> which isn’t categorical, is situational.
-              <br /> I can be graphic designer, UI designer,
+              <br /> which isn’t categorical, but{' '}
+              <span className="font-dm-serif italic hover:text-[#64B5F4] transition-colors tracking-tight">
+                situational
+              </span>
+              .
+              <br /> I can be a graphic designer, UI designer,
               <br /> and front-end developer.
             </h1>
           )}
         </div>
       </div>
-      <div className="opacity-0 g-generalist-email mt-10 lg:mt-14 text-lg text-center">
+      <div className="opacity-0 g-generalist-email mt-4 lg:mt-10 text-lg text-left md:text-center">
         {windowWidth < 448 ? (
           <h5>
             Are you looking for generalist?

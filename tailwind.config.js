@@ -14,6 +14,7 @@ export default {
       fontFamily: {
         poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
         title: ['Fjalla One', ...defaultTheme.fontFamily.sans],
+        'dm-serif': ['DM Serif Display', ...defaultTheme.fontFamily.serif],
       },
       colors: {
         black: '#0b0b0c',
@@ -55,6 +56,7 @@ export default {
             backgroundColor: '#e5e5e2',
           },
         },
+
         '.shadow-navbar': {
           fill: '#FAFAFA',
           filter:
@@ -67,6 +69,10 @@ export default {
         '.shadow-footer': {
           boxShadow:
             '43px 73px 24px 0px rgba(173, 173, 173, 0.00), 27px 47px 22px 0px rgba(173, 173, 173, 0.01), 15px 26px 18px 0px rgba(173, 173, 173, 0.05), 7px 12px 14px 0px rgba(173, 173, 173, 0.09), 2px 3px 7px 0px rgba(173, 173, 173, 0.10);',
+          '&:hover': {
+            boxShadow:
+              '15px 16px 6px 0px rgba(64, 64, 64, 0.00), 9px 10px 6px 0px rgba(64, 64, 64, 0.01), 5px 6px 5px 0px rgba(64, 64, 64, 0.05), 2px 3px 3px 0px rgba(64, 64, 64, 0.09), 1px 1px 2px 0px rgba(64, 64, 64, 0.10);',
+          },
         },
       });
     }),
