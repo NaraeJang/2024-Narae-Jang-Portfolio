@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 
 const HomeLayout = () => {
   return (
-    <div className="relative">
+    <div className="relative max-w-[1920px] mx-auto">
       <Navbar />
       <Outlet />
       <Footer />

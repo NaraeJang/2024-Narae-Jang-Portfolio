@@ -10,7 +10,9 @@ const Navbar = () => {
         <ul className="invisible hidden group-hover:visible group-hover:flex flex-row gap-4 items-center justify-end leading-none">
           <li>
             <a href="/" className="">
-              <p className="font-title text-lg text-neutral-800">Narae Jang</p>
+              <p className="font-title text-base text-neutral-800">
+                Narae Jang
+              </p>
             </a>
           </li>
           <li>

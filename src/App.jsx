@@ -16,7 +16,7 @@ const router = createBrowserRouter([
         element: <CertificationPage />,
       },
       { path: 'group-gabriel-video-ads', element: <GabrielVideo /> },
-      { path: 'group-gabriel-publications', element: <GabrielPrint /> },
+      { path: 'group-gabriel-publication-design', element: <GabrielPrint /> },
     ],
   },
 ]);

@@ -22,7 +22,7 @@ const GabrielPrint = () => {
         <div className="detail-title-container">
           <h2 className="detail-title">Publication Design</h2>
           <p className="detail-description">
-            For Al Dealerships that belongs to Groupe Gabriel with in-house
+            For All Dealerships that belongs to Groupe Gabriel with in-house
             marketing team in 2019 - 2021
           </p>
           <div className="detail-category-container">
@@ -50,14 +50,14 @@ const GabrielPrint = () => {
         </div>
       </section>
 
-      <div className="flex flex-col md:grid md:grid-cols-8 gap-4  md:gap-8 my-4 md:my-8">
+      <div className="flex flex-col lg:flex-row gap-4 md:gap-8 my-4 md:my-8">
         <img
           src={NissanPrintAd}
           alt="Nissan Suburban"
-          className="object-contain rounded-2xl border border-neutral-200 col-span-4"
+          className="object-contain h-full max-h-full rounded-2xl border border-neutral-200 col-span-3"
         />
 
-        <div className="md:col-span-4 py-4 md:py-auto px-4 flex flex-col gap-4 justify-center items-center w-full rounded-2xl bg-neutral-50 object-contain">
+        <div className="py-4 md:py-auto px-4 flex flex-col gap-4 justify-center items-center w-full rounded-2xl bg-neutral-50 object-contain">
           <img src={WashCoupon01} alt="Nissan Car Wash Coupon" />
           <img src={WashCoupon02} alt="Nissan Car Wash Coupon" />
         </div>
@@ -74,17 +74,19 @@ const GabrielPrint = () => {
         className="object-fit rounded-2xl w-full  md:gap-8 my-4 md:my-8"
       />
 
-      <div className="flex flex-col md:grid md:grid-cols-8 lg:flex-row gap-4  md:gap-8 my-4 md:my-8">
-        <img
-          src={LexusVIPCard}
-          alt="Lexus Vip Card"
-          className="rounded-2xl object-cover col-span-5"
-        />
+      <div className="flex flex-col lg:flex-row gap-4 md:gap-8 my-4 md:my-8">
+        <div className="py-4 md:py-auto px-4 rounded-2xl bg-neutral-100 w-full">
+          <img
+            src={LexusVIPCard}
+            alt="Lexus Vip Card"
+            className="object-cover w-full h-full rounded-2xl"
+          />
+        </div>
 
         <img
           src={KiaPrintAd}
           alt="Kia Gabriel Ouest Print Ad"
-          className="object-fit rounded-2xl border h-full border-neutral-200 col-span-3"
+          className="rounded-2xl bg-neutral-50 object-contain w-full lg:w-[70%]  border border-neutral-200"
         />
       </div>
     </main>

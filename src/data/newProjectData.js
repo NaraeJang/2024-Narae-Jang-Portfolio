@@ -193,7 +193,7 @@ export const projectsData = [
     imgAlt: 'Groupe Gabriel Publication Marketing',
     title: 'Groupe Gabriel Publication Design',
     livePath: null,
-    internalPath: null,
+    internalPath: 'group-gabriel-publication-design',
     gitLink: null,
   },
   {
