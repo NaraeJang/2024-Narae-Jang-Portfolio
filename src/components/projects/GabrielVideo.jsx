@@ -1,26 +1,32 @@
 import AudiQ7video from '../../assets/gabriel/AudiQ7.mp4';
-import Audivideo from '../../assets/gabriel/AudiGabrielVideo.mp4';
+import AudiVideo from '../../assets/gabriel/AudiGabrielVideo.mp4';
 import PorschePrestige from '../../assets/gabriel/PorschePrestige.mp4';
 
 const gabrielVideo = () => {
   return (
     <main className="px-[4%] text-center">
-      <section className="rounded-2xl overflow-hidden mt-8">
-        <video autoPlay muted loop>
+      <section className="detail-section-first">
+        <video autoPlay muted loop className="w-full">
           <source src={PorschePrestige} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>
 
-      <div className="my-4 md:my-8 lg:my-12 px-[4%] py-14 md:py-14 bg-neutral-50 rounded-2xl flex flex-col gap-6">
-        <h2 className="font-title text-2xl text-neutral-800">
-          Creation of Groupe Gabriel Promotional Videos
-        </h2>
-        <p className="text-sm text-neutral-400">
-          For Porsche Prestige & Audi Gabriel with in-house marketing team in
-          2019 - 2021
-        </p>
-        <div className="text-neutral-500 leading-relaxed flex flex-col gap-2">
+      <section className="detail-section-middle">
+        <div className="detail-title-container">
+          <h2 className="detail-title">
+            Creation of Groupe Gabriel Promotional Videos
+          </h2>
+          <p className="detail-description">
+            For Porsche Prestige & Audi Gabriel with in-house marketing team in
+            2019 - 2021
+          </p>
+          <div className="detail-category-container">
+            <span className="detail-category-pill">Premier Pro</span>
+            <span className="detail-category-pill">After Effect</span>
+          </div>
+        </div>
+        <div className="detail-content-container">
           <p>
             Groupe Gabriel is one of the largest car dealership groups in the
             Greater Montreal area.
@@ -38,15 +44,20 @@ const gabrielVideo = () => {
             in Audi dealerships across several areas in Montreal.
           </p>
         </div>
-        <div className="flex flex-row gap-2 justify-center items-center">
-          <span className="rounded-full py-2 px-4 bg-neutral-200/75 text-neutral-500/85 text-sm capitalize transition-all">
-            Premier Pro
-          </span>
-          <span className="rounded-full py-2 px-4 bg-neutral-200/75 text-neutral-500/85 text-sm capitalize transition-all">
-            After Effect
-          </span>
-        </div>
-      </div>
+      </section>
+
+      <section className="detail-section-middle-image">
+        <video controls className="w-full">
+          <source src={AudiVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+      <section className="detail-section-middle-image">
+        <video muted controls className="w-full">
+          <source src={AudiQ7video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
     </main>
   );
 };
