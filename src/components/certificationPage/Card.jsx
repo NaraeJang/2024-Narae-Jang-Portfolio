@@ -11,7 +11,7 @@ const Card = ({ id, year, title, linkTitle, link, extraClass }) => {
         </h5>
       </div>
       <a href={link} target="_blank" className="about-link">
-        <p className="py-2 px-4 bg-neutral-100 rounded-full text-neutral-400 text-sm capitalize hover:bg-neutral-200 hover:text-neutral-500 transition-colors">
+        <p className="py-2 px-4 bg-neutral-100 rounded-full text-neutral-400 text-sm capitalize hover:bg-neutral-200 hover:text-neutral-800 transition-colors">
           {linkTitle}
         </p>
       </a>
