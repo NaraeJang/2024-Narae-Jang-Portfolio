@@ -50,19 +50,42 @@ const GabrielPrint = () => {
         </div>
       </section>
 
-      <div className="flex flex-col lg:flex-row gap-4  md:gap-8 my-4 md:my-8 lg:my-12">
-        <div className="px-2 py-8 bg-neutral-50 rounded-2xl w-full grid place-items-center">
-          <img
-            src={NissanPrintAd}
-            alt="Nissan Suburban"
-            className="object-contain rounded-2xl"
-          />
-        </div>
+      <div className="flex flex-col md:grid md:grid-cols-8 gap-4  md:gap-8 my-4 md:my-8">
+        <img
+          src={NissanPrintAd}
+          alt="Nissan Suburban"
+          className="object-contain rounded-2xl border border-neutral-200 col-span-4"
+        />
 
-        <div className="py-auto px-4 flex flex-col gap-4 justify-center items-center w-full rounded-2xl bg-neutral-50 object-contain">
+        <div className="md:col-span-4 py-4 md:py-auto px-4 flex flex-col gap-4 justify-center items-center w-full rounded-2xl bg-neutral-50 object-contain">
           <img src={WashCoupon01} alt="Nissan Car Wash Coupon" />
           <img src={WashCoupon02} alt="Nissan Car Wash Coupon" />
         </div>
+      </div>
+
+      <img
+        src={KiaBrochure01}
+        alt="Nissan Brochure"
+        className="object-fit rounded-2xl w-full  md:gap-8 my-4 md:my-8"
+      />
+      <img
+        src={KiaBrochure02}
+        alt="Nissan Brochure"
+        className="object-fit rounded-2xl w-full  md:gap-8 my-4 md:my-8"
+      />
+
+      <div className="flex flex-col md:grid md:grid-cols-8 lg:flex-row gap-4  md:gap-8 my-4 md:my-8">
+        <img
+          src={LexusVIPCard}
+          alt="Lexus Vip Card"
+          className="rounded-2xl object-cover col-span-5"
+        />
+
+        <img
+          src={KiaPrintAd}
+          alt="Kia Gabriel Ouest Print Ad"
+          className="object-fit rounded-2xl border h-full border-neutral-200 col-span-3"
+        />
       </div>
     </main>
   );
