@@ -1,11 +1,10 @@
-import { workExperience } from '../../../data/workExperience';
 import { education } from '../../../data/educations';
 
-const Journey = () => {
+const Education = () => {
   return (
-    <section id="g-journey-section" className="my-28 md:my-40 lg:my-52 px-[4%]">
+    <section className="my-28 md:my-40 lg:my-52 px-[4%]">
       <h3 className="font-title text-white uppercase text-3xl leading-tight">
-        My Journey
+        Education
       </h3>
 
       <ol className="list-none mt-10 md:mt-20 md:px-[4%]">
@@ -29,32 +28,6 @@ const Journey = () => {
             </a>
           </div>
         </li>
-
-        {workExperience.map((work, index) => {
-          const { id, title, company, link, year } = work;
-
-          return (
-            <li
-              className="border-b border-b-neutral-700 lg:hover:border-b-neutral-800 lg:border-b-black grid grid-cols-4 lg:grid-cols-7 gap-4 text-neutral-400 py-6"
-              key={id}>
-              <p className="col-span-2 lg:col-span-1">{year}</p>
-              {link ? (
-                <a
-                  href={link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="col-span-2">
-                  <p className="text-right lg:text-left hover:text-neutral-100 transition-colors">
-                    {company}
-                  </p>
-                </a>
-              ) : (
-                <p className="col-span-2 text-right lg:text-left">{company}</p>
-              )}
-              <p className="col-span-4 text-neutral-100 text-lg">{title}</p>
-            </li>
-          );
-        })}
 
         {education.map((work, index) => {
           const { id, title, linkTitle, link, year } = work;
@@ -81,4 +54,4 @@ const Journey = () => {
     </section>
   );
 };
-export default Journey;
+export default Education;
