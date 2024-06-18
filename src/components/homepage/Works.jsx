@@ -81,7 +81,7 @@ const Works = () => {
                 work
               </h3>
               <p className="mt-2">
-                I help businesses in design to drive more digital sales.
+                I help businesses by providing design & development services.
               </p>
             </div>
 

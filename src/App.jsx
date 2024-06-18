@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Error, HomeLayout } from './components';
 import { CertificationPage } from './components/certificationPage';
 import { Home } from './components/homepage';
+import { GabrielVideo } from './components/projects';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
         path: 'certifications',
         element: <CertificationPage />,
       },
+      { path: 'group-gabriel-video-ads', element: <GabrielVideo /> },
     ],
   },
 ]);

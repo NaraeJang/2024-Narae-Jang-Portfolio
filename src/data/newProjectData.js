@@ -77,7 +77,7 @@ export const projectsData = [
     imgAlt: 'Groupe Gabriel Marketing',
     title: 'Groupe Gabriel Video Ads',
     livePath: null,
-    internalPath: null,
+    internalPath: 'group-gabriel-video-ads',
     gitLink: null,
   },
   {
