@@ -63,8 +63,8 @@ const Generalist = () => {
       scrollTrigger: {
         trigger: '#g-generalist-section',
         scrub: 1,
-        start: 'top bottom-=15%',
-        end: 'top bottom-=20%',
+        start: 'top bottom-=20%',
+        end: 'top bottom-=25%',
         markers: false,
       },
       opacity: 0,
