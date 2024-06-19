@@ -74,10 +74,10 @@ export const projectsData = [
     category: ['Brand Identity', 'Marketing'],
     img: [GaVi],
     video: [GaVideo],
-    imgAlt: 'Groupe Gabriel Marketing',
+    imgAlt: 'Groupe Gabriel Video Ads',
     title: 'Groupe Gabriel Video Ads',
     livePath: null,
-    internalPath: 'group-gabriel-video-ads',
+    internalPath: 'work/group-gabriel-video-ads',
     gitLink: null,
   },
   {
@@ -129,7 +129,7 @@ export const projectsData = [
     imgAlt: 'Groupe Gabriel Digital Marketing',
     title: 'Groupe Gabriel Digital Marketing',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/group-gabriel-digital-marketing',
     gitLink: null,
   },
   {
@@ -193,7 +193,7 @@ export const projectsData = [
     imgAlt: 'Groupe Gabriel Publication Marketing',
     title: 'Groupe Gabriel Publication Design',
     livePath: null,
-    internalPath: 'group-gabriel-publication-design',
+    internalPath: 'work/group-gabriel-publication-design',
     gitLink: null,
   },
   {

@@ -20,7 +20,7 @@ const Hero = () => {
       },
       scrollTrigger: {
         trigger: '#g-pin',
-        toggleActions: 'play none none reset',
+        toggleActions: '',
         start: 'top bottom-=25%',
         end: 'bottom top+=25%',
         scrub: 1,
