@@ -39,7 +39,7 @@ const WorkItems = () => {
               <div className="group relative w-full flex gap-4 flex-col items-center">
                 <div className="relative w-full overflow-hidden rounded-xl border border-neutral-200 group-hover:border-neutral-400">
                   {video ? (
-                    <a href={internalPath}>
+                    <a href={internalPath} className="cursor-pointer">
                       <video autoPlay muted loop>
                         <source src={video} type="video/mp4" />
                         <img src={img} alt={imgAlt} />
@@ -51,7 +51,7 @@ const WorkItems = () => {
                       <img src={img} alt={imgAlt} />
                     </a>
                   ) : (
-                    <a href={internalPath}>
+                    <a href={internalPath} className="cursor-pointer">
                       <Swiper
                         modules={[Navigation, Autoplay]}
                         navigation={true}
@@ -78,7 +78,7 @@ const WorkItems = () => {
                   )}
                 </div>
                 <div className="flex flex-row justify-between items-center w-full">
-                  <a href={internalPath}>
+                  <a href={internalPath} className="cursor-pointer">
                     <h5 className="text-neutral-400 font-base leading-tight capitalize group-hover:text-neutral-700 transition-colors">
                       {title}
                     </h5>
@@ -92,7 +92,7 @@ const WorkItems = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         tooltip="Visit GitHub"
-                        className="group/github w-6 h-6 relative before:content-[attr(tooltip)] before:invisible before:absolute before:text-xs before:-translate-y-3/4 before:-top-[16px] before:-translate-x-1/2 before:-left-1/2 md:before:translate-x-1/2 md:before:left-1/2 before:bg-black before:py-[0.5625rem] before:px-[1.125rem] before:text-white before:rounded-full before:w-max before:text-center z-20 before:opacity-0 hover:before:visible hover:before:opacity-100 hover:before:-translate-x-1/2 hover:before:-translate-y-full">
+                        className="cursor-pointer group/github w-6 h-6 relative before:content-[attr(tooltip)] before:invisible before:absolute before:text-xs before:-translate-y-3/4 before:-top-[16px] before:-translate-x-1/2 before:-left-1/2 md:before:translate-x-1/2 md:before:left-1/2 before:bg-black before:py-[0.5625rem] before:px-[1.125rem] before:text-white before:rounded-full before:w-max before:text-center z-20 before:opacity-0 hover:before:visible hover:before:opacity-100 hover:before:-translate-x-1/2 hover:before:-translate-y-full">
                         <PiGithubLogo className="w-full h-full text-neutral-400 group-hover/github:text-neutral-700 transition-colors" />
                       </a>
                     )}
@@ -102,7 +102,7 @@ const WorkItems = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         tooltip="Visit Site"
-                        className="group/site w-6 h-6 relative before:content-[attr(tooltip)] before:invisible before:absolute before:text-xs  before:-translate-y-3/4 before:-top-[16px] before:-translate-x-1/2 before:-left-1/2 md:before:translate-x-1/2 md:before:left-1/2  before:bg-black before:py-[0.5625rem] before:px-[1.125rem] before:text-white before:rounded-full before:w-max before:text-center z-20 before:opacity-0 hover:before:visible hover:before:opacity-100 hover:before:-translate-x-1/2 hover:before:-translate-y-full">
+                        className="cursor-pointer group/site w-6 h-6 relative before:content-[attr(tooltip)] before:invisible before:absolute before:text-xs  before:-translate-y-3/4 before:-top-[16px] before:-translate-x-1/2 before:-left-1/2 md:before:translate-x-1/2 md:before:left-1/2  before:bg-black before:py-[0.5625rem] before:px-[1.125rem] before:text-white before:rounded-full before:w-max before:text-center z-20 before:opacity-0 hover:before:visible hover:before:opacity-100 hover:before:-translate-x-1/2 hover:before:-translate-y-full">
                         <MdArrowOutward className="w-full h-full text-neutral-400 group-hover/site:text-neutral-700 transition-colors" />
                       </a>
                     )}

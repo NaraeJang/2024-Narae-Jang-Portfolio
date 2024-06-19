@@ -128,7 +128,8 @@ export const projectsData = [
     img: [GaDi01, GaDi02, GaDi03],
     imgAlt: 'Groupe Gabriel Digital Marketing',
     title: 'Groupe Gabriel Digital Marketing',
-    livePath: null,
+    livePath:
+      'https://app.flexitive.com/preview/?breakpoints=970x250,300x50,300x250,320x50,728x90,300x600&pageId=N4XwH4wbCqm&templateId=5686&tab=fix-inPage',
     internalPath: 'work/group-gabriel-digital-marketing',
     gitLink: null,
   },
@@ -152,17 +153,6 @@ export const projectsData = [
     livePath: './wegic',
     internalPath: null,
     gitLink: 'https://github.com/NaraeJang/Wegic',
-  },
-  {
-    id: nanoid(),
-    category: ['Brand Identity', 'Marketing'],
-    img: [GaBa01, GaBa02, GaBa03],
-    imgAlt: 'Gabriel Animated Banners',
-    title: 'Animated Web Banners',
-    livePath:
-      'https://app.flexitive.com/preview/?breakpoints=970x250,300x50,300x250,320x50,728x90,300x600&pageId=N4XwH4wbCqm&templateId=5686&tab=fix-inPage',
-    internalPath: null,
-    gitLink: null,
   },
   {
     id: nanoid(),
