@@ -18,7 +18,7 @@ const GabrielPrint = () => {
         />
       </section>
 
-      <section className="detail-section-middle !bg-neutral-100/85">
+      <section className="detail-section-middle">
         <div className="detail-title-container">
           <h2 className="detail-title">Publication Design</h2>
           <p className="detail-description">

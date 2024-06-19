@@ -3,10 +3,11 @@ import { Error, HomeLayout } from './components';
 import { CertificationPage } from './components/certificationPage';
 import { Home } from './components/homepage';
 import {
+  ProjectLayout,
   GabrielVideo,
   GabrielPrint,
   GabrielDigitalMarketing,
-  ProjectLayout,
+  CalegoTag,
 } from './components/projects';
 
 const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: 'group-gabriel-digital-marketing',
         element: <GabrielDigitalMarketing />,
+      },
+      {
+        path: 'calego-ifly-register-your-tag',
+        element: <CalegoTag />,
       },
     ],
   },

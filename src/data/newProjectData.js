@@ -106,9 +106,8 @@ export const projectsData = [
     img: [Candle],
     imgAlt: 'Register Your Tag',
     title: 'Register Your Tag',
-
-    livePath: null,
-    internalPath: null,
+    livePath: 'https://iflyluggage.com/pages/candle-review',
+    internalPath: 'work/calego-ifly-register-your-tag',
     gitLink: null,
   },
   {
