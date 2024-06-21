@@ -183,7 +183,7 @@ export const projectsData = [
     imgAlt: 'Bar Ganadara Business Card',
     title: 'Bar Ganadara Business Card',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/bar-ganadara-business-card-design',
     gitLink: null,
   },
   {
@@ -228,7 +228,7 @@ export const projectsData = [
     imgAlt: 'Arcade1Up Sticker',
     title: 'Arcade1Up Warranty Sticker',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/arcade1up-warranty-sticker-design',
     gitLink: null,
   },
 
@@ -239,7 +239,7 @@ export const projectsData = [
     imgAlt: 'Jako Restaurant Logo',
     title: 'Jako Restaurant',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/jako-logo-design',
     gitLink: null,
   },
   {
@@ -259,7 +259,7 @@ export const projectsData = [
     imgAlt: 'R&K Consulting Logo',
     title: 'R&K Consulting',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/r&k-logo-design',
     gitLink: null,
   },
   {

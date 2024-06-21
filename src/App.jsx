@@ -8,9 +8,13 @@ import {
   GabrielPrint,
   GabrielDigitalMarketing,
   CalegoTag,
+  ArcadeOneUpWarranty,
   BarGanaMenu,
+  BarGanaBC,
   EwNetwork,
   HanInternational,
+  JakoLogo,
+  RkLogo,
 } from './components/projects';
 
 const router = createBrowserRouter([
@@ -42,8 +46,16 @@ const router = createBrowserRouter([
         element: <CalegoTag />,
       },
       {
+        path: 'arcade1up-warranty-sticker-design',
+        element: <ArcadeOneUpWarranty />,
+      },
+      {
         path: 'bar-ganadara-menu-design',
         element: <BarGanaMenu />,
+      },
+      {
+        path: 'bar-ganadara-business-card-design',
+        element: <BarGanaBC />,
       },
       {
         path: 'ew-network-print-design',
@@ -52,6 +64,14 @@ const router = createBrowserRouter([
       {
         path: 'han-international-logo-design',
         element: <HanInternational />,
+      },
+      {
+        path: 'jako-logo-design',
+        element: <JakoLogo />,
+      },
+      {
+        path: 'r&k-logo-design',
+        element: <RkLogo />,
       },
     ],
   },
