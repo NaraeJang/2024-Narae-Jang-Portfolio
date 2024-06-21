@@ -130,7 +130,7 @@ export const projectsData = [
     imgAlt: 'Calego Marketing',
     title: 'Calego Digital Marketing',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/calego-digital-marketing',
     gitLink: null,
   },
   {

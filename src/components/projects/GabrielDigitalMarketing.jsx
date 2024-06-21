@@ -47,10 +47,23 @@ const GabrielDigitalMarketing = () => {
           </p>
           <p>
             As a web & graphic designer at Groupe Gabriel, My responsibilities
-            included designing the monthly promotional web contents on Groupe
-            Gabriel websites, visual contents on Social media such as Facebook
-            and Instagram, responsive animated web banners for all channels,
-            email campaigns and more.
+            included designing the{' '}
+            <span className="font-medium text-neutral-600">
+              monthly promotional web contents
+            </span>{' '}
+            on Groupe Gabriel websites,{' '}
+            <span className="font-medium text-neutral-600">
+              visual contents on Social media
+            </span>{' '}
+            such as Facebook and Instagram,{' '}
+            <span className="font-medium text-neutral-600">
+              responsive animated web banners
+            </span>{' '}
+            for all channels,{' '}
+            <span className="font-medium text-neutral-600">
+              email campaigns
+            </span>{' '}
+            and more.
           </p>
           <p>
             My goal in this position was connecting with potential customers
@@ -80,6 +93,7 @@ const GabrielDigitalMarketing = () => {
           Your browser does not support the video tag.
         </video>
       </section>
+
       <section className="detail-section-middle">
         <div className="detail-content-container flex-1">
           <p>
@@ -91,6 +105,7 @@ const GabrielDigitalMarketing = () => {
             By clicking on the logos, you can view the animations in action.
           </p>
         </div>
+
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 place-items-center max-w-5xl mx-auto">
           <a
             href="https://app.flexitive.com/preview/?breakpoints=728x90,300x50,320x50,300x250,300x600,970x250&pageId=2xvC1Otvnoy&templateId=5686&tab=fix-inPage"
