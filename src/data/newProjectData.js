@@ -98,7 +98,7 @@ export const projectsData = [
     imgAlt: 'Ganadara App',
     title: 'Bar Ganadara Booking App',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/bar-ganadara-booking-app',
     gitLink: null,
   },
 

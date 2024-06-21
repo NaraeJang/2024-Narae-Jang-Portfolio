@@ -8,6 +8,7 @@ export { default as CalegoB2C } from './CalegoB2C';
 export { default as ArcadeOneUpWarranty } from './ArcadeOneUpWarranty';
 export { default as BarGanaMenu } from './BarGanaMenu';
 export { default as BarGanaBC } from './BarGanaBC';
+export { default as BarGanaApp } from './BarGanaApp';
 export { default as EwNetwork } from './EwNetwork';
 export { default as HanInternational } from './HanInternational';
 export { default as JakoLogo } from './JakoLogo';

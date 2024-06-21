@@ -13,6 +13,7 @@ import {
   ArcadeOneUpWarranty,
   BarGanaMenu,
   BarGanaBC,
+  BarGanaApp,
   EwNetwork,
   HanInternational,
   JakoLogo,
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path: 'bar-ganadara-business-card-design',
         element: <BarGanaBC />,
+      },
+      {
+        path: 'bar-ganadara-booking-app',
+        element: <BarGanaApp />,
       },
       {
         path: 'ew-network-print-design',
