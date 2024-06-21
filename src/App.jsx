@@ -8,6 +8,7 @@ import {
   GabrielPrint,
   GabrielDigitalMarketing,
   CalegoTag,
+  BarGanaMenu,
 } from './components/projects';
 
 const router = createBrowserRouter([
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: 'calego-ifly-register-your-tag',
         element: <CalegoTag />,
+      },
+      {
+        path: 'bar-ganadara-menu-design',
+        element: <BarGanaMenu />,
       },
     ],
   },

@@ -119,7 +119,7 @@ export const projectsData = [
     imgAlt: 'Korean Retro Style Menu',
     title: 'Bar Ganadara Retro Style Menu',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/bar-ganadara-menu-design',
     gitLink: null,
   },
 
