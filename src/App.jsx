@@ -10,6 +10,7 @@ import {
   CalegoTag,
   BarGanaMenu,
   EwNetwork,
+  HanInternational,
 } from './components/projects';
 
 const router = createBrowserRouter([
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: 'ew-network-print-design',
         element: <EwNetwork />,
+      },
+      {
+        path: 'han-international-logo-design',
+        element: <HanInternational />,
       },
     ],
   },

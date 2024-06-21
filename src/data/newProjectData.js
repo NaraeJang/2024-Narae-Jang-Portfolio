@@ -172,7 +172,7 @@ export const projectsData = [
     imgAlt: 'Han International Logo Design',
     title: 'Han International',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/han-international-logo-design',
     gitLink: null,
   },
 
