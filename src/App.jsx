@@ -9,6 +9,7 @@ import {
   GabrielDigitalMarketing,
   CalegoTag,
   CalegoDigitalMarketing,
+  CalegoB2C,
   ArcadeOneUpWarranty,
   BarGanaMenu,
   BarGanaBC,
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: 'calego-digital-marketing',
         element: <CalegoDigitalMarketing />,
+      },
+      {
+        path: 'calego-ifly-luggage-website-redesign',
+        element: <CalegoB2C />,
       },
       {
         path: 'arcade1up-warranty-sticker-design',

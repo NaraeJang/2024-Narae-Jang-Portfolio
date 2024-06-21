@@ -140,7 +140,7 @@ export const projectsData = [
     imgAlt: 'Redesigning B2C Website',
     title: 'Redesigning iFLY Luggage Website',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/calego-ifly-luggage-website-redesign',
     gitLink: null,
   },
   {
