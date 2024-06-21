@@ -25,25 +25,24 @@ const BarGanaMenu = () => {
         </div>
         <div className="detail-content-container">
           <p>
-            Bar Ganadara is a Korean fusion bar in the heart of downtown
-            Montreal.
+            Bar Ganadara is a Korean fusion bar located in the heart of downtown
+            Montreal. The bar sought to express a Korean retro style through
+            their menu design.
           </p>
           <p>
-            Bar Ganadara wants to express Korean Retro Style on their menu. From
-            understanding client needs, I created mood board first, and designed
-            the menu. I ensure consistent communication with clients, refining
-            designs based on feedback. Additionally, I handle print preparation,
-            collaborate with vendors, and conduct quality checks for the
-            results.
+            To capture the desired retro vibes, I began by creating a mood board
+            that drew inspiration from retro elements such as typography,
+            colors, and imagery. This visual compilation guided the design
+            process, ensuring alignment with the client's vision while
+            facilitating collaborative discussions.
           </p>
 
           <p>
-            To capture the Korean retro vibes desired by "Bar Ganadara" for
-            their menu design, I began by creating a moodboard. This visual
-            compilation drew inspiration from retro elements like typography,
-            colors, and imagery. The moodboard guided the design process,
-            ensuring alignment with the client's vision while facilitating
-            collaborative discussions.
+            Understanding the client’s needs, I ensured consistent communication
+            with them, refining the designs based on their feedback.
+            Additionally, I handled print preparation, collaborated with
+            vendors, and conducted quality checks to ensure the final product
+            met the desired standards.
           </p>
         </div>
       </section>
