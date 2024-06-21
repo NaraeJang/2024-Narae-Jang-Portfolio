@@ -249,7 +249,7 @@ export const projectsData = [
     imgAlt: 'EW Network',
     title: 'EW Network',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/ew-network-print-design',
     gitLink: null,
   },
   {

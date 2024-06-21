@@ -9,6 +9,7 @@ import {
   GabrielDigitalMarketing,
   CalegoTag,
   BarGanaMenu,
+  EwNetwork,
 } from './components/projects';
 
 const router = createBrowserRouter([
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: 'bar-ganadara-menu-design',
         element: <BarGanaMenu />,
+      },
+      {
+        path: 'ew-network-print-design',
+        element: <EwNetwork />,
       },
     ],
   },

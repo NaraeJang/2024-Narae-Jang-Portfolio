@@ -25,7 +25,8 @@ const BarGanaMenu = () => {
         </div>
         <div className="detail-content-container">
           <p>
-            Bar Ganadara is Korean fusion bar in the heart of downtown Montreal.
+            Bar Ganadara is a Korean fusion bar in the heart of downtown
+            Montreal.
           </p>
           <p>
             Bar Ganadara wants to express Korean Retro Style on their menu. From
