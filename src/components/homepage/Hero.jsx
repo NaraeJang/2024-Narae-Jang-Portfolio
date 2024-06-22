@@ -95,7 +95,6 @@ const Hero = () => {
             color1="#c3e4ff"
             color2="#eae2ff"
             color3="#b9beff"
-            brightness={3.95}
             grain="off"
           />
         </ShaderGradientCanvas>
@@ -104,7 +103,7 @@ const Hero = () => {
   );
 };
 export default Hero;
-
+//       brightness={3.95}
 // cAzimuthAngle={180}
 //           cDistance={4.6}
 //           cPolarAngle={70}
