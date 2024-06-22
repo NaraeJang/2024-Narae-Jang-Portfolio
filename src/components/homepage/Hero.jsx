@@ -91,11 +91,37 @@ const Hero = () => {
           /> */}
           <ShaderGradient
             animate="on"
-            type="sphere"
+            type="waterPlane"
             color1="#c3e4ff"
-            color2="#6ec3f4"
+            color2="#eae2ff"
             color3="#b9beff"
-            brightness={3.5}
+            brightness={3.95}
+            grain="off"
+            cAzimuthAngle={180}
+            frameRate={14}
+            cDistance={4.6}
+            cPolarAngle={70}
+            cameraZoom={1}
+            lightType="3d"
+            positionX={0.4}
+            positionY={0.9}
+            positionZ={0.3}
+            range="enabled"
+            rangeEnd={40}
+            rangeStart={0}
+            reflection={0.1}
+            envPreset="city"
+            rotationX={45}
+            rotationY={0}
+            rotationZ={0}
+            shader="defaults"
+            uDensity={1}
+            uAmplitude={0}
+            uFrequency={0}
+            uSpeed={0.2}
+            uStrength={3.4}
+            uTime={0}
+            wireframe={false}
           />
         </ShaderGradientCanvas>
       </div>
