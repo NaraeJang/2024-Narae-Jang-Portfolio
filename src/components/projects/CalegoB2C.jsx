@@ -18,11 +18,7 @@ const CalegoB2C = () => {
   return (
     <main className="px-[4%] text-center">
       <section className="detail-section-first">
-        <img
-          src={heroImg}
-          alt="Gabriel Publication Design"
-          className="w-full"
-        />
+        <img src={heroImg} alt="iFLY Luggage hero image" className="w-full" />
       </section>
 
       <section className="detail-section-middle">
@@ -273,7 +269,7 @@ const CalegoB2C = () => {
               className="w-full md:col-span-3 rounded-xl"
             />
             <p className="md:col-span-2">
-              Users are able to browse all brands and shop for items in IFLY
+              Users are able to browse all brands and shop for items in iFLY
               website without the hassle of visiting 4 different websites.
             </p>
           </div>
@@ -330,7 +326,7 @@ const CalegoB2C = () => {
         <div>
           <h4 className="detail-title">Result</h4>
           <p className="mt-4 max-w-3xl mx-auto">
-            Since 2022, IFLY website uses most of the new features we built. As
+            Since 2022, iFLY website uses most of the new features we built. As
             a result, it enables users to browse and shop all items without
             anxiety to find several websites. In addition, Calego was able to
             integrate all websites into one, drive more sales and gather SEO and
@@ -362,7 +358,7 @@ const CalegoB2C = () => {
               Less is More
             </p>
             <p>
-              When Calego had 4 different webistes, it overwhelmed the users. By
+              When Calego had 4 different websites, it overwhelmed the users. By
               simplifying the front end of the website we facilitated the user
               journey.
             </p>
@@ -372,7 +368,7 @@ const CalegoB2C = () => {
               Collaborative work always, <br /> leads to better result.
             </p>
             <p>
-              As a team, we communticated and brainstormed togther so we could
+              As a team, we communicated and brainstormed together so we could
               get diverse ideas to solve the problems that we had. If I had done
               this project alone, I would not have been able to reach the
               effective solution.
