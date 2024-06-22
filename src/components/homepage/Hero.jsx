@@ -97,27 +97,6 @@ const Hero = () => {
             color3="#b9beff"
             brightness={3.95}
             grain="off"
-            cAzimuthAngle={180}
-            cDistance={4.6}
-            cPolarAngle={70}
-            cameraZoom={1}
-            lightType="3d"
-            positionX={0.4}
-            positionY={0.9}
-            positionZ={0.3}
-            reflection={0.1}
-            envPreset="city"
-            rotationX={45}
-            rotationY={0}
-            rotationZ={0}
-            shader="defaults"
-            uDensity={1}
-            uAmplitude={0}
-            uFrequency={0}
-            uSpeed={0.2}
-            uStrength={3.4}
-            uTime={0}
-            wireframe={false}
           />
         </ShaderGradientCanvas>
       </div>
@@ -125,3 +104,25 @@ const Hero = () => {
   );
 };
 export default Hero;
+
+// cAzimuthAngle={180}
+//           cDistance={4.6}
+//           cPolarAngle={70}
+//           cameraZoom={1}
+//           lightType="3d"
+//           positionX={0.4}
+//           positionY={0.9}
+//           positionZ={0.3}
+//           reflection={0.1}
+//           envPreset="city"
+//           rotationX={45}
+//           rotationY={0}
+//           rotationZ={0}
+//           shader="defaults"
+//           uDensity={1}
+//           uAmplitude={0}
+//           uFrequency={0}
+//           uSpeed={0.2}
+//           uStrength={3.4}
+//           uTime={0}
+//           wireframe={false}
