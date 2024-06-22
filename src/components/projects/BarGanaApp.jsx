@@ -416,6 +416,7 @@ const BarGanaApp = () => {
       <section className="flex flex-col lg:flex-row gap-8 my-4 md:my-8">
         <video
           autoPlay
+          playsInline
           muted
           loop
           className="w-[80%] md:w-[40%] lg:w-[25%] mx-auto">
@@ -536,6 +537,7 @@ const BarGanaApp = () => {
           <div>
             <video
               autoPlay
+              playsInline
               muted
               loop
               className="w-[90%] mx-auto md:w-full rounded-3xl">
@@ -550,6 +552,7 @@ const BarGanaApp = () => {
           <div>
             <video
               autoPlay
+              playsInline
               muted
               loop
               className="w-[90%] mx-auto md:w-full rounded-3xl ">
@@ -564,6 +567,7 @@ const BarGanaApp = () => {
           <div>
             <video
               autoPlay
+              playsInline
               muted
               loop
               className="w-[90%] mx-auto md:w-full rounded-3xl">
@@ -577,6 +581,7 @@ const BarGanaApp = () => {
           <div>
             <video
               autoPlay
+              playsInline
               muted
               loop
               className="w-[90%] mx-auto md:w-full rounded-3xl">
@@ -590,6 +595,7 @@ const BarGanaApp = () => {
           <div>
             <video
               autoPlay
+              playsInline
               muted
               loop
               className="w-[90%] mx-auto md:w-full rounded-3xl">

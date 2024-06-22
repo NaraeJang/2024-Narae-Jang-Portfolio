@@ -73,22 +73,22 @@ const GabrielDigitalMarketing = () => {
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 xl:gap-8 w-full justify-between p-12 rounded-2xl bg-neutral-50">
-        <video autoPlay muted loop className="">
+        <video autoPlay muted loop playsInline className="">
           <source src={InfinityVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
-        <video autoPlay muted loop className="max-lg:hidden">
+        <video autoPlay muted loop playsInline className="max-lg:hidden">
           <source src={KiaVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
-        <video autoPlay muted loop className="">
+        <video autoPlay muted loop playsInline className="">
           <source src={LexusVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
-        <video autoPlay muted loop className="max-lg:hidden">
+        <video autoPlay muted loop playsInline className="max-lg:hidden">
           <source src={NissanVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

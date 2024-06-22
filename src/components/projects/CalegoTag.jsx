@@ -68,6 +68,7 @@ const CalegoTag = () => {
           autoPlay
           muted
           loop
+          playsInline
           className="w-[80%] md:w-[40%] lg:w-[25%] mx-auto">
           <source src={candleVideo} type="video/mp4" />
           Your browser does not support the video tag.

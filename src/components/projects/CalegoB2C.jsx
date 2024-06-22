@@ -343,7 +343,7 @@ const CalegoB2C = () => {
           </a>
         </div>
 
-        <video autoPlay muted loop className="w-full">
+        <video autoPlay muted loop playsInline className="w-full">
           <source src={calegoVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
