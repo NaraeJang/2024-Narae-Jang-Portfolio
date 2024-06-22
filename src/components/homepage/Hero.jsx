@@ -98,7 +98,6 @@ const Hero = () => {
             brightness={3.95}
             grain="off"
             cAzimuthAngle={180}
-            frameRate={14}
             cDistance={4.6}
             cPolarAngle={70}
             cameraZoom={1}
@@ -106,9 +105,6 @@ const Hero = () => {
             positionX={0.4}
             positionY={0.9}
             positionZ={0.3}
-            range="enabled"
-            rangeEnd={40}
-            rangeStart={0}
             reflection={0.1}
             envPreset="city"
             rotationX={45}
