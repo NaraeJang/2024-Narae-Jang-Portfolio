@@ -40,7 +40,12 @@ const WorkItems = () => {
                 <div className="relative w-full overflow-hidden rounded-xl border border-neutral-200 group-hover:border-neutral-400">
                   {video ? (
                     <a href={internalPath} className="cursor-pointer">
-                      <video autoPlay muted loop controlsList="nofullscreen">
+                      <video
+                        autoPlay
+                        muted
+                        loop
+                        controls
+                        controlsList="nofullscreen nodownload">
                         <source src={video} type="video/mp4" />
                         <img src={img} alt={imgAlt} />
                         Your browser does not support the video tag.
