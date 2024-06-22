@@ -40,7 +40,8 @@ const Hero = () => {
         <div className="sticky top-0 left-0 h-svh flex justify-center items-center w-full">
           <div className="w-full md:max-w-3xl text-center px-4">
             <h1 className="w-full md:max-w-xl mx-auto font-title uppercase text-5xl md:text-[5rem] text-black leading-tight">
-              Transforming ideas into reality
+              Transforming <span className="tracking-tight">ideas</span> into{' '}
+              <span className="tracking-tight">reality</span>
             </h1>
             <p className="text-lg leading-relaxed mt-4 md:mt-0">
               My expertise encompasses branding, logo design, publication
