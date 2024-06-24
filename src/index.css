@@ -284,6 +284,65 @@
   animation: noise-anim-2 5s infinite linear alternate-reverse;
 }
 
+/* hero scroll down animation */
+.scroll-container {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.mouse {
+  width: 28px;
+  height: 50px;
+  border: 2px solid #a3a3a3;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.mouse-wheel {
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.mouse-wheel span {
+  display: block;
+  margin: 5px auto;
+  width: 5px;
+  height: 5px;
+}
+
+.mouse-wheel span.wheel {
+  border: 2px solid #a3a3a3;
+  border-radius: 5px;
+  width: 0;
+}
+
+.mouse-wheel span.arrow {
+  border-bottom: 2px solid #a3a3a3;
+  border-right: 2px solid #a3a3a3;
+  transform: rotate(45deg);
+  animation: scrollDown 1.7s infinite ease-in-out;
+}
+
+@keyframes scrollDown {
+  0% {
+    opacity: 1;
+    transform: translateY(0) rotate(45deg);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(5px) rotate(45deg);
+  }
+  75% {
+    opacity: 0;
+    transform: translateY(0) rotate(45deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotate(45deg);
+  }
+}
+
 @layer base {
   html {
     font-family: 'Poppins', ui-sans-serif, system-ui, sans-serif,

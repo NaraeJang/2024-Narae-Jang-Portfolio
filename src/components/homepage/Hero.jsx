@@ -32,6 +32,11 @@ const Hero = () => {
       clipPath: 'circle(100% at 50% 50%)',
       stagger: 1,
     });
+
+    gsap.to('#g-scroll-container', {
+      opacity: 1,
+      delay: 2,
+    });
   }, []);
 
   return (
@@ -48,6 +53,17 @@ const Hero = () => {
               design, digital marketing, UI/UX, and development, forging new
               paths into the digital landscape.
             </p>
+          </div>
+          <div
+            id="g-scroll-container"
+            className="opacity-0 scroll-container absolute bottom-0 left-1/2 -translate-x-1/2">
+            <div className="mouse">
+              <div className="mouse-wheel">
+                <span className="wheel"></span>
+                <span className="arrow"></span>
+                <span className="arrow"></span>
+              </div>
+            </div>
           </div>
         </div>
 
