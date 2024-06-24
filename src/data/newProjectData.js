@@ -150,7 +150,7 @@ export const projectsData = [
     imgAlt: 'Wegic',
     title: 'Wegic: Mobile Invitation',
     livePath: './wegic',
-    internalPath: null,
+    internalPath: 'work/wegic',
     gitLink: 'https://github.com/NaraeJang/Wegic',
   },
   {
@@ -208,7 +208,7 @@ export const projectsData = [
     imgAlt: 'Vacay Brand Guideline',
     title: 'Vacay Brand Guideline',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/calego-vacay-brand-guideline',
     gitLink: null,
   },
   {
@@ -218,7 +218,7 @@ export const projectsData = [
     imgAlt: 'JobMate',
     title: 'Job Tracking Web Application',
     livePath: 'https://jobmate-1gpn.onrender.com/',
-    internalPath: null,
+    internalPath: 'work/jobmate',
     gitLink: 'https://github.com/NaraeJang/Jobmate',
   },
   {
@@ -269,7 +269,7 @@ export const projectsData = [
     imgAlt: 'NaraeJang Portfolio',
     title: 'NaraeJang Portfolio',
     livePath: null,
-    internalPath: null,
+    internalPath: 'work/naraejang-portfolio',
     gitLink: 'https://github.com/NaraeJang/2024-Narae-Jang-Portfolio',
   },
 ];

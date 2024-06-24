@@ -10,6 +10,7 @@ import {
   CalegoTag,
   CalegoDigitalMarketing,
   CalegoB2C,
+  VacayBG,
   ArcadeOneUpWarranty,
   BarGanaMenu,
   BarGanaBC,
@@ -18,6 +19,9 @@ import {
   HanInternational,
   JakoLogo,
   RkLogo,
+  Wegic,
+  Jobmate,
+  NaraeJang,
 } from './components/projects';
 
 const router = createBrowserRouter([
@@ -57,6 +61,10 @@ const router = createBrowserRouter([
         element: <CalegoB2C />,
       },
       {
+        path: 'calego-vacay-brand-guideline',
+        element: <VacayBG />,
+      },
+      {
         path: 'arcade1up-warranty-sticker-design',
         element: <ArcadeOneUpWarranty />,
       },
@@ -87,6 +95,18 @@ const router = createBrowserRouter([
       {
         path: 'r&k-logo-design',
         element: <RkLogo />,
+      },
+      {
+        path: 'wegic',
+        element: <Wegic />,
+      },
+      {
+        path: 'jobmate',
+        element: <Jobmate />,
+      },
+      {
+        path: 'naraejang-portfolio',
+        element: <NaraeJang />,
       },
     ],
   },
