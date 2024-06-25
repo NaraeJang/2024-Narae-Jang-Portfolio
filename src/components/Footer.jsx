@@ -22,7 +22,10 @@ const Footer = () => {
           className="p-4 bg-white rounded-full transition-all shadow-footer hover:text-neutral-900">
           <PiGithubLogo className="w-6 h-6" />
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://drive.google.com/file/d/1u40opSKDyBVkq_N2Ilqzocx_vt-CiVJv/view"
+          target="_blank"
+          rel="noopener noreferrer">
           <span className="leading-none py-4 px-8 bg-white rounded-full transition-all shadow-footer hover:text-neutral-900">
             Resume
           </span>

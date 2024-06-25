@@ -24,7 +24,8 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1u40opSKDyBVkq_N2Ilqzocx_vt-CiVJv/view"
+              target="_blank"
               className="tracking-tight text-neutral-500 hover:text-neutral-700 transition-colors text-sm">
               Resume
             </a>
