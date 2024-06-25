@@ -1,5 +1,5 @@
 import heroImg from '../../assets/projects-images/wegic02.webp';
-
+import WegicVideo from '../../assets/projects-images/WegicFinal.mp4';
 const Wegic = () => {
   return (
     <main className="px-[4%] text-center">
@@ -176,6 +176,16 @@ const Wegic = () => {
             </a>
           </div>
         </div>
+
+        <video
+          autoPlay
+          playsInline
+          muted
+          loop
+          className="mt-4 md:mt-2 max-w-md mx-auto">
+          <source src={WegicVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </section>
     </main>
   );
