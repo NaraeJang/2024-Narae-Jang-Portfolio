@@ -182,7 +182,7 @@ const Wegic = () => {
           playsInline
           muted
           loop
-          className="mt-4 md:mt-2 max-w-md mx-auto">
+          className="mt-4 md:mt-2 max-w-md mx-auto w-full">
           <source src={WegicVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
