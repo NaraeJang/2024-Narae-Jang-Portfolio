@@ -1,7 +1,11 @@
+import heroImg from '../../assets/projects-images/Arcade1up.webp';
+
 const ArcadeOneUpWarranty = () => {
   return (
     <main className="px-[4%] text-center">
-      <section className="detail-section-first"></section>
+      <section className="detail-section-first">
+        <img src={heroImg} alt="arcade1up image" className="w-full" />
+      </section>
       <section className="detail-section-middle">
         <div className="detail-title-container">
           <h2 className="detail-title">Arcade1Up Warranty Sticker Design</h2>
@@ -9,7 +13,6 @@ const ArcadeOneUpWarranty = () => {
             collaborated with creative director
           </p>
           <div className="detail-category-container">
-            <span className="detail-category-pill">Photoshop</span>
             <span className="detail-category-pill">Illustrator</span>
           </div>
         </div>

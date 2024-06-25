@@ -3,12 +3,17 @@ import jobMate02 from '../../assets/projects-images/jobmate02.webp';
 import jobMate03 from '../../assets/projects-images/jobmate03.webp';
 import jobMate04 from '../../assets/projects-images/jobmate04.webp';
 import jobMate05 from '../../assets/projects-images/jobmate05.webp';
+import JobmateVideo from '../../assets/projects-images/JobmateVideo.mp4';
 
 const Jobmate = () => {
   return (
     <main className="px-[4%] text-center">
       <section className="detail-section-middle">
         <div className="detail-title-container">
+          <video autoPlay playsInline muted loop className="mt-4 md:mt-2">
+            <source src={JobmateVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
           <h2 className="detail-title">Jobmate</h2>
           <p className="detail-description">
             Self-executed Full-Stack Development Project
