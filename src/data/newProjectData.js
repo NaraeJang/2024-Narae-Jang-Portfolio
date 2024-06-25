@@ -33,7 +33,7 @@ import GaDi02 from '../assets/newItemThumbs/GabrielDigital02.webp';
 import GaDi03 from '../assets/newItemThumbs/GabrielDigital03.webp';
 import GaPr from '../assets/newItemThumbs/GabrielPrint.webp';
 import GaVi from '../assets/newItemThumbs/GabrielVideo.webp';
-import Narae from '../assets/newItemThumbs/Narae.webp';
+import Narae from '../assets/website_assets/website_thumb.webp';
 import CalegoB2C from '../assets/newItemThumbs/RedesigningB2C.webp';
 import Wegic from '../assets/projects-images/wegic02.webp';
 import Vacay01 from '../assets/newItemThumbs/Vacay01.webp';
