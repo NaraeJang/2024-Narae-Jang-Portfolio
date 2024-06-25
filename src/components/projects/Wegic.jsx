@@ -11,7 +11,8 @@ const Wegic = () => {
         <div className="detail-title-container">
           <h2 className="detail-title">Wegic: Mobile Invitation</h2>
           <p className="detail-description">
-            Freelance UX/UI Designer project
+            Freelance UX/UI Designer project & Self-executed Front-End
+            Development project
             <br />
             Collaborated with a couple who wants to dive into wedding industry
           </p>
