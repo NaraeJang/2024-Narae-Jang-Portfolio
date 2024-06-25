@@ -35,7 +35,7 @@ import GaPr from '../assets/newItemThumbs/GabrielPrint.webp';
 import GaVi from '../assets/newItemThumbs/GabrielVideo.webp';
 import Narae from '../assets/newItemThumbs/Narae.webp';
 import CalegoB2C from '../assets/newItemThumbs/RedesigningB2C.webp';
-import Wegic from '../assets/newItemThumbs/Wegic.webp';
+import Wegic from '../assets/projects-images/wegic02.webp';
 import Vacay01 from '../assets/newItemThumbs/Vacay01.webp';
 import Vacay02 from '../assets/newItemThumbs/Vacay02.webp';
 import Vacay03 from '../assets/newItemThumbs/Vacay03.webp';

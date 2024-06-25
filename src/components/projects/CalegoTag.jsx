@@ -18,11 +18,7 @@ const CalegoTag = () => {
   return (
     <main className="px-[4%] text-center">
       <section className="detail-section-first">
-        <img
-          src={heroImg}
-          alt="Gabriel Publication Design"
-          className="w-full"
-        />
+        <img src={heroImg} alt="Calego Tag" className="w-full" />
       </section>
 
       <section className="detail-section-middle">
