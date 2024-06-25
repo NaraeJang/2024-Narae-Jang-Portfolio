@@ -1,7 +1,12 @@
+import jobMate01 from '../../assets/projects-images/jobmate01.webp';
+import jobMate02 from '../../assets/projects-images/jobmate02.webp';
+import jobMate03 from '../../assets/projects-images/jobmate03.webp';
+import jobMate04 from '../../assets/projects-images/jobmate04.webp';
+import jobMate05 from '../../assets/projects-images/jobmate05.webp';
+
 const Jobmate = () => {
   return (
     <main className="px-[4%] text-center">
-      <section className="detail-section-first"></section>
       <section className="detail-section-middle">
         <div className="detail-title-container">
           <h2 className="detail-title">Jobmate</h2>
@@ -21,6 +26,36 @@ const Jobmate = () => {
             progress of each one, and stay organized throughout your career
             journey.
           </p>
+        </div>
+      </section>
+
+      <section className="detail-section-middle-margin">
+        <div className="flex flex-col-reverse md:grid md:grid-cols-5 md:grid-flow-row gap-2 lg:gap-4">
+          <img
+            src={jobMate04}
+            alt="jobmate img"
+            className="rounded-2xl md:col-span-2 md:row-span-3 object-cover h-full w-full object-center"
+          />
+          <img
+            src={jobMate02}
+            alt="jobmate img"
+            className="invisible md:visible hidden md:inline-block  rounded-2xl md:col-span-3 md:row-span-2 object-cover h-full w-full object-center"
+          />
+          <img
+            src={jobMate05}
+            alt="jobmate img"
+            className="invisible md:visible hidden md:inline-block rounded-2xl md:col-span-1 md:row-span-1 object-cover h-full w-full object-center"
+          />{' '}
+          <img
+            src={jobMate03}
+            alt="jobmate img"
+            className="rounded-2xl md:col-span-2 md:row-span-3 object-cover h-full w-ful object-center"
+          />
+          <img
+            src={jobMate01}
+            alt="jobmate img"
+            className="rounded-2xl md:col-span-3 md:row-span-2 object-cover h-full w-full object-center"
+          />
         </div>
       </section>
 

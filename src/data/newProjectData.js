@@ -5,7 +5,7 @@ import GanaMenu01 from '../assets/newItemThumbs/GanaMenu01.webp';
 import GanaMenu02 from '../assets/newItemThumbs/GanaMenu02.webp';
 import GanaMenu03 from '../assets/newItemThumbs/GanaMenu03.webp';
 import GanaMenu04 from '../assets/newItemThumbs/GanaMenu04.webp';
-import Jobmate from '../assets/newItemThumbs/Jobmate.webp';
+import Jobmate from '../assets/projects-images/jobmate03.webp';
 import EW01 from '../assets/newItemThumbs/EW01.webp';
 import EW02 from '../assets/newItemThumbs/EW02.webp';
 import EW03 from '../assets/newItemThumbs/EW03.webp';
