@@ -20,7 +20,7 @@ const WorkItems = () => {
   const { projectsItems } = useProjectContext();
 
   return (
-    <div className="mt-8 list-none p-0 columns-1 md:columns-2 lg:columns-3 2xl:columns-4 gap-5 w-svw mb-20 overflow-hidden  px-[4%]">
+    <div className="mt-8 list-none p-0 columns-1 md:columns-2 lg:columns-3 gap-5 w-svw mb-20 overflow-hidden  px-[4%]">
       {projectsItems.map(
         ({
           id,
@@ -48,7 +48,7 @@ const WorkItems = () => {
                     </a>
                   ) : img.length < 2 ? (
                     <a href={internalPath}>
-                      <img src={img} alt={imgAlt} />
+                      <img src={img} alt={imgAlt} className="w-full" />
                     </a>
                   ) : (
                     <a href={internalPath} className="cursor-pointer">
