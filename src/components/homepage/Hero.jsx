@@ -104,27 +104,32 @@ const Hero = () => {
 
       <div
         id="g-hero-hidden-element"
-        className="sticky top-0 left-0 z-10 h-svh clip-path-hero flex justify-center items-center w-full px-[4%] bg-black">
+        className="sticky top-0 left-0 z-10 h-[130svh] clip-path-hero flex justify-center items-start w-full px-[4%] bg-black">
         <div
           id="hero-hidden-element-wrapper"
-          className="w-full text-center px-4 z-10 text-[#ffec70]">
-          <h1 className="text-left md:text-center text-balance w-full mx-auto font-title text-[3.25rem] md:text-7xl xl:text-[5rem] leading-tight lg:leading-[1.25] tracking-tighter max-w-5xl">
-            It's all about{' '}
-            <span className="font-dm-serif tracking-tighter italic text-[3.375rem] md:text-[5rem] xl:text-[5.25rem]">
-              insight, strategy, exploration,
-            </span>{' '}
-            and{' '}
-            <span className="font-dm-serif tracking-tighter italic text-[3.375rem] md:text-[5rem] xl:text-[5.25rem]">
-              imagination
-            </span>{' '}
-            that forms my creative process.
-          </h1>
-          <p className="hidden md:block text-lg leading-relaxed mt-6 md:mt-8 max-w-xl lg:max-w-5xl mx-auto">
-            I believe that having a clear purpose behind an idea can lead to
-            outstanding results.
-            <br /> When it comes to design, I focus on conveying the right
-            message to engage the targeted customers.
-          </p>
+          className="w-full text-left md:text-center px-4 z-10 text-[#ffec70] h-svh grid place-items-center relative">
+          <div className="sticky">
+            <h1 className="text-balance w-full mx-auto font-title text-5xl md:text-7xl xl:text-[5rem] leading-tight lg:leading-[1.25] tracking-tighter max-w-5xl">
+              It's all about{' '}
+              <span className="font-dm-serif tracking-tighter italic  md:text-[5rem] xl:text-[5.25rem]">
+                insight, strategy, exploration,
+              </span>{' '}
+              and{' '}
+              <span className="font-dm-serif tracking-tighter italic  md:text-[5rem] xl:text-[5.25rem]">
+                imagination
+              </span>{' '}
+              that forms my creative process.
+            </h1>
+            <p className="text-lg leading-relaxed mt-6 md:mt-8 max-w-xl lg:max-w-5xl mx-auto">
+              I believe that having a clear purpose behind an idea can lead to
+              outstanding results.
+              <br />{' '}
+              <span className="hidden md:block">
+                When it comes to design, I focus on conveying the right message
+                to engage the targeted customers.
+              </span>
+            </p>
+          </div>
         </div>
 
         <ShaderGradientCanvas
