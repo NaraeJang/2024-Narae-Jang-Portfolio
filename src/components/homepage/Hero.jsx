@@ -108,18 +108,18 @@ const Hero = () => {
         <div
           id="hero-hidden-element-wrapper"
           className="w-full text-center px-4 z-10 text-[#ffec70]">
-          <h1 className="w-full mx-auto font-title text-5xl md:text-7xl xl:text-[5rem] leading-tight tracking-tighter max-w-5xl">
+          <h1 className="text-left md:text-center text-balance w-full mx-auto font-title text-[3.25rem] md:text-7xl xl:text-[5rem] leading-tight lg:leading-[1.25] tracking-tighter max-w-5xl">
             It's all about{' '}
-            <span className="font-dm-serif tracking-tighter italic text-[3.25rem] md:text-[5rem] xl:text-[5.25rem]">
+            <span className="font-dm-serif tracking-tighter italic text-[3.375rem] md:text-[5rem] xl:text-[5.25rem]">
               insight, strategy, exploration,
             </span>{' '}
             and{' '}
-            <span className="font-dm-serif tracking-tighter italic text-[3.25rem] md:text-[5rem] xl:text-[5.25rem]">
+            <span className="font-dm-serif tracking-tighter italic text-[3.375rem] md:text-[5rem] xl:text-[5.25rem]">
               imagination
             </span>{' '}
             that forms my creative process.
           </h1>
-          <p className="text-lg leading-relaxed mt-6 md:mt-8 max-w-xl lg:max-w-5xl mx-auto">
+          <p className="hidden md:block text-lg leading-relaxed mt-6 md:mt-8 max-w-xl lg:max-w-5xl mx-auto">
             I believe that having a clear purpose behind an idea can lead to
             outstanding results.
             <br /> When it comes to design, I focus on conveying the right
