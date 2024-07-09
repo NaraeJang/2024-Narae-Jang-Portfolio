@@ -12,6 +12,36 @@ import * as fiber from '@react-three/fiber';
 gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
+  useEffect(() => {
+    // 3D ANIMATION ON MOUSE MOVE
+    const wrapper = document.getElementById('hero-hidden-element-wrapper');
+    const mouse = { x: 0, y: 0 };
+    let tween;
+
+    const handleMouseMove = (e) => {
+      const multiplier = 10.0;
+      const y = ((e.clientY / window.innerHeight) * 2 - 1) * multiplier;
+      const x = ((e.clientX / window.innerWidth) * 2 - 1) * multiplier;
+
+      tween = gsap.to(mouse, {
+        x: x,
+        y: y,
+        duration: 1,
+        onUpdate: () => {
+          wrapper.style.transform = `rotateX(${-mouse.y}deg) rotateY(${
+            mouse.x
+          }deg)`;
+        },
+      });
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+    };
+  }, []);
+
   // REVEALING ANIMATION
   useEffect(() => {
     const tl = gsap.timeline({
@@ -74,22 +104,26 @@ const Hero = () => {
 
       <div
         id="g-hero-hidden-element"
-        className="sticky top-0 left-0 z-10 h-svh clip-path-hero flex justify-center items-center w-full px-[4%] bg-black text-white">
-        <div className="w-full md:max-w-3xl text-center px-4 z-10">
-          <h1 className="w-full md:max-w-xl mx-auto font-title uppercase text-5xl md:text-[5rem] text-white leading-tight text-stroke-1">
-            Transforming{' '}
-            <spa className="font-dm-serif tracking-tighter capitalize italic md:text-[5.25rem]">
-              ideas
-            </spa>{' '}
-            into{' '}
-            <span className="font-dm-serif tracking-tighter capitalize italic md:text-[5.25rem]">
-              reality
-            </span>
+        className="sticky top-0 left-0 z-10 h-svh clip-path-hero flex justify-center items-center w-full px-[4%] bg-black">
+        <div
+          id="hero-hidden-element-wrapper"
+          className="w-full text-center px-4 z-10 text-[#ffec70]">
+          <h1 className="w-full mx-auto font-title text-5xl md:text-7xl xl:text-[5rem] leading-tight tracking-tighter max-w-5xl">
+            It's all about{' '}
+            <span className="font-dm-serif tracking-tighter italic text-[3.25rem] md:text-[5rem] xl:text-[5.25rem]">
+              insight, strategy, exploration,
+            </span>{' '}
+            and{' '}
+            <span className="font-dm-serif tracking-tighter italic text-[3.25rem] md:text-[5rem] xl:text-[5.25rem]">
+              imagination
+            </span>{' '}
+            that forms my creative process.
           </h1>
-          <p className="text-lg leading-relaxed text-stroke-1  mt-4 md:mt-0">
-            My expertise encompasses branding, logo design, publication design,
-            digital marketing, UI/UX, and development, forging new paths into
-            the digital landscape.
+          <p className="text-lg leading-relaxed mt-6 md:mt-8 max-w-xl lg:max-w-5xl mx-auto">
+            I believe that having a clear purpose behind an idea can lead to
+            outstanding results.
+            <br /> When it comes to design, I focus on conveying the right
+            message to engage the targeted customers.
           </p>
         </div>
 
@@ -108,13 +142,13 @@ const Hero = () => {
           <ShaderGradient
             animate="on"
             type="waterPlane"
-            color1="#c3e4ff"
-            color2="#eae2ff"
-            color3="#b9beff"
+            color1="#8BA1B2"
+            color2="#C14F4D"
+            color3="#B47448"
             grain="off"
             cAzimuthAngle={180}
-            cDistance={4.6}
-            cPolarAngle={70}
+            cDistance={3}
+            cPolarAngle={50}
             cameraZoom={1}
             lightType="3d"
             positionX={0.4}
@@ -122,15 +156,15 @@ const Hero = () => {
             positionZ={0.3}
             reflection={0.1}
             envPreset="city"
-            rotationX={45}
+            rotationX={50}
             rotationY={0}
             rotationZ={0}
             shader="defaults"
-            uDensity={1}
+            uDensity={1.8}
             uAmplitude={0}
             uFrequency={0}
-            uSpeed={0.2}
-            uStrength={3.4}
+            uSpeed={0.3}
+            uStrength={4.4}
             uTime={0}
             wireframe={false}
           />

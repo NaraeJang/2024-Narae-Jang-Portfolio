@@ -11,6 +11,16 @@
   clip-path: circle(0% at 50% 50%);
 }
 
+/* HIDDEN ELEMENT */
+#g-hero-hidden-element {
+  perspective: 600px;
+}
+
+#hero-hidden-element-wrapper {
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 1px);
+}
+
 /* SWIPER */
 .swiper {
   width: 100%;
