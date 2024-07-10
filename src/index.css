@@ -11,6 +11,20 @@
   clip-path: circle(0% at 50% 50%);
 }
 
+/* HERO GRID SECTION */
+/* GridNarae */
+.flip-card-inner {
+  transform-style: preserve-3d;
+}
+.grid-narae-wrapper {
+  -webkit-mask-image: url(../public/hompage/narae-jang.png);
+  mask-image: url(../public/hompage/narae-jang.png);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
 /* HIDDEN ELEMENT */
 #g-hero-hidden-element {
   perspective: 600px;
