@@ -71,7 +71,7 @@ const Hero = () => {
 
   return (
     <section id="g-hero-container" className="relative h-[200svh] w-svw">
-      <div className="g-element-container absolute top-0 left-0 h-[200svh] w-full px-[4%]">
+      <div className="g-element-container absolute top-0 left-0 h-[230svh] w-full px-[4%]">
         <div className="sticky top-0 left-0 h-svh flex justify-center items-center w-full">
           <div className="w-full md:max-w-3xl text-center px-4">
             <h1 className="w-full md:max-w-xl mx-auto font-title uppercase text-5xl md:text-[5rem] text-black leading-tight">
