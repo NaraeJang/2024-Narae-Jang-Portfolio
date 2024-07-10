@@ -8,6 +8,7 @@ import { ShaderGradientCanvas, ShaderGradient } from 'shadergradient';
 import * as reactSpring from '@react-spring/three';
 import * as drei from '@react-three/drei';
 import * as fiber from '@react-three/fiber';
+import HeroGrid from './HeroSection/HeroGrid';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -72,30 +73,7 @@ const Hero = () => {
   return (
     <section id="g-hero-container" className="relative h-[200svh] w-svw">
       <div className="g-element-container absolute top-0 left-0 h-[230svh] w-full px-[4%]">
-        <div className="sticky top-0 left-0 h-svh flex justify-center items-center w-full">
-          <div className="w-full md:max-w-3xl text-center px-4">
-            <h1 className="w-full md:max-w-xl mx-auto font-title uppercase text-5xl md:text-[5rem] text-black leading-tight">
-              Transforming <span className="tracking-tight">ideas</span> into{' '}
-              <span className="tracking-tight">reality</span>
-            </h1>
-            <p className="text-lg leading-relaxed mt-4 md:mt-0">
-              My expertise encompasses branding, logo design, publication
-              design, digital marketing, UI/UX, and development, forging new
-              paths into the digital landscape.
-            </p>
-          </div>
-          <div
-            id="g-scroll-container"
-            className="opacity-0 scroll-container absolute bottom-0 left-1/2 -translate-x-1/2">
-            <div className="mouse">
-              <div className="mouse-wheel">
-                <span className="wheel"></span>
-                <span className="arrow"></span>
-                <span className="arrow"></span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <HeroGrid />
 
         <div id="g-pin" className="z-20">
           {/* <p>element</p> */}
