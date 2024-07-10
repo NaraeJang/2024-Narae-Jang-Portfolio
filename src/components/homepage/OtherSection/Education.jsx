@@ -12,9 +12,10 @@ const Education = () => {
           <p className="col-span-3">Current</p>
           <div className="col-span-4">
             <p className="text-neutral-100 text-lg mb-4">
-              Self-studying UX/UI design and front-end development. Obtained 13
-              certifications in both fields. Always looking for opportunities to
-              learn more technologies.
+              Self-studying UX/UI design and front-end development.{' '}
+              <span className="!font-medium">Obtained 13 certifications</span>{' '}
+              in both fields. Always looking for opportunities to learn more
+              technologies.
             </p>
             <a href="/certifications" id="certification-btn" className="group">
               <div className="relative overflow-hidden border border-neutral-400 text-neutral-400 inline-block text-[15px] leading-[15px] py-3 px-6 rounded-full bg-transparent cursor-pointer select-none">

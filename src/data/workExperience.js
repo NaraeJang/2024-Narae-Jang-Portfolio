@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const workExperience = [
   {
     id: nanoid(),
-    title: 'Senior Graphic Designer',
+    title: 'Graphic Designer',
     company: 'Calego Inc.',
     link: 'https://calego.com/',
     year: '2022',
