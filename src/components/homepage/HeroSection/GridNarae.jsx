@@ -12,7 +12,7 @@ const GridNarae = () => {
     <div className="group col-span-4 row-span-6 rounded-2xl">
       <div className="flip-card-inner relative w-full h-full transition-transform group-hover:[transform:rotateY(180deg)]">
         <div className="bg-neutral-50 absolute flex flex-col w-full h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8">
-          <div className="grid-narae-wrapper h-auto">
+          <div className="grid-narae-wrapper h-full">
             <ShaderGradientCanvas
               importedFiber={{ ...fiber, ...drei, ...reactSpring }}
               style={{
@@ -50,9 +50,14 @@ const GridNarae = () => {
             </ShaderGradientCanvas>
           </div>
           <p className="text-neutral-500 leading-normal mt-4">
-            A Designer and Developer with three years of experience in Marketing
-            and UI/UX. Plus Narae obtained + 13 certifications in UI/UX Design &
-            Development.
+            A Designer and Developer with{' '}
+            <span className="font-medium text-neutral-600">
+              three years of experience in Marketing and UI/UX.
+            </span>{' '}
+            Plus, She is knowledgeable in{' '}
+            <span className="font-medium text-neutral-600">
+              Front-End Development.
+            </span>
           </p>
         </div>
 
@@ -64,8 +69,10 @@ const GridNarae = () => {
           />
 
           <p className="text-neutral-200 leading-normal mt-4">
-            My goal is not just to craft visually stunning graphics, but also to
-            build meaningful connections with your audience.
+            My goal is not just to craft visually stunning graphics, but also to{' '}
+            <span className="font-medium text-neutral-100">
+              build meaningful connections with your audience.
+            </span>
           </p>
         </div>
       </div>
