@@ -1,4 +1,4 @@
-import { GridNarae, GridProjects } from './';
+import { GridNarae, GridProjects, GridDownTime } from './';
 
 const HeroGrid = () => {
   return (
@@ -13,9 +13,7 @@ const HeroGrid = () => {
         <div className="row-span-1 md:col-span-4 md:row-span-6 bg-blue-200 rounded-2xl">
           4
         </div>
-        <div className="hidden invisible md:block md:visible md:col-span-5 md:row-span-4 bg-green-200 rounded-2xl">
-          5
-        </div>
+        <GridDownTime />
         <div className="hidden invisible md:block md:visible col-span-3 row-span-4 bg-neutral-200 rounded-2xl">
           6
         </div>
