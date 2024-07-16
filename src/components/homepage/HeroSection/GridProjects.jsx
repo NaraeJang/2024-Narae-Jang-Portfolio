@@ -12,7 +12,7 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 const GridProjects = () => {
   return (
-    <div className="col-span-5 row-span-8 bg-neutral-200 rounded-2xl overflow-hidden">
+    <div className="hidden invisible md:visible md:block md:col-span-5 md:row-span-8 bg-neutral-200 rounded-2xl overflow-hidden">
       <div className="w-full h-full">
         <Swiper
           modules={[Navigation, Autoplay]}

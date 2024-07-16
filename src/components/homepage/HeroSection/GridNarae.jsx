@@ -9,10 +9,10 @@ import * as fiber from '@react-three/fiber';
 
 const GridNarae = () => {
   return (
-    <div className="group col-span-4 row-span-6 rounded-2xl">
+    <div className="group md:col-span-4 md:row-span-6 rounded-2xl">
       <div className="flip-card-inner relative w-full h-full transition-transform group-hover:[transform:rotateY(180deg)]">
-        <div className="bg-neutral-50 absolute flex flex-col w-full h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8">
-          <div className="grid-narae-wrapper h-full">
+        <div className="bg-neutral-50 absolute flex flex-col w-full gap-4 h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8">
+          <div className="grid-narae-wrapper h-full  max-h-[70%]">
             <ShaderGradientCanvas
               importedFiber={{ ...fiber, ...drei, ...reactSpring }}
               style={{
@@ -61,11 +61,11 @@ const GridNarae = () => {
           </p>
         </div>
 
-        <div className="bg-neutral-900 absolute flex flex-col w-full h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8 [transform:rotateY(180deg)]">
+        <div className="bg-neutral-900 absolute flex flex-col justify-between w-full h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8 [transform:rotateY(180deg)]">
           <img
             src={ProfilePhoto}
             alt="narae jang profile photo"
-            className="object-cover object-center w-44 h-44 mx-auto rounded-full"
+            className="object-cover object-center w-auto h-full max-h-[70%] mx-auto rounded-full"
           />
 
           <p className="text-neutral-200 leading-normal mt-4">

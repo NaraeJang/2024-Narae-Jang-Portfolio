@@ -17,8 +17,8 @@
   transform-style: preserve-3d;
 }
 .grid-narae-wrapper {
-  -webkit-mask-image: url(../public/hompage/narae-jang.png);
-  mask-image: url(../public/hompage/narae-jang.png);
+  -webkit-mask-image: url(/hompage/narae-jang.png);
+  mask-image: url(/hompage/narae-jang.png);
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;

@@ -3,19 +3,21 @@ import { GridNarae, GridProjects } from './';
 const HeroGrid = () => {
   return (
     <div className="sticky top-0 left-0 h-svh flex justify-center items-center w-full py-10">
-      <div className="w-full h-full grid grid-cols-12 grid-rows-12 gap-5">
-        <div className="col-span-3 row-span-8 bg-neutral-200 rounded-2xl">
+      <div className="w-full h-full grid grid-rows-2 md:grid-cols-12 md:grid-rows-12 gap-5">
+        <div className="hidden invisible md:block md:visible col-span-3 row-span-8 bg-red-200 rounded-2xl">
           1
         </div>
 
         <GridProjects />
         <GridNarae />
-        <div className="col-span-4 row-span-6 bg-neutral-200 rounded-2xl">
-          1
+        <div className="row-span-1 md:col-span-4 md:row-span-6 bg-blue-200 rounded-2xl">
+          4
         </div>
-        <div className="col-span-5 row-span-4 bg-neutral-200 rounded-2xl"></div>
-        <div className="col-span-3 row-span-4 bg-neutral-200 rounded-2xl">
-          3
+        <div className="hidden invisible md:block md:visible md:col-span-5 md:row-span-4 bg-green-200 rounded-2xl">
+          5
+        </div>
+        <div className="hidden invisible md:block md:visible col-span-3 row-span-4 bg-neutral-200 rounded-2xl">
+          6
         </div>
       </div>
     </div>
