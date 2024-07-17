@@ -12,7 +12,48 @@
 }
 
 /* HERO GRID SECTION */
-/* GridDownTime */
+/* GridLocalTime */
+.time-subtitle {
+  font-size: clamp(0.825rem, 1vw, 1.125rem);
+  line-height: 1;
+}
+.time-main {
+  font-size: clamp(1.5rem, 2.5vw, 3rem);
+  line-height: 1;
+}
+.local-container-day {
+  background: #f2ebe4;
+}
+.local-container-night {
+  background: #32353d;
+}
+
+.local-circle-day {
+  background: radial-gradient(50% 50% at 50% 50%, #f59758 0%, #f3e0cd 100%);
+  filter: drop-shadow(1px 4px 8px rgba(244, 171, 121, 0.1))
+    drop-shadow(2px 14px 15px rgba(244, 171, 121, 0.09))
+    drop-shadow(5px 33px 20px rgba(244, 171, 121, 0.05))
+    drop-shadow(9px 58px 23px rgba(244, 171, 121, 0.01))
+    drop-shadow(14px 91px 26px rgba(244, 171, 121, 0));
+
+  @apply text-white;
+}
+
+.local-circle-night {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #b3b5b6 0%,
+    #f1f1f4 90%,
+    #fff 100%
+  );
+  filter: drop-shadow(1px 5px 10px rgba(220, 221, 222, 0.25))
+    drop-shadow(5px 18px 19px rgba(220, 221, 222, 0.21))
+    drop-shadow(12px 41px 26px rgba(220, 221, 222, 0.13))
+    drop-shadow(22px 73px 30px rgba(220, 221, 222, 0.04))
+    drop-shadow(34px 114px 33px rgba(220, 221, 222, 0));
+
+  @apply text-neutral-900;
+}
 
 /* GridNarae */
 .flip-card-inner {
