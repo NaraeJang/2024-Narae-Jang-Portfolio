@@ -133,24 +133,22 @@ const Generalist = () => {
               developer.
             </h1>
           ) : (
-            <h1 className="text-center reveal-type text-neutral-800 font-title text-4xl md:text-5xl xl:text-6xl xl:leading-normal leading-normal md:leading-normal lg:leading-normal lg:tracking-tight">
+            <h1 className="text-center reveal-type max-w-5xl mx-auto text-balance text-neutral-800 font-title text-4xl md:text-5xl xl:text-6xl xl:leading-normal leading-normal md:leading-normal lg:leading-normal lg:tracking-tight">
               I’m a{' '}
               <span className="gradient-word-generalist transition-all">
                 passionate generalist
-              </span>
-              <br /> who{' '}
+              </span>{' '}
+              who{' '}
               <span className="font-dm-serif italic hover:text-[#85A4FF] transition-colors tracking-tight">
                 enjoys the variety of jobs
               </span>{' '}
               {windowWidth > 700 && windowWidth < 830 ? <br /> : ' '}
-              that I get to do.
-              <br /> which isn’t categorical, but{' '}
+              that I get to do. which isn’t categorical, but{' '}
               <span className="font-dm-serif italic hover:text-[#64B5F4] transition-colors tracking-tight">
                 situational
               </span>
-              .
-              <br /> I can be a graphic designer, UI designer,
-              <br /> and front-end developer.
+              . I can be a graphic designer, UI designer, and front-end
+              developer.
             </h1>
           )}
         </div>
