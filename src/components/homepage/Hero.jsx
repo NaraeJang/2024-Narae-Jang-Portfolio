@@ -73,7 +73,7 @@ const Hero = () => {
 
   return (
     <section id="g-hero-container" className="relative h-[200svh] w-svw">
-      <div className="g-element-container absolute top-0 left-0 h-[230svh] w-full px-[4%]">
+      <div className="g-element-container absolute top-0 left-0 h-[230svh] w-full px-[4%] md:px-6">
         <HeroGrid />
 
         <div id="g-pin" className="z-20">

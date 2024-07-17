@@ -16,9 +16,6 @@ const GridProjects = () => {
         <Swiper
           modules={[Navigation, Autoplay]}
           navigation={true}
-          pagination={{
-            type: 'progressbar',
-          }}
           style={{
             '--swiper-navigation-size': '1rem',
             '--swiper-navigation-color': '#fefefe',

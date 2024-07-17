@@ -13,11 +13,7 @@
 
 /* HERO GRID SECTION */
 /* GridDownTime */
-.slick-list,
-.slick-slide,
-.slick-track {
-  height: 100%;
-}
+
 /* GridNarae */
 .flip-card-inner {
   transform-style: preserve-3d;
