@@ -1,4 +1,10 @@
-import { GridNarae, GridProjects, GridDownTime, GridLocalTime } from './';
+import {
+  GridNarae,
+  GridProjects,
+  GridDownTime,
+  GridLocalTime,
+  GridAccordion,
+} from './';
 
 const HeroGrid = () => {
   return (
@@ -10,9 +16,8 @@ const HeroGrid = () => {
 
         <GridProjects />
         <GridNarae />
-        <div className="row-span-1 md:col-span-4 md:row-span-6 bg-blue-200 rounded-2xl">
-          4
-        </div>
+        <GridAccordion />
+
         <GridDownTime />
         <GridLocalTime />
       </div>
