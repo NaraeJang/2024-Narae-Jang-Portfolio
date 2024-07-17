@@ -11,7 +11,7 @@ const GridNarae = () => {
   return (
     <div className="group md:col-span-4 md:row-span-6 rounded-2xl">
       <div className="flip-card-inner relative w-full h-full transition-transform group-hover:[transform:rotateY(180deg)]">
-        <div className="bg-neutral-50 absolute flex flex-col w-full gap-4 h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8">
+        <div className="bg-neutral-50 absolute flex flex-col w-full justify-between h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8">
           <div className="grid-narae-wrapper h-full  max-h-[70%]">
             <ShaderGradientCanvas
               importedFiber={{ ...fiber, ...drei, ...reactSpring }}
@@ -49,7 +49,7 @@ const GridNarae = () => {
               />
             </ShaderGradientCanvas>
           </div>
-          <p className="text-neutral-500 leading-normal mt-4">
+          <p className="narae-body-text text-neutral-500 leading-normal mt-4">
             A Designer and Developer with{' '}
             <span className="font-medium text-neutral-600">
               three years of experience in Marketing and UI/UX.
@@ -65,10 +65,10 @@ const GridNarae = () => {
           <img
             src={ProfilePhoto}
             alt="narae jang profile photo"
-            className="object-cover object-center w-auto h-full max-h-[70%] mx-auto rounded-full"
+            className="object-cover object-center min-h-1/3 h-2/3 max-h-2/3 aspect-square mx-auto rounded-full"
           />
 
-          <p className="text-neutral-200 leading-normal mt-4">
+          <p className="narae-body-text text-neutral-200 leading-normal mt-4 w-full h-fit">
             My goal is not just to craft visually stunning graphics, but also to{' '}
             <span className="font-medium text-neutral-100">
               build meaningful connections with your audience.

@@ -14,7 +14,7 @@
 /* HERO GRID SECTION */
 /* GridLocalTime */
 .time-subtitle {
-  font-size: clamp(0.825rem, 1vw, 1.125rem);
+  font-size: clamp(0.875rem, 1vw, 1.125rem);
   line-height: 1;
 }
 .time-main {
@@ -56,6 +56,9 @@
 }
 
 /* GridNarae */
+.narae-body-text {
+  font-size: clamp(0.825rem, 1vw, 1.125rem);
+}
 .flip-card-inner {
   transform-style: preserve-3d;
 }

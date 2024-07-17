@@ -36,7 +36,7 @@ const GridLocalTime = () => {
       } overflow-hidden`}>
       <div className="absolute p-6 flex flex-col gap-0 items-start">
         <p
-          className={`text-lg leading-none uppercase font-title font-medium ${
+          className={`text-lg leading-none uppercase font-title font-medium z-10 ${
             isNight ? `text-neutral-50` : `text-[#f59758]`
           }`}>
           montreal
