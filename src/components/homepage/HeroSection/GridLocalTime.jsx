@@ -21,8 +21,8 @@ const GridLocalTime = () => {
 
   const hourlyTimeFormat = time.format('h:mm a');
   const dateFormat = time.format('MMM DD');
-  // const hour = time.hour();
-  const hour = 12;
+  const hour = time.hour();
+  // const hour = 12;
 
   // Determine if the current time is between 7 PM and 6 AM
   const isNight = hour >= 19 || hour < 6;
@@ -36,7 +36,7 @@ const GridLocalTime = () => {
       } overflow-hidden`}>
       <div className="absolute p-6 flex flex-row justify-between gap-0 w-full">
         <p
-          className={`text-lg leading-none uppercase font-title z-10 ${
+          className={`hero-title leading-none uppercase font-title z-10 ${
             isNight ? `text-neutral-50` : `text-[#f59758]`
           }`}>
           montreal

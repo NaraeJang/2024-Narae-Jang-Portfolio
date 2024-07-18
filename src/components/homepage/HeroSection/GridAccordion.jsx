@@ -61,7 +61,7 @@ const GridAccordion = () => {
                     className="flex flex-row justify-between items-center w-full gap-4"
                     onClick={() => toggleQuestion(index)}>
                     <h5
-                      className={`text-left text-lg leading-relaxed font-title uppercase transition-colors ${
+                      className={`text-left hero-title leading-relaxed font-title uppercase transition-colors ${
                         isActive
                           ? 'text-neutral-200'
                           : 'text-neutral-400 group-hover:text-neutral-500'
@@ -71,7 +71,7 @@ const GridAccordion = () => {
                     <div
                       className={`transition-colors ${
                         isActive
-                          ? `bg-neutral-600 text-neutral-700`
+                          ? `bg-neutral-500 text-neutral-700`
                           : `bg-neutral-300 text-neutral-50 group-hover:bg-neutral-500`
                       } text-hover w-6 h-6 grid place-items-center rounded-full`}>
                       {isActive ? (
@@ -95,7 +95,7 @@ const GridAccordion = () => {
                     ref={(el) => (infoRefs.current[index] = el)}>
                     {isActive && (
                       <>
-                        <p className="px-6 pb-4 text-left text-neutral-50">
+                        <p className="px-6 pb-4 text-left text-neutral-50 narae-body-text">
                           {article.answer}
                         </p>
                       </>

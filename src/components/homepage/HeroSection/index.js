@@ -4,3 +4,4 @@ export { default as GridProjects } from './GridProjects';
 export { default as GridDownTime } from './GridDownTime';
 export { default as GridLocalTime } from './GridLocalTime';
 export { default as GridAccordion } from './GridAccordion';
+export { default as GridComponentOfMe } from './GridComponentOfMe';

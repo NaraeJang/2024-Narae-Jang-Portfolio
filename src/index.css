@@ -12,13 +12,29 @@
 }
 
 /* HERO GRID SECTION */
+.hero-title {
+  font-size: clamp(1.125rem, 1.125vw, 2.25rem);
+}
+/* GridComponentOfMe */
+.word {
+  position: absolute;
+  cursor: grab;
+  font-size: clamp(1rem, 1vw, 2.25rem);
+  @apply text-neutral-50 border border-neutral-200 bg-neutral-950 py-2 px-4 rounded-xl;
+}
+
+.word.highlighted {
+  font-weight: bold;
+  color: red;
+}
+
 /* GridLocalTime */
 .time-subtitle {
   font-size: clamp(0.875rem, 1vw, 1.125rem);
   line-height: 1;
 }
 .time-main {
-  font-size: clamp(1.5rem, 2.5vw, 3rem);
+  font-size: clamp(1.5rem, 2.5vw, 4rem);
   line-height: 1;
 }
 .local-container-day {

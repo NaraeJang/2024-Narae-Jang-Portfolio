@@ -49,7 +49,7 @@ const GridDownTime = () => {
               <SwiperSlide key={`hobbylist${index}`}>
                 <div className="relative w-full h-full text-left">
                   <div className="absolute top-0 left-0 bg-gradient-to-b from-neutral-950/65 from-20% w-full via-neutral-950/40 via-60%">
-                    <p className="p-6 text-neutral-50 font-title text-lg uppercase">
+                    <p className="p-6 text-neutral-50 font-title hero-title uppercase">
                       In my downTime, I enjoy {name}
                     </p>
                   </div>
