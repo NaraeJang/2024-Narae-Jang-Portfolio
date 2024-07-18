@@ -22,7 +22,7 @@ const GridComponentOfMe = () => {
         if (highlighted) {
           word.classList.add('highlighted');
         }
-        word.classList.add('word');
+        word.classList.add('hero-word');
       });
     };
 

@@ -16,14 +16,14 @@
   font-size: clamp(1.125rem, 1.125vw, 2.25rem);
 }
 /* GridComponentOfMe */
-.word {
+.hero-word {
   position: absolute;
   cursor: grab;
   font-size: clamp(1rem, 1vw, 2.25rem);
   @apply text-neutral-50 border border-neutral-200 bg-neutral-950 py-2 px-4 rounded-xl;
 }
 
-.word.highlighted {
+.hero-word.highlighted {
   font-weight: bold;
   color: red;
 }
