@@ -65,10 +65,10 @@ const Hero = () => {
       stagger: 1,
     });
 
-    gsap.to('#g-scroll-container', {
-      opacity: 1,
-      delay: 2,
-    });
+    // gsap.to('#g-scroll-container', {
+    //   opacity: 1,
+    //   delay: 2,
+    // });
   }, []);
 
   return (
