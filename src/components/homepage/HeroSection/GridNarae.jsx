@@ -9,10 +9,10 @@ import * as fiber from '@react-three/fiber';
 
 const GridNarae = () => {
   return (
-    <div className="group md:col-span-4 md:row-span-6 rounded-2xl">
+    <div className="group md:col-span-4 md:row-span-6 rounded-2xl overflow-hidden">
       <div className="flip-card-inner relative w-full h-full transition-transform group-hover:[transform:rotateY(180deg)]">
         <div className="bg-neutral-50 absolute flex flex-col w-full justify-between h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8">
-          <div className="grid-narae-wrapper h-full  max-h-[70%]">
+          <div className="grid-narae-wrapper h-1/2 md:h-full  max-h-[70%]">
             <ShaderGradientCanvas
               importedFiber={{ ...fiber, ...drei, ...reactSpring }}
               style={{
@@ -65,7 +65,7 @@ const GridNarae = () => {
           <img
             src={ProfilePhoto}
             alt="narae jang profile photo"
-            className="object-cover object-center min-h-1/3 h-2/3 max-h-2/3 aspect-square mx-auto rounded-full"
+            className="object-cover object-center min-h-1/3 h-1/2 md:h-2/3 max-h-2/3 aspect-square mx-auto rounded-full"
           />
 
           <p className="narae-body-text text-neutral-200 leading-normal mt-4 w-full h-fit">
