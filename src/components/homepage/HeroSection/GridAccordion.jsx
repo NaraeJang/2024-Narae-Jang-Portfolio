@@ -37,7 +37,7 @@ const GridAccordion = () => {
     {
       id: 3,
       question: 'To Consider',
-      answer: `I’m looking forward to working together on projects that create synergy, help us grow together, and fuel our passion.`,
+      answer: `I’m looking forward to working together on projects that create synergy, grow together, and fuel our passion.`,
     },
   ];
 
