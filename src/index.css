@@ -57,7 +57,7 @@
 
 /* GridNarae */
 .narae-body-text {
-  font-size: clamp(0.825rem, 1vw, 1.125rem);
+  font-size: clamp(1rem, 1vw, 2.25rem);
 }
 .flip-card-inner {
   transform-style: preserve-3d;
