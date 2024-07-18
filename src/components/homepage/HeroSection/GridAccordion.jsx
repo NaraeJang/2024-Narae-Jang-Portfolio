@@ -55,7 +55,7 @@ const GridAccordion = () => {
                     : `bg-white rounded-3xl`
                 }`}
                 key={article.id}>
-                <header className="py-3 px-6">
+                <header className="py-2 px-4 md:py-3 md:px-6">
                   <button
                     type="button"
                     className="flex flex-row justify-between items-center w-full gap-4"
@@ -95,7 +95,7 @@ const GridAccordion = () => {
                     ref={(el) => (infoRefs.current[index] = el)}>
                     {isActive && (
                       <>
-                        <p className="px-6 pb-4 text-left text-neutral-50 narae-body-text">
+                        <p className="px-4 md:px-6 pb-4 text-left text-neutral-50 narae-body-text">
                           {article.answer}
                         </p>
                       </>
