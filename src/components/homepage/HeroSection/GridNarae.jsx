@@ -65,7 +65,7 @@ const GridNarae = () => {
           <img
             src={ProfilePhoto}
             alt="narae jang profile photo"
-            className="object-cover object-center min-h-1/3 h-1/2 md:h-[54%] lg:h-2/3 max-h-2/3 aspect-square mx-auto rounded-full"
+            className="object-cover object-center min-h-1/3 h-1/2 lg:h-2/3 max-h-2/3 aspect-square mx-auto rounded-full"
           />
 
           <p className="narae-body-text text-neutral-200 leading-normal mt-4 w-full h-fit">
