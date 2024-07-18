@@ -11,7 +11,7 @@ const GridNarae = () => {
   return (
     <div className="group md:col-span-4 md:row-span-6 rounded-2xl overflow-hidden">
       <div className="flip-card-inner relative w-full h-full transition-transform group-hover:[transform:rotateY(180deg)]">
-        <div className="bg-neutral-50 absolute flex flex-col w-full justify-between h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8">
+        <div className="bg-neutral-50 absolute flex flex-col w-full md:justify-between h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8">
           <div className="grid-narae-wrapper h-1/2 md:h-full  max-h-[70%]">
             <ShaderGradientCanvas
               importedFiber={{ ...fiber, ...drei, ...reactSpring }}
@@ -61,7 +61,7 @@ const GridNarae = () => {
           </p>
         </div>
 
-        <div className="bg-neutral-900 absolute flex flex-col justify-between w-full h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8 [transform:rotateY(180deg)]">
+        <div className="bg-neutral-900 absolute flex flex-col md:justify-between w-full h-full [-webkit-backface-visibility:hidden] [backface-visibility:hidden] rounded-2xl p-8 [transform:rotateY(180deg)]">
           <img
             src={ProfilePhoto}
             alt="narae jang profile photo"
