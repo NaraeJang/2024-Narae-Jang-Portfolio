@@ -183,7 +183,7 @@ const BarGanaApp = () => {
           </div>
         </div>
 
-        <div className="flex flex-col min-[2800px]:flex-row gap-6 mt-4">
+        <div className="flex flex-col gap-6 mt-4">
           <img
             src={personas01}
             alt="Ganadara-persona-01"
